@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/material
+Sec-Fetch-Dest empty
+X-CSRF-Token YxUxWz+c+pEtjTa1nMr+deOiK7fyazCtXoT2n5a230dGpF6Ddd81DpgpXr7LJs8EMbAEiUPocndvYdRZbnu0wQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"material"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

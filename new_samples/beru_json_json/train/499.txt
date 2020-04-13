@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
+Referer https://beru.ru/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"count":1,"by":"offerIds","cartOfferIds":["rTIjI_EZv1mdQXfaGklRFA"]}],"path":"/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735"}

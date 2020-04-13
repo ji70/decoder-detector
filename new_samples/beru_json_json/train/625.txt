@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Host beru.ru
+Connection keep-alive
+Content-Length 2151
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/catalog/sergi/17429354/list?hid=91275
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=79244383dc397146b6d10d750d764e20%2C57cecc7510184679383f1a8a2fd35a8e%2Cd32e0df9755f872a9e8c1acf613ea72c%2C43d4d462ac4bc9ee0a6c2ffdad73cf3a%2C28da5eec1518cdceb4ffadefc173ee43; last-loaded-page-id=blue-market%3Alist
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"NN1GS39SNhX0JtA6Lm1bJg","count":1,"shopId":604514,"categoryId":91275,"hid":91275,"feeShow":"OTNDnItfwRO6zrnlRDZCBlJ5rLEMr9aNhzbvCXkyX4xWjW39F0pMYkVXkufNtOrz-dHUltGApvedgB0VfOKxfKLiYZ6k7u6UQko5F8fdjcmxFdZM6TdWhItTfnpUb8SpMf9Cr2-tCSF6S3NcnQxYp1PlgQFgTFZP5a9guYgg_tQ,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBlJ5rLEMr9aNhzbvCXkyX4xWjW39F0pMYkVXkufNtOrz-dHUltGApvedgB0VfOKxfKLiYZ6k7u6UQko5F8fdjcmxFdZM6TdWhItTfnpUb8SpMf9Cr2-tCSF6S3NcnQxYp1PlgQFgTFZP5a9guYgg_tQ,","price":{"value":1990,"currency":"RUR"},"vendorId":12734125,"feedId":700206,"feedOfferId":"94023101","promocode":"wmJIvN9bteeS3K1UbxcyAw","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgX6hCVepfzz8KW2OSdbVwK0gQRENl9oWF63PD_BnfAqnjb1jWu0CZEWQgfvVVAFH257pS9rXDEcllr0bsTatBub5LUDVMCJYgNMcnlalLoAQGceGdbd26GGT-EWkz1r0xEP9u6d81dQG2sa5GmVamrpmUe_eNUmot_bP18XMwAGA-Q02NTpGegi6Ag95wM3vPLz8nPL4ULV3ckkmE-9GtZ7L3hMwtD45ukfMPNSkLqMfjuJv_Uv4muFYN_PYBMKRxXqe0BoSN9rHJ17_iz8u_UW9lruCBsF1Zn8b3V5hjdReaye0CM98WXK19RS6tRyZk-dRbUfkwdg-q0fLbnqn5Bm3Ik5JlFZ-TKLEk1VqzPqFF729Wj-INyzlt_2ePlDaUe-iIhnMWVH02IR8TAywQk08UZSWc7RFcvcPGB14q2xDFu2dV9PoWFWD-5bdNBXm6JDhFd6xU-hTDnNwZB8HvYh1o9QhNFVNdBHvcyYrFFsM0c322OzgQTq2n3S0qAWJrNynefdMs8h1IPhCYfS8YIOTbKXzYI9WuFPYe782saz8SXRXCboBg6fD0UVQP06L6rS-avagjN0xwrDhTDxxA0Y4a7BvziRpTmNGC0MEJF-zwScyAVVjMVZLhjcmUoUih1Gdm2_X9m6MXBolUh1BJjYYpNkHz15XNBlLdPhj_GGRDnULaX0_INY2eH2VrkTp9xcBA1UyMaSfyAKERob_cC3CNQgIfEmYJmyxaJzcNM3eFBbGYGkOLUuXZon_-aA6axnqPXMGBInYrzSziMU2r2qhO6eUiImIIlUfnsxf4xqxBH5bn1YjM2xzA8gpaHLVCKFv1OVV5bapZLQR1w1EYEAqs4bGAGBAMiO2Y4-JAVZ8jqEBlzl1tT-LHy92s2IOpWe_1mdQ9ozQYibCrYCyNxXdQ-TKXuqSzPea1xa15-e8z1RCf4B_yYnndAN86mwsbZyUGq3CwYrFy8hEEXoAqtB-n2HcBYzjxfNCsflbq9KyIbHOfzfPuw92tK3YTWoRi0kt6MhdmRJmD_wGMrXyUgH7JmddumDushO3CLKbfxBqARPVEMzUlVhIT__KiFETS1PcKcZNkoHXsqtv2dnGpsSqCdCxej_2knJxFvKRr8Njcc5r92ex9xgDjnWBhb1IE7N6r0tGsVbHIf2zKo9VVW1sIqPPSgFo1wsGCNxSAh0y/b64e=1/sign=d9a7b3c63d39ceabe5f8d67f43024576/keyno=1/*","name":"SOKOLOV Серьги из серебра с фианитами 94023101","skuId":"652104236","slug":"sokolov-sergi-iz-serebra-s-fianitami-94023101"}]}],"path":"/catalog/sergi/17429354/list?hid=91275"}

@@ -1,0 +1,7 @@
+POST https://www.google-analytics.com/j/collect?v=1&_v=j81&a=613737094&t=pageview&_s=1&dl=https%3A%2F%2Ffoodband.ru%2Fpizza%2F&ul=ru-ru&de=UTF-8&dt=%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B8%D1%86%D1%86%D1%83%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%B2%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D0%BC%20%D0%BA%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D1%81%D1%83%D1%82%D0%BE%D1%87%D0%BD%D0%BE%20-%20FoodBand%20%E2%80%94%20FoodBand&sd=24-bit&sr=1920x1080&vp=785x600&je=0&_u=SACAAcABAAAAAC~&jid=119723183&gjid=177854950&cid=2008751816.1584100830&tid=UA-134535076-1&_gid=1069289890.1584100830&_r=1&gtm=2ou340&z=743443844
+Referer https://foodband.ru/pizza/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain
+
+undefined

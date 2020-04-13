@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/objective-c
+Sec-Fetch-Dest empty
+X-CSRF-Token uzT5A6IOQC9Rygf4G5XHADvBgGFP4tMaxNw6kfd+y4GehZbb6E2PsORub/NMefZx6dOvX/5hkcD1ORhXD7OgBw==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"trackViews","variables":{"decisionIds":["101184499246707744","101137092532213919","101649041454510454","102366433844901272","102263633167299356","102366438467546680"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

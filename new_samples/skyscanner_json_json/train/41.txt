@@ -1,0 +1,7 @@
+POST https://www.skyscanner.ru/g/delivery-service/api/v2/prices/carhire
+Referer https://www.skyscanner.ru/transport/flights/lnz/sof/200329/200329/?adults=1&children=0&adultsv2=1&childrenv2=&infants=0&cabinclass=economy&rtn=1&preferdirects=false&outboundaltsenabled=false&inboundaltsenabled=false&ref=home
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"destination":"SOF","imageId":"SOFI","market":"RU","locale":"ru-RU","currency":"RUB","startDate":"2020-03-29","endDate":"2020-03-29","vertical":"carhire"}

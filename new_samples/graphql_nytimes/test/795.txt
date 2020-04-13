@@ -1,0 +1,11 @@
+POST https://samizdat-graphql.nytimes.com/graphql/v2
+nyt-token MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+/oUCTBmD/cLdmcecrnBMHiU/pxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+nyt-app-type project-vi
+content-type application/json
+accept */*
+Referer https://www.nytimes.com/2020/03/12/arts/music/berlin-clubs-coronavirus.html
+nyt-app-version 0.0.5
+Sec-Fetch-Dest empty
+
+{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/12/arts/music/berlin-clubs-coronavirus.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}

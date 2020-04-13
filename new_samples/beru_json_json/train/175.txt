@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Host beru.ru
+Connection keep-alive
+Content-Length 2145
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/my/cart
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=9c9498ff518b23175610b4287fd5a706%2Cca6bc62193cf0efff1cf86644687df66%2C00a22c493e8a6895f3f34730bc70a2e8%2Cec6fb67942ef0927ccb230c86fa47156%2C79244383dc397146b6d10d750d764e20; last-loaded-page-id=blue-market%3Acart
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"x8tu4JdLmDBiYHgHWlr-FA","count":1,"shopId":431782,"categoryId":13196790,"hid":13196790,"feeShow":"OTNDnItfwRO6zrnlRDZCBijqiXM2aZii688PUVoUKPOPftGF_RcRm1ThtF40KzD-4ny39ckOA6rj_0VdOIr6biL4FBcz7IXL6Go-ZP-gASooMxdB8YEUobGbDFDYeVry4JbiTGR2nYVno5gw5weKGpK8yg2BonLb6fhDqbhasqw,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBijqiXM2aZii688PUVoUKPOPftGF_RcRm1ThtF40KzD-4ny39ckOA6rj_0VdOIr6biL4FBcz7IXL6Go-ZP-gASooMxdB8YEUobGbDFDYeVry4JbiTGR2nYVno5gw5weKGpK8yg2BonLb6fhDqbhasqw,","price":{"value":370,"currency":"RUR"},"vendorId":14305843,"feedId":475690,"feedOfferId":"493303.000003.419-33","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgX6hCVepfzz8mZjuJWpkpa2Eg6NSCv3qeGyx1DtilL6K5khgVNcs_xsRGsPkL_Ho6i9iZ9XIXmOU9-2_Ynhr5WRFflMTmqBiAqBIB7dd25W6H2QCWpPi9KfxpOAW0bke_VLicOjwTP8AB5ysmTSrgo0LMkVawIrtmk_wo7ZqmST6amqeYjO_7JWyjs4XIjQO96-CHhCQl1Qa_N2yEAZS_elryL8cZqnTvPvez2FCZIGMLD-p13Y9ukhoPe0jqZM9QK-gXsMeUnyl_D1979JzLfi_s8Ru05L5GPImGJWyFp434qo9RSrpwEXM37SBea-G-0Sxyy8rtqd1vOYy33qiKjqzWpw6KXBeDcbzB7iru5k1RcmPe_PjCTItv3ll_5thv_qIZjEv65qvDCwGu53YCXX1e41din0aqzNEj7MsangLzN7C42sRtZYGFIrjWLewS_69V9d1lWtPRZYQEcLiaONyxMi1oleTuF1QLJaxuIx9R8Q1hmQzSQlNYMDHNBdI-hR7gWtrCG4iXmBj--Q8DOgNT8Deucwuu2s4QCXUnk6QWEpSSFHg516c_PmtdwW5Ry9WT8NsGZ0XrzPdGJrGejg_CcJZ_HDKexo04BIDjCruBCJc1FshmmoNqbqX-Fj3NaONP6sU_bkigKEPSd1ZNeQfufmhBLOs9gtjAUvEb_966XGEfpWvIPr-6tTr6iWg9yJJpLYKleaOZEbLJll0DfvgrnVhQNlgZfvLkpk-V4kMgzruE-4YH1bPeE_h3WPBqtCcWD4_WHaGOw-zrRlnC_Pgl4czmy3SGPkeiVeoi3PfLXNCoMGIHBJYn_5f5icsAxLm20PXDEj6SzyGUNmdnyOecUC05TLSFHJWygEC3sjsQfHDT-iQj50PEnRA9kVNB656XLvBcVnYhejC3fN2xa6Uz4804WFWKByy0nKlMstF-YOPE6fE5ztl2hJ6WQ1E5tc4XYkqM3fJmGarwm2GwOEecDRgkRpaN6jQ0z7f4AyL0z6sAuh98-DrkImYMr3O2UxOYAi3qqsDdfok6TzsNGohCyOdAWwHhmTiY7uOpbmJuKiaCenHhuLPOu6utts02Cp_aRXY2HMiAwPcZz85diVSEsJn7BpUkDnE07chwOFuVdM4AG9wyWgx77Pxkg7lZAXvlIM07lwPTz4YBuNwvkTsbjbW7fnXWsr_NmccXu3cWe0zSdGCsXNJO8p_BPUTAg,,/b64e=1/sign=bd8b81b08dbfbb2b5b7c03e80d780028/keyno=1/*","name":"ELLY таблетки ECO для посудомоечной машины 30 шт.","skuId":"100261940770","slug":"elly-tabletki-eco-dlia-posudomoechnoi-mashiny-30-sht"}]}],"path":"/my/cart"}

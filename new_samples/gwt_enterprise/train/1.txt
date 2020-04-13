@@ -1,0 +1,9 @@
+POST https://enterprise.fadv.com/pub/l/loginui//gwt/GLoginService
+X-GWT-Module-Base https://enterprise.fadv.com/pub/l/loginui/
+X-GWT-Permutation B29761F50710060237C09685178EDD6E
+Sec-Fetch-Dest empty
+Referer https://enterprise.fadv.com/pub/l/login/userLogin.do
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/x-gwt-rpc; charset=UTF-8
+
+7|0|4|https://enterprise.fadv.com/pub/l/loginui/|689848CC843AD0F168C3F6BE1A5B0E7B|com.lexisnexis.screening.gwt.login.client.rpc.GLoginService|getContactUsConfigDetails|1|2|3|4|0|

@@ -1,0 +1,9 @@
+POST https://www.coursera.org/graphqlBatch
+accept */*
+Referer https://www.coursera.org/learn/medical-neuroscience
+Sec-Fetch-Dest empty
+R2-APP-VERSION 904d3d95302326833101919c7cdfeae07045d6c3
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+[{"operationName":"SessionsV2EnrollmentEligibilityCheckQuery","variables":{"courseId":"Nyq7nXzPEeWb-BLhFdaGww"},"query":"query SessionsV2EnrollmentEligibilityCheckQuery($courseId: String!) {\n  SessionsV2EnrollmentEligibilityCheckV1Resource {\n    get(id: $courseId) {\n      eligibleForSessionsV2\n      __typename\n    }\n    __typename\n  }\n}\n"}]

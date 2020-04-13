@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/google-cloud-firestore
+Sec-Fetch-Dest empty
+X-CSRF-Token Az7Y1fnbKEFWkR6aQgBrN0Z4RmnzfjEUGLwDQ2ZwJdsmj7cNs5jn3uM1dpEV7FpGlGppV0L9c84pWSGFnr1OXQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"userStacksUsing","variables":{"id":"101231777274352317","first":9},"query":"query userStacksUsing($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    userStacksUsing(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          name\n          imageUrl\n          thumbUrl\n          thumbRetinaUrl\n          identifier\n          id\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://pedigree.progenygenetics.com/progenyrpcservice.html
+X-GWT-Module-Base https://pedigree.progenygenetics.com/progeny/
+X-GWT-Permutation C22D7639A28BE3483964317318797AAA
+Sec-Fetch-Dest empty
+Referer https://pedigree.progenygenetics.com/
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/x-gwt-rpc; charset=UTF-8
+
+7|2|10|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|saveNavOrder|[Lcom.objex.gwt.client.nav.NavOrder;/2685519758|I|com.objex.gwt.client.nav.NavOrder/2819647510|com.objex.gwt.client.nav.NavOrder$NavID/403591614|1|2|3|4|5|6|2|7|8|7|14|9|1|10|0|0|0|1|1|9|1|10|1|0|1|0|1|9|1|10|2|0|2|0|0|9|1|10|3|0|3|0|1|9|1|10|4|0|4|0|1|9|1|10|5|0|5|0|0|9|1|10|6|0|6|0|0|9|1|10|7|0|7|0|0|9|1|10|8|0|8|0|1|9|1|10|9|0|9|0|0|9|1|10|10|0|10|0|1|9|1|10|11|0|11|0|1|9|0|10|12|0|12|0|1|9|0|10|13|0|13|0|1|1667563205|

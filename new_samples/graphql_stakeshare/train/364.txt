@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/gwt
+Sec-Fetch-Dest empty
+X-CSRF-Token CgD2A6jWnSBrEuUczYTKNM69zwe26BM/8ZsBlcGkqnt6BNJOUv8ERfKTs5YkfcepBkhMteZxDapk7Huf5SkS4w==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"gwt"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

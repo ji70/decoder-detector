@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=cart/removeItemsFromCart:removeItemsFromCart&r=cart/resolveCartPageState:resolveCartPageState
+Host beru.ru
+Connection keep-alive
+Content-Length 81
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/my/cart
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=9c9498ff518b23175610b4287fd5a706%2Cca6bc62193cf0efff1cf86644687df66%2C00a22c493e8a6895f3f34730bc70a2e8%2Cec6fb67942ef0927ccb230c86fa47156%2C79244383dc397146b6d10d750d764e20; last-loaded-page-id=blue-market%3Acart
+
+{"params":[{"cartId":71502047,"cartItemIds":[129999739]},null],"path":"/my/cart"}

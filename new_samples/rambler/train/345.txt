@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://kassa.rambler.ru/msk/concert
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+et=act&pid=2553558&rid=1584108557.145-151041406&tid=t1.2553558.487024757.1584108088625&v=1.8.0&meta=%7B%22time%22%3A2%2C%22screens%22%3A%5B0%2C0%2C0%2C0%2C0%2C2%2C2%2C2%2C0%2C0%2C0%2C0%5D%7D

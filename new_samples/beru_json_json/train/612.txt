@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"url":"https://ads6.adfox.ru/264672/event?hash=c3a73eabaf5ff3cd&rand=jdyovda&sj=xcW1tB7xmMQ0ongPIQ2WbOxJuhvQdGSblA41rJYFr4-DCN6qTzCY1LLwRF9ns-GZc53LUjNojSzygl61-nLnCgfNiwagF6nFbgXI2ZBe1g%3D%3D&lts=fdixvlo&p5=hiknl&pr=stqnbw&p1=chjwi&rqs=SIcQs01B_l1Ydm5eRJNBiIZsXUsoXEbR&pm=b&p2=goyr"}],"path":"/pricedrop"}

@@ -1,0 +1,9 @@
+POST https://www.coursera.org/graphqlBatch
+accept */*
+referer https://www.coursera.org/learn/etudier-en-france/lecture/Uf2Za/introduction
+sec-fetch-dest empty
+r2-app-version 3c44d7ec6a9ef92a769530a8e22cf81bda37b296
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+[{"operationName":"GuidedCourseWeekQuery","variables":{"ids":"20430477~HnfPZCR1EeWDEQ4YpP0FCQ"},"query":"query GuidedCourseWeekQuery($ids: [String!]!) {\n  GuidedCourseWeekCardsV1Resource {\n    multiGet(ids: $ids) {\n      elements {\n        id\n        weeks {\n          weekStatus\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}]

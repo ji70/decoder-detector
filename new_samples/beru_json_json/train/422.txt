@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=c76ec73bba3c2ce3&rand=cifgtkr&sj=ZJuRyfMp4RvviY-GFNiu8u9353WfQPsI47G0g4aGmgrGhhrlqPq-AlRj-bsnZ-LhdBHXA6VPzW5NznC4aOnYaplCExP4wZXecDXtPa3CaQ%3D%3D&utg=oxum&lts=fdixvpm&p5=hphzs&pr=ffeiqxi&p1=chjwo&rqs=SIcQs01B_l2-dm5eVnOmrjpnogsW2t9R&pm=b&p2=goyr"},{"url":"https://ads6.adfox.ru/264672/event?hash=9127015986185d29&rand=caxibrz&sj=7HyddRCs-Z8yqGOaAam_TNlpQL2j92jG73_bIfiCqofx0X7fA651pGneY-vhHb8SQjQvybN9OvYw9bYNmKd8aWjMflPL59ley_ZoGJrT8g%3D%3D&lts=fdixvpm&p5=hpsht&pr=ffeiqxi&p1=cixlj&rqs=SIcQs01B_l2-dm5eOQqK5oloNlIRgjSN&pm=b&p2=grzq"}],"path":"/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735"}

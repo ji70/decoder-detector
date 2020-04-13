@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/twilio-sendgrid/sendgrid
+Sec-Fetch-Dest empty
+X-CSRF-Token ct7PCSbq/6eY6RX06mr2qbOCAqjzdPb1YO6c8xGf4EpXb6DRbKkwOC1Nff+9hsfYYZAtlkL3tC9RC7416VKLzA==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"trackViews","variables":{"decisionIds":["101031322387161603","101031322385689389","101031322386438644"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

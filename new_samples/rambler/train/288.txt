@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://kassa.rambler.ru/msk/movie/100226
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded;charset=UTF-8
+
+et=bv&pid=2553558&rid=1584108153.918-988515960&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F100226%3A%3Avkontakte%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F100226%3A%3Afacebook%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F100226%3A%3Alivejournal%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F100226%3A%3Aodnoklassniki%22%5D

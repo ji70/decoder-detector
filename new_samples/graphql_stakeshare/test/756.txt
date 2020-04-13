@@ -1,0 +1,20 @@
+POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 286
+accept */*
+sec-fetch-dest empty
+x-csrf-token tiWAtPpY4NjxzKElFR0akuU8dyRB+PR4LfzO9xxSJJHGIaT5AHF5vWhN96/85BcPLcn0lhFh6u24i7T9ON+cCQ==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/es6
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU0NDgzODQsImV2ZW50SWQiOjE1MiwiaWRlbnRpZnlJZCI6NTQsInNlcXVlbmNlTnVtYmVyIjoyMDZ9; _stackshare_production_session=8IPeAv%2BRIew%2F8CzjR%2FnzyJ5Pz0o7%2B9afUjTY2tKQG5POhFYVM5Q6xVrRKQ6kzA4IAn8%2BgWZMrWkbFDI3HqlSOJpYghY1Yx1FMLGUEL%2Bl7Tl%2BsOegnLxuE%2FKHoVy%2FjjSF6C4w2hX%2BhWKAGCDVSUZOdGve6l4oMGmaRSgYPzkhFOttFM9PszNNFC36kSxSCbZLfk1i2JfMPz8Td%2Fz7dbsE2FtysItmstJQL3wyqJriffLO7vL0DMN3S3%2BLYJ0DBeW4OIOcTXIeeQMFhf6Au8HFgVB7e3oX%2BZDUxqoz%2BFCnyWyO%2FkzMnqyibvzx%2BFN%2F%2FFxwluHNLEnEIxJmT7BJM%2FY5RksUP93aLOV%2BKUxzYMz8tV8IOvLo19puzmFJp396oN232rrl9xob2unbZZDzE2IL3g%2F%2FaURDwHU66WMBq%2FCqmTtzCgGq8fmdM9aXN%2B22Fy0jGGzVShjxtq3PISuOkM4JH0eNUT2XBmOGJWYOvwaWChxUPGiOX76Dc7u8LzTaavpiUcQuKMmJTPn5dMJfnpFvZ%2FE3V6JIhHpcTsaO3D7p1%2FsjVgvHHcbD9i0oikIUG04dmBul4feCm36CoXcIQ4RQggKECnVXQsEbMxR8KtSy02df--oQU1UIcOJeAsF0y8--se47g%2F0y0oYRM5c2r5DWfA%3D%3D
+
+{"operationName":"trackViews","variables":{"decisionIds":["101031322388095263","102666170527131633","101031322404468522","101751500480904214","101735661174276825","102118020376211959"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

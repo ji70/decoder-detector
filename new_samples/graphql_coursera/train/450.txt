@@ -1,0 +1,20 @@
+POST https://www.coursera.org/graphqlBatch
+:method POST
+:authority www.coursera.org
+:scheme https
+:path /graphqlBatch
+content-length 351
+accept */*
+sec-fetch-dest empty
+r2-app-version 904d3d95302326833101919c7cdfeae07045d6c3
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://www.coursera.org
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://www.coursera.org/learn/wharton-influence
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie CSRF3-Token=1584705168.443H7HgBPr35UgAJ; __204u=9946006127-1583841168401; __204r=; _ga=GA1.2.690492278.1583841172; _gid=GA1.2.704694650.1583841172; _fbp=fb.1.1583841171951.1971523529; _hjid=8d09c4fe-932e-47be-af0d-42a6eddbb974; _hjIncludedInSample=1; maId={"cid":"a8373da713893ade557058830a9b759d","sid":"2151eaf0-7430-4f06-9cbf-efb13d7871fa","isSidSaved":true,"sessionStart":"2020-03-10T14:49:02.000Z"}; _mkto_trk=id:111-YYW-222&token:_mch-coursera.org-1583852816309-73761; _tq_id.TV-63455409-1.39ed=da0cd2bc1589b1f6.1583841172.0.1583853507..; stc113717=env:1583851742%7C20200410144902%7C20200310154827%7C62%7C1030880:20210310151827|uid:1583841171995.1747839084.9986377.113717.969843509.:20210310151827|srchist:1030880%3A1583851742%3A20200410144902:20210310151827|tsa:1583851742660.216712755.1177988.39053682385889066.:20200310154827; __400vt=1583853566704
+
+[{"operationName":"SessionsV2EnrollmentEligibilityCheckQuery","variables":{"courseId":"9uNz8jsLEeeYEBLbuVGJ2g"},"query":"query SessionsV2EnrollmentEligibilityCheckQuery($courseId: String!) {\n  SessionsV2EnrollmentEligibilityCheckV1Resource {\n    get(id: $courseId) {\n      eligibleForSessionsV2\n      __typename\n    }\n    __typename\n  }\n}\n"}]

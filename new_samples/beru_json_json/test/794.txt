@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/catalog/pylesosy/16334403/list?hid=16302535
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=87d52e0c846c1077&rand=dcdwjcc&sj=lvrFyIubosuWxgyjaginMXkycG2eIkC0mi5kk-Z1eW7Slhfm5vfa7vL5NSHAkpIJ2L3RokMvTj34pKhiFBzheusVCik-07YUEooDw1UsTQ%3D%3D&utg=oxum&lts=fdixujj&p5=hphzs&pr=hthntw&p1=chjwo&rqs=SIcQs01B_l17c25exq259KfY_BqcCL_7&pm=b&p2=goyr"},{"url":"https://ads6.adfox.ru/264672/event?hash=c949b53b1fea1bf3&rand=kyjnuma&sj=cnOuvdF9vAilRe16W0_M6IRHEbV6N5wyQC6qKd4Y1ldvq8gDDJtCBgOXqAcJxNDJ86EAxhsxvsV9vtxxrRTFrUDCNab23b09Lw-KILnj6A%3D%3D&lts=fdixujj&p5=hpsht&pr=hthntw&p1=cixlj&rqs=SIcQs01B_l17c25eq-eFrqr-u6_mGDqq&pm=b&p2=grzq"}],"path":"/catalog/pylesosy/16334403/list?hid=16302535"}

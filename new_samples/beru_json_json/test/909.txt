@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/catalog/khobbi-i-tvorchestvo/16592267?hid=90748
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=9efd48373f6543c1&rand=cnfdwqe&sj=ac3JdBjagOmVzjOv8zgyFTgVSRhERZNQaz61AUm2a1qKicEDNZNzc8BSpux-5zt0WUDrkejlnZ7UXiP9aFyF5qWYSD1QB2s5sA46YN80mA%3D%3D&lts=fdixvhk&p5=hiknl&pr=konmmub&p1=chjya&rqs=SIcQs01B_l3sdW5eS2SN31rh2MVIYWIn&pm=b&p2=goyr"}],"path":"/catalog/khobbi-i-tvorchestvo/16592267?hid=90748"}

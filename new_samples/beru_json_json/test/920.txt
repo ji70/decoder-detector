@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=orders:resolveRecentUserOrders&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"status":["UNPAID","PROCESSING","DELIVERY","PICKUP","PENDING"],"partials":["ITEMS","BUYER"]},{"url":"https://ads6.adfox.ru/264672/event?hash=51a0f5a41c6d321e&rand=ksnperc&sj=USjMHG5UDF3WlLLhyL0dLB_XQtC3M9oLRqDxLs6lzA6kiumHmUymJgQE1YvUF7gBbap9zXUL4qZjN3Ec-ECwPWbDp3V_NSS8TKO3dn6g9A%3D%3D&lts=fdixuhk&p5=hqemc&pr=iglnnds&p1=cirpk&rqs=SIcQs01B_l1Ic25elEg3AUtz4O1XgQ3w&pm=b&p2=griu"},{"url":"https://ads6.adfox.ru/264672/event?hash=163bdd609ed85fff&rand=fsdnlpk&sj=_cW1y73_Isdu-edPMHmzIZxWUi63c1VMMt7DhLmdYe1lsAoI7l2jzK1uLUC745IMY63bBGG4Q_UEMUro4GJ2k2Crfu4sM2_xd1MwflWk7Q%3D%3D&lts=fdixuhk&p5=hthmk&pr=iglnnds&p1=ciylf&rqs=SIcQs01B_l1Ic25eSUVErLqSXOHKhldD&pm=b&p2=griu"},{"url":"https://ads6.adfox.ru/264672/event?hash=ce53a792b0a203df&rand=jnkyogf&sj=Rd0lvF_Ngn_6j-JaOmmuvbqLlDgWtxctAVmxaRgdF65lt0Y_Ymglv7j20wEBjlmOVc1bmjDCfME6NvoZIy8Axn-HN5HvwBxjOOdNU9k16Q%3D%3D&utg=oxum&lts=fdixuhk&p5=hphzs&pr=iglnnds&p1=chjwi&rqs=SIcQs01B_l1Ic25eY8DF-Dq49nmpC3R8&pm=b&p2=goyr"}],"path":"/"}

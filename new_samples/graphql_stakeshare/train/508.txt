@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/companies/onesignal
+Sec-Fetch-Dest empty
+X-CSRF-Token 1ZYtaGZW09jr7OlFGu03l8w5DzRn4cfxay8v4VGJPwjwJ0KwLBUcR15IgU5NAQbmHisgCtZihStayg0nqURUjg==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"company","variables":{"id":"onesignal"},"query":"query company($id: ID!) {\n  company(id: $id) {\n    id\n    name\n    path\n    slug\n    imageUrl\n    bannerImageUrl\n    verified\n    description\n    twitterUsername\n    websiteUrl\n    location\n    following\n    amIOwner\n    plans {\n      slug\n      __typename\n    }\n    features {\n      slug\n      __typename\n    }\n    tags {\n      name\n      __typename\n    }\n    tools {\n      ...serviceFields\n      __typename\n    }\n    jobs {\n      count\n      __typename\n    }\n    stackDecisions {\n      count\n      __typename\n    }\n    stacksList {\n      count\n      __typename\n    }\n    team {\n      count\n      __typename\n    }\n    followers {\n      count\n      __typename\n    }\n    blogPosts {\n      count\n      __typename\n    }\n    githubRepos {\n      count\n      __typename\n    }\n    socialPosts {\n      count\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}

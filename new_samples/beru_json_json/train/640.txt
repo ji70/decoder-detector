@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"url":"https://ads6.adfox.ru/264672/event?hash=188726e527fe6a63&rand=fcflulj&sj=_5iwIdrSeLd-EpA1L9KCivW_vIB8wDNcbkYxTkXpNcMLGs7KIgXKPU1Z-TjzU2eEFV3_0jXdTRgDw2BEjzGULTZ5JPUXtxjRm9LmFdJSIA%3D%3D&lts=fdixuhk&p5=hthjf&pr=iglnnds&p1=ciyle&rqs=SIcQs01B_l1Ic25eHmMMbY28MLbTZJHS&pm=b&p2=griu"}],"path":"/"}

@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=threshold/resolveThresholdForCartItemsDeprecated:resolveThresholdForCartItemsDeprecated
+Referer https://beru.ru/my/cart
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"result":[130001859],"collections":{"cartItem":{"130001859":{"id":130001859,"objId":"fimncZm5Xr2_CvSTWTH6tA","shopId":431782,"count":1,"fee":"OTNDnItfwRO6zrnlRDZCBl2qtCbkPNqKl_VoAEVg8QvOF6xeMqJAM1vcPb8JxDyLTDlwHA3QmBfx82JJuyJrxLJvBCzgMXNwJHIKUSgzICAVHrQ2zlsh6Wi_G_ihR8M7u7rlyXQKzj8rFzTqQDrth-HQPePWULiyudo8yehSdfQ,","feeShow":"OTNDnItfwRO6zrnlRDZCBl2qtCbkPNqKl_VoAEVg8QvOF6xeMqJAM1vcPb8JxDyLTDlwHA3QmBfx82JJuyJrxLJvBCzgMXNwJHIKUSgzICAVHrQ2zlsh6Wi_G_ihR8M7u7rlyXQKzj8rFzTqQDrth-HQPePWULiyudo8yehSdfQ,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBl2qtCbkPNqKl_VoAEVg8QvOF6xeMqJAM1vcPb8JxDyLTDlwHA3QmBfx82JJuyJrxLJvBCzgMXNwJHIKUSgzICAVHrQ2zlsh6Wi_G_ihR8M7u7rlyXQKzj8rFzTqQDrth-HQPePWULiyudo8yehSdfQ,","marketSku":"100401805897","hid":13041507,"name":"Чистящий крем Active Lemon Cif 250 мл","price":{"value":78,"currency":"RUR"},"label":"m2m25587jk","slug":"chistiashchii-krem-active-lemon-cif-250-ml","isExpired":false,"creationTime":1584297366000,"cartId":71502047}}}}],"path":"/my/cart"}

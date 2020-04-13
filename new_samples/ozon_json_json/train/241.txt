@@ -1,0 +1,7 @@
+POST https://www.ozon.ru/api/tracker.bx/v2/composer_events
+Referer https://www.ozon.ru/category/literatura-dlya-podrostkov-33015/?page=3
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+{"events":[{"attributes":{"app_version":"2.0.0","device_type":"desktop","namespace":"bx","platform":"site","screen_resolution_x":1920,"screen_resolution_y":1080},"page":{"category_id":33015,"current":"category","current_url":"/category/literatura-dlya-podrostkov-33015/?page=3","page_view_id":"bb4eafb5-cedb-4a44-b7e9-eb067434936f","previous":"category","previous_page_view_id":"0c9330ea-58a3-4438-8c22-47646a5da2fe","referral_url":"https://www.ozon.ru/category/literatura-dlya-podrostkov-33015/?page=2","layout_id":4842,"layout_version":51,"rule_id":4788},"special":true,"timestamp":"2020-03-24 12:57:13 +0300","user":{"ab_group":24,"client_id":0,"experiments":"","google_id":"GA1.2.1657344491.1585042046","latitude":55.755814,"long_cookie":"53ebd41441e6049b016281d59dc38ea7","longitude":37.617634,"region_id":2,"session_id":"g7f8O9KUQK+7aw6nLff3Qw"}},{"action_type":"view","composer":{"cell":{"type":"ui","title":"Литература для подростков","countItems":402,"searchString":"","elementType":"header"}},"number":2,"timestamp":"2020-03-24 12:57:13 +0300","uuid":"aedacad5-516e-4c98-9ced-22f05468ca1e","version":"2","widget":{"type":"catalog","name":"catalog.catalogResultsHeader","id":207532,"revision_id":139850,"config_revision_id":0,"index":17}}]}

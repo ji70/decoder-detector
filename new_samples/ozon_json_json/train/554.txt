@@ -1,0 +1,7 @@
+POST https://www.ozon.ru/api/tracker.bx/v2/composer_events
+Referer https://www.ozon.ru/category/knigi-16500/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+{"events":[{"attributes":{"app_version":"2.0.0","device_type":"desktop","namespace":"bx","platform":"site","screen_resolution_x":1920,"screen_resolution_y":1080},"page":{"category_id":16500,"current":"category","current_url":"/category/knigi-16500/","page_view_id":"59656500-424e-4f17-b707-5f0a100915b5","previous":"cart","previous_page_view_id":"8f15bc50-7b97-453e-a194-d2eca50507db","referral_url":"/cart","layout_id":3357,"layout_version":816,"rule_id":1680},"special":true,"timestamp":"2020-03-24 12:59:34 +0300","user":{"ab_group":24,"client_id":0,"experiments":"219:221,318:438,320:444,326:486,327:487,328:480,332:528,338:550,345:568,346:571,347:572,348:575","google_id":"GA1.2.1657344491.1585042046","latitude":55.755814,"long_cookie":"53ebd41441e6049b016281d59dc38ea7","longitude":37.617634,"region_id":2,"session_id":"g7f8O9KUQK+7aw6nLff3Qw"}},{"action_type":"view","composer":{"cell":{"type":"ui","title":"Книги","countItems":1004122,"searchString":"","elementType":"header"}},"number":341,"timestamp":"2020-03-24 12:59:34 +0300","uuid":"ad846cde-eb73-41e3-964d-0ed7477ab737","version":"2","widget":{"type":"catalog","name":"catalog.catalogResultsHeader","id":301290,"revision_id":276605,"config_revision_id":0,"index":17}}]}

@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://news.rambler.ru/politics/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded;charset=UTF-8
+
+et=cl&pid=127846&rid=1584108797.317-1535320319&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Aworld%3A%3Ateaser%3A%3A4%22%5D&sp=%5B%22desktop%22%5D

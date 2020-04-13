@@ -1,0 +1,20 @@
+POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 456
+accept */*
+sec-fetch-dest empty
+x-csrf-token dOavBfAsq5+QwsqtvPA6GroIAjYE6oVQw/unJ/9A/q0E4otICgUy+glDnCdVCTeHcv2BhFRzm8VWjN0t281GNQ==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/njb-said/mc-api
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _stackshare_production_session=dRnkSK%2FaCm9dvizSfdvg7XdsRvVYygr%2B8FE79m2jl%2FEdCY7mcptK4jDBFMeKAEJDaQvbX7aXaqfr2vTLHVgWm%2Fheqj1qUV5gsaM7fLAkGKRSO3vjZGu8DUVdCaUW%2FYyiYd%2BoPIfgssXCZA9d5tkfoxCTxkT4ienrxThHEt1mNWw0ta8DwiSXjITkP6o9WEvBmxWXM6fnScYHhPft%2FK5Bb1e4T0My7YuV52YEIbZFmlslGE%2B5Ip53YVqWgIkJ%2BRi9ob3QRqTvOppQ7z3Dq%2BILUBH36r58BUKMPzIbH9%2B3cYK7XbZPpKwkVZ%2Fg5SCUd7%2FouJAO2ANIY9hezv98cKGUSkgYBt2F7CZzA2sCLa62y5Mwsg4kuhuZ%2FFqTgzzS9NKAPpe%2F5O9idCDhXHlUywNemJrDCYVQEvBbPpRIs4KM%2FK%2Fcfvtzs5ukTgYc8vKqrGKJmv28fEID4rEKLayaAX6ObchyRaed9v4OXPRFxveoeUF%2B%2FDL5MVyOV0CZI3D56O%2FYWZbaqaMinnWbe%2BsMOznRHtPEKh1YEJkJ8dZglOa74bLbMNlJP%2Fth%2Fyv%2B984rsnTQU4mpggSDx5MnHcPrCRPlu6NuQYelZkOse7biBozLdHb8--GKXoh%2B%2FieWiljBO%2B--Y7vreJy%2FXco1IeqQ4NVlyg%3D%3D; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU0OTA4NzYsImV2ZW50SWQiOjE4MSwiaWRlbnRpZnlJZCI6NjYsInNlcXVlbmNlTnVtYmVyIjoyNDd9
+
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"mc-api"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

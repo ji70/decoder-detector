@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/gunicorn
+Sec-Fetch-Dest empty
+X-CSRF-Token tNqkpjI1MCLYQ6WyoL1m/9Hi7K8BZOlyRO2XbBEWDHGRa8t+eHb/vW3nzbn3UVeOA/DDkbDnq6h1CLWq6dtn9w==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"toolDecisions","variables":{"id":"101231773880461583"},"query":"query toolDecisions($id: ID!, $after: String) {\n  tool(id: $id) {\n    stackDecisions(first: 6, after: $after) {\n      edges {\n        node {\n          user {\n            id\n            username\n            title\n            companyName\n            imageUrl\n            thumbUrl\n            displayName\n            __typename\n          }\n          company {\n            imageUrl\n            thumbUrl\n            name\n            path\n            features {\n              slug\n              __typename\n            }\n            __typename\n          }\n          link {\n            url\n            title\n            __typename\n          }\n          publicId\n          createdAt\n          id\n          htmlContent\n          viewCount\n          upvotesCount\n          services {\n            name\n            path\n            id\n            imageUrl\n            thumbUrl\n            __typename\n          }\n          topics {\n            name\n            id\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

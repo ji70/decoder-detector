@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/zulip/tools
+Sec-Fetch-Dest empty
+X-CSRF-Token do0XMf1G4PXi1r3FMzGMvWDSS7waE740+sqsMeS79otTPHjptwUvaldy1c5k3b3MssBkgquQ/O7LL473HHadDQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"trackViews","variables":{"decisionIds":["101184293593162197","101184211380136098","101184475623726695","101184399174554297","101897486541876212"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

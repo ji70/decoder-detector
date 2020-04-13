@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/django
+Sec-Fetch-Dest empty
+X-CSRF-Token Zm1xoG2GdhPqtq0stAsW6AxrYMokOBAaT3DtrT+9QYtD3B54J8W5jF8SxSfj5yeZ3nlP9JW7UsB+lc9rx3AqDQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"django"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

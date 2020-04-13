@@ -1,0 +1,20 @@
+POST https://teachercenter.withgoogle.com/fundamentals/rest/analytics
+:method POST
+:authority teachercenter.withgoogle.com
+:scheme https
+:path /fundamentals/rest/analytics
+content-length 209
+accept text/plain, */*; q=0.01
+sec-fetch-dest empty
+x-requested-with XMLHttpRequest
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/x-www-form-urlencoded; charset=UTF-8
+origin https://teachercenter.withgoogle.com
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=43
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie _ga=GA1.3.449827449.1584110046; _gid=GA1.3.2060883829.1584110046; SACSID=~AJKiYcG7Pt64ECUvl-E6Skoc1q2K04873wEqcx6ybSyR-N2M4XH79X8Mu8H8MmULWyUaCR7hKOkUP1BlIf1AAJq4ItZlCCNx-cYvPNP5HQXbgA8ZU8iKsttWwdCVeaCuavHBTbr-3mhJ668Sxyh9jrFbxhek4ms45G6IBmAy47pX_CHYkCwuIJpuBQ3BpKonLe7KHTUNEEwjJaiz1SXIy6DeWwvavQupgVVdK9LqCXkdYQDagQ3dgueotui_bLWvOeGhcdKC65kUR3A0_4-1CEx0zPKbKduzvY5QF-27KZwx061GRDjCWIMrPAymFlC-PrX9s3rbpCCx; _gat_UA-64000824-2=1
+
+request=%7B%22xsrf_token%22%3A%221584110282%2FPQqJGIjQLGsTJ3MWy2e09A%3D%3D%22%2C%22payload%22%3A%7B%22event%22%3A%22Fundamentals+Training-Measure%2C+Understand%2C+and+Share+Student+Growth-Introduction%22%7D%7D

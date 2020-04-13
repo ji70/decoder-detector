@@ -1,0 +1,20 @@
+POST https://www.coursera.org/graphqlBatch
+:method POST
+:authority www.coursera.org
+:scheme https
+:path /graphqlBatch
+content-length 2390
+accept */*
+sec-fetch-dest empty
+r2-app-version d0ba73ca8ccaa44be2cc2e6346ee2d7107fff47a
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://www.coursera.org
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://www.coursera.org/browse
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie CSRF3-Token=1584705168.443H7HgBPr35UgAJ; __204u=9946006127-1583841168401; __204r=; __400v=dcdc31f7-ac05-452a-ce5f-f2e771499cd2; _ga=GA1.2.690492278.1583841172; _gid=GA1.2.704694650.1583841172; _fbp=fb.1.1583841171951.1971523529; maId={"cid":"a8373da713893ade557058830a9b759d","sid":"f3ba9591-b094-400f-8aa3-428648e50c70","isSidSaved":true,"sessionStart":"2020-03-10T11:52:51.000Z"}; _tq_id.TV-63455409-1.39ed=da0cd2bc1589b1f6.1583841172.0.1583841188..; stc113717=tsa:1583841171996.1748512642.6206522.13067358858293887:20200310122307|env:1%7C20200410115251%7C20200310122307%7C2%7C1030880:20210310115307|uid:1583841171995.1747839084.9986377.113717.969843509.:20210310115307|srchist:1030880%3A1%3A20200410115251:20210310115307; __400vt=1583841228677
+
+[{"operationName":"singleFetchMicroDPCardQuery","variables":{"courseId":"PLACEHOLDER","skipCourseQuery":true,"s12nId":"dwzq23ZLEei12goo904QNg","skipS12nQuery":false},"query":"query singleFetchMicroDPCardQuery($courseId: String!, $skipCourseQuery: Boolean!, $s12nId: String!, $skipS12nQuery: Boolean!) {\n  CoursesV1Resource @skip(if: $skipCourseQuery) {\n    get(id: $courseId) {\n      ...FullCourseFragment\n      __typename\n    }\n    __typename\n  }\n  OnDemandSpecializationsV1Resource @skip(if: $skipS12nQuery) {\n    get(id: $s12nId) {\n      ...FullS12nFragment\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment FullCourseFragment on CoursesV1 {\n  ...LightweightCourseFragment\n  courseDerivativesV2 {\n    skillTags {\n      skillName\n      relevanceScore\n      __typename\n    }\n    avgLearningHoursAdjusted\n    commentCount\n    averageFiveStarRating\n    ratingCount\n    __typename\n  }\n  __typename\n}\n\nfragment LightweightCourseFragment on CoursesV1 {\n  id\n  slug\n  name\n  photoUrl\n  s12nIds\n  level\n  workload\n  primaryLanguages\n  partners {\n    elements {\n      id\n      name\n      squareLogo\n      classLogo\n      logo\n      __typename\n    }\n    __typename\n  }\n  courseTypeMetadata {\n    courseTypeMetadata {\n      ...RhymeProjectFragment\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment RhymeProjectFragment on CourseTypeMetadataV1_rhymeProjectMember {\n  ... on CourseTypeMetadataV1_rhymeProjectMember {\n    rhymeProject {\n      typeNameIndex\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment FullS12nFragment on OnDemandSpecializationsV1 {\n  ...LightweightS12nFragment\n  derivativeV2 {\n    averageFiveStarRating\n    avgLearningHoursAdjusted\n    __typename\n  }\n  courses {\n    elements {\n      courseDerivativesV2 {\n        skillTags {\n          skillName\n          relevanceScore\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment LightweightS12nFragment on OnDemandSpecializationsV1 {\n  name\n  id\n  slug\n  logo\n  courseIds\n  partners {\n    elements {\n      id\n      name\n      squareLogo\n      classLogo\n      logo\n      __typename\n    }\n    __typename\n  }\n  metadata {\n    headerImage\n    level\n    __typename\n  }\n  productVariant\n  __typename\n}\n"}]

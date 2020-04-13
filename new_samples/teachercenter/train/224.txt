@@ -1,0 +1,21 @@
+POST https://accounts.google.com/_/signin/sl/lookup?hl=ru&_reqid=72382&rt=j
+:method POST
+:authority accounts.google.com
+:scheme https
+:path /_/signin/sl/lookup?hl=ru&_reqid=72382&rt=j
+content-length 2499
+x-same-domain 1
+sec-fetch-dest empty
+google-accounts-xsrf 1
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/x-www-form-urlencoded;charset=UTF-8
+accept */*
+origin https://accounts.google.com
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2F&service=ah&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie GAPS=1:Mm_ALY9_ZXbInj1P9FBMyTXijK8sHA:uW3sBNnTXATg9J9N; NID=200=Aj9g8pgASWruvalnSP_IuiyWhYgp_UBjXvXXtjLb8C7dlwXUNjQ2njjPZPYx9keDODrtBSCVKYp0WmJyWpK3vHRu9X3Yw2vF1g1PTxX1uNr4xUBtWwN6b7cK7v_cB89qUy-BTwfA3llLKmkhq2J-C0tygkr9VJgvAIS5ewV3Wpc
+
+continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2F&service=ah&rip=1&f.req=%5B%22anharusp%22%2C%22AEThLlx4bf9LvjJQUDY9Vw3d8Liw7t6MdcbFMLKeRm3Yw6BwVUQciwWP8HBzveKiYjBkDnSoFIeO2u4Gprwq4ngGGMvfsNFrzPGGt7bo4rWLymMbErk1fyz6FNus-nXc0JvdzbL6nOEUaEBheUDBsvP_7lYZr4xrX3nCiQvVGZFltnpSnLWpChvuKP67Ju9Z30i3jxSh4hfj%22%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C2%2Cfalse%2Ctrue%2C%5Bnull%2Cnull%2C%5B2%2C1%2Cnull%2C1%2C%22https%3A%2F%2Faccounts.google.com%2FServiceLogin%3Fcontinue%3Dhttps%253A%252F%252Fappengine.google.com%252F_ah%252Fconflogin%253Fcontinue%253Dhttps%253A%252F%252Fteachercenter.withgoogle.com%252F%26service%3Dah%26sacu%3D1%26rip%3D1%22%2Cnull%2C%5B%5D%2C4%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5B%5D%5D%2C1%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%22anharusp%22%5D&bgRequest=%5B%22identifier%22%2C%22!pKelp4ZC5HVg9S7mqsxY4bePBgReWO0CAAAAR1IAAAAYmQJq8b1uV2dXgrzApZcSjkglwgiPil-n_mhXiwAJgE1ZRYVHR0BprNI8ypktk1da91z4rTYDor27DA9FzD3JZg-FC5fGjBU2ziKvIjh2WjLToDZXCBnaaCVdCxN5SQzTS0jIaNq-9AyEmlhN35oEA0SBNRSjflic5_3c7ljXr7Ezt5IFVx6UjMz7pQHuEuRT29LKdnSzKSFN2uHgTvOXOjpz6oKOGWRsxx5jQxGMVNvcl-J_MiVei5UEogFVQtnQJzZrTJeOX134djt_3DVWM9PFpekkzdL48wPXjFCGm8MMyIRbng0mPLSUyrx6DGdTL4uwM4XF0hualte3izfIhp6iJ_htu5f2peNCSDC4u9X9afJ45f8LB5mALJB-fehKjEUHIlg5ebxP3je2LuPuJbVTy8e4tphdy8FiWaHaiA8EXWPhuo_-mz-AE0hWYguZXy67Gf5E0bLjiSuVe_5_2MSSuHxvemPv8Cw-cBw5ZMqH18cGKIV7e10f4KA_hqFv01rt4q_0srYn3IWOoGzR6BmZFEiuA0bW8HhNvE--RWMLH8YNNp4Gf1uoxwSNdHa9gYRANPTwKFyV5g2Tw9yOQK1YZfilTYySdsf0v4GFCAF6kJMKjvXLHcr43Fp4gbYHppzY4I9YQdTedMg-cbYqMvjcef9AN-z3tqVgaVmWRkg9zZEFRcxi2vHcsXE76PQz4waUETEt9qEarcWOGExG1H469kU9XAJdvr559q9Fu02wxh4wt8lvQu123HxxnT6HsFFWS9E3ARxlDskD8wa15yQSnGSf88QPXgfB-KhOzRf7Fpvnojw7cN6gfjhd%22%5D&azt=AFoagUUZO69J7Ey0oYdJHwcMW62osw5rSw%3A1584205572008&cookiesDisabled=false&deviceinfo=%5Bnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%5D&gmscoreversion=undefined&checkConnection=youtube%3A303%3A0&checkedDomains=youtube&pstMsg=1&

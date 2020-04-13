@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"byLKxOm3Sw99sP1OqeiG7A","count":1,"shopId":431782,"categoryId":15727888,"hid":15727888,"feeShow":"OTNDnItfwRO6zrnlRDZCBrCe0U3WgxZOT09HOQLucHcBUb0zh94uYzTrV3uzm1PVHZbKaFkg8JsIxYXJjqaZVJKWfgiJXLSVxZSnj-_KehvvjW0mugn_tkHjBhAuoDTiW8FQM28ZNtCE6Ov2tZHEVPOdalvBkYA8obZQPkQ4w1g,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrCe0U3WgxZOT09HOQLucHcBUb0zh94uYzTrV3uzm1PVHZbKaFkg8JsIxYXJjqaZVJKWfgiJXLSVxZSnj-_KehvvjW0mugn_tkHjBhAuoDTiW8FQM28ZNtCE6Ov2tZHEVPOdalvBkYA8obZQPkQ4w1g,","price":{"value":160,"currency":"RUR"},"vendorId":10797969,"feedId":475690,"feedOfferId":"637707.000248.0710065/2","promocode":"promo_1percent_in_hid15727888_for_1p_if_hid15720045_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Iberica Оливки с косточкой в рассоле, жестяная банка 420 г","skuId":"198679424","slug":"iberica-olivki-s-kostochkoi-v-rassole-zhestianaia-banka-420-g"}]}],"path":"/pricedrop"}

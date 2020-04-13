@@ -1,0 +1,9 @@
+POST https://foodband.ru/api?call=promoactions/conditions/check
+Accept application/json, text/javascript, */*; q=0.01
+Referer https://foodband.ru/sety/
+Sec-Fetch-Dest empty
+X-Requested-With XMLHttpRequest
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded; charset=UTF-8
+
+json=%7B%22dishes%22%3A%5B%5D%2C%22dishSets%22%3A%5B%7B%22name%22%3A%22%D0%9F%D0%B8%D1%86%D1%86%D0%B0+%D1%81%D0%B5%D1%82%22%2C%22number%22%3A0%2C%22dishSetId%22%3A27%2C%22totalDiscountAmount%22%3A0%2C%22qty%22%3A1%2C%22forPoints%22%3Afalse%7D%2C%7B%22name%22%3A%22%D0%9A%D0%BE%D0%BA%D0%B0-%D0%9A%D0%BE%D0%BB%D0%B0+%D0%91%D0%A3%D0%9C!%22%2C%22number%22%3A1%2C%22dishSetId%22%3A36%2C%22totalDiscountAmount%22%3A0%2C%22qty%22%3A1%2C%22forPoints%22%3Afalse%7D%5D%2C%22prizeId%22%3Anull%2C%22currentPrize%22%3Anull%2C%22promocode%22%3A%22%22%2C%22promocodeId%22%3Anull%2C%22promoactionId%22%3Anull%2C%22promoactionName%22%3Anull%2C%22prizeCount%22%3A1%2C%22customerId%22%3A0%2C%22phone%22%3A%22%22%2C%22customerName%22%3A%22%22%2C%22payMethodId%22%3Anull%2C%22personsCount%22%3A0%2C%22postponed%22%3Afalse%2C%22timePlan%22%3Anull%2C%22changeAmount%22%3A0%2C%22totalClearAmount%22%3A2655%2C%22discountPercentOnOrder%22%3A0%2C%22address%22%3A%7B%22id%22%3A0%2C%22cityId%22%3Anull%2C%22addressText%22%3Anull%7D%2C%22remark%22%3A%22%22%2C%22costDelivery%22%3Anull%7D

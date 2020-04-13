@@ -1,0 +1,19 @@
+POST https://xapi.supercharge-srp.co/job-search/employerRelatedJobs/graphql?country=hk
+:method POST
+:authority xapi.supercharge-srp.co
+:scheme https
+:path /job-search/employerRelatedJobs/graphql?country=hk
+content-length 297
+sec-fetch-dest empty
+x-employer-id 10004-null
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+accept */*
+origin https://hk.jobsdb.com
+sec-fetch-site cross-site
+sec-fetch-mode cors
+referer https://hk.jobsdb.com/hk/en/job/temporary+administrative+assistant+summer+job-100003007698880
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"query":"{\n      jobs(country: \"hk\",accNums: 10004){ \n        total\n        queryParameters {\n          key\n          searchFields\n        }\n        jobs {\n          id\n          jobTitle\n          jobUrl\n          postingDuration\n          jobTitleSlug\n        }\n      }\n    }"}

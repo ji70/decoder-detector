@@ -1,0 +1,7 @@
+POST https://bam.eu01.nr-data.net/events/1/91d3f19a9b?a=16405072&v=1167.2a4546b&to=MhBSZQoZDUEABRUMXAtacVIMEQxcThYTClcQFkQ%3D&rst=5585&ref=https://www.perekrestok.ru/catalog/alkogol/konyak-i-konyachnye-napitki/konyak/konyak-star-ken-kv-ros-40-0-5l--529562
+Referer https://www.perekrestok.ru/catalog/alkogol/konyak-i-konyachnye-napitki/konyak/konyak-star-ken-kv-ros-40-0-5l--529562
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+bel.6;e,'fp,pn,;e,'fcp,pn,;e,'fi,1sf,2;5,'type,'pointerdown;6,'fid,50.;e,'lcp,1a1,2;6,'size,34505.;5,'eid;e,'unload,4b5,

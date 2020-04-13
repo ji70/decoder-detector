@@ -1,0 +1,85 @@
+POST https://pedigree.progenygenetics.com/progenyrpcservice.html
+X-GWT-Module-Base https://pedigree.progenygenetics.com/progeny/
+X-GWT-Permutation C22D7639A28BE3483964317318797AAA
+Sec-Fetch-Dest empty
+Referer https://pedigree.progenygenetics.com/
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/x-gwt-rpc; charset=UTF-8
+
+7|2|9|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|proLogJavascriptError|com.objex.gwt.client.ProgenyException/1450606761|I|Uncaught exception: com.google.gwt.event.shared.UmbrellaException: Exception caught: (NetworkError) 
+ stack: Error: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://pedigree.progenygenetics.com/progenyrpcservice.html?ACTION=LOGOUT&uid=1667563205&X-XSRF-Cookie=1667563205&nocache=0.9800571340506481': Synchronous XHR in page dismissal. See https://www.chromestatus.com/feature/4664843055398912 for more details.
+    at synchronousLogout (https://pedigree.progenygenetics.com/:476:17)
+    at qEi (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:25697:39)
+    at YGe (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:28116:49)
+    at ZGe.kHe [as Km] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33875:22340)
+    at icd (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:6492:21)
+    at lcd.mcd [as Mf] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33863:21485)
+    at lcd.tS [as Kf] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33860:11134)
+    at SY (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:6139:20)
+    at ZY (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:32981:213)
+    at dZ (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:11744:18)
+ __gwt$exception: <skipped>
+ INDEX_SIZE_ERR: 1
+ DOMSTRING_SIZE_ERR: 2
+ HIERARCHY_REQUEST_ERR: 3
+ WRONG_DOCUMENT_ERR: 4
+ INVALID_CHARACTER_ERR: 5
+ NO_DATA_ALLOWED_ERR: 6
+ NO_MODIFICATION_ALLOWED_ERR: 7
+ NOT_FOUND_ERR: 8
+ NOT_SUPPORTED_ERR: 9
+ INUSE_ATTRIBUTE_ERR: 10
+ INVALID_STATE_ERR: 11
+ SYNTAX_ERR: 12
+ INVALID_MODIFICATION_ERR: 13
+ NAMESPACE_ERR: 14
+ INVALID_ACCESS_ERR: 15
+ VALIDATION_ERR: 16
+ TYPE_MISMATCH_ERR: 17
+ SECURITY_ERR: 18
+ NETWORK_ERR: 19
+ ABORT_ERR: 20
+ URL_MISMATCH_ERR: 21
+ QUOTA_EXCEEDED_ERR: 22
+ TIMEOUT_ERR: 23
+ INVALID_NODE_TYPE_ERR: 24
+ DATA_CLONE_ERR: 25
+ code: 19: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://pedigree.progenygenetics.com/progenyrpcservice.html?ACTION=LOGOUT&uid=1667563205&X-XSRF-Cookie=1667563205&nocache=0.9800571340506481': Synchronous XHR in page dismissal. See https://www.chromestatus.com/feature/4664843055398912 for more details.<br> at Unknown.Jv(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@31)<br> at Unknown.qw(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@29956)<br> at Unknown.Mv(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@25)<br> at Unknown.at(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@27747)<br> at Unknown.$s(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@60)<br> at Unknown.ht(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@21)<br> at Unknown.mt(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@21)<br> at Unknown.CZ(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@19)<br> at Unknown.new GZ(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@19)<br> at Unknown.FY(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@114)<br> at Unknown.Mbd(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@26)<br> at Unknown.Vbd(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@46)<br> at Unknown.wu(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@38)<br> at Unknown.Cu(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@90)<br> at Unknown.anonymous(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@54)<br> at Unknown.onbeforeunload(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@23866)<br>Caused by: com.google.gwt.core.client.JavaScriptException: (NetworkError) 
+ stack: Error: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://pedigree.progenygenetics.com/progenyrpcservice.html?ACTION=LOGOUT&uid=1667563205&X-XSRF-Cookie=1667563205&nocache=0.9800571340506481': Synchronous XHR in page dismissal. See https://www.chromestatus.com/feature/4664843055398912 for more details.
+    at synchronousLogout (https://pedigree.progenygenetics.com/:476:17)
+    at qEi (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:25697:39)
+    at YGe (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:28116:49)
+    at ZGe.kHe [as Km] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33875:22340)
+    at icd (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:6492:21)
+    at lcd.mcd [as Mf] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33863:21485)
+    at lcd.tS [as Kf] (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:33860:11134)
+    at SY (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:6139:20)
+    at ZY (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:32981:213)
+    at dZ (https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html:11744:18)
+ __gwt$exception: <skipped>
+ INDEX_SIZE_ERR: 1
+ DOMSTRING_SIZE_ERR: 2
+ HIERARCHY_REQUEST_ERR: 3
+ WRONG_DOCUMENT_ERR: 4
+ INVALID_CHARACTER_ERR: 5
+ NO_DATA_ALLOWED_ERR: 6
+ NO_MODIFICATION_ALLOWED_ERR: 7
+ NOT_FOUND_ERR: 8
+ NOT_SUPPORTED_ERR: 9
+ INUSE_ATTRIBUTE_ERR: 10
+ INVALID_STATE_ERR: 11
+ SYNTAX_ERR: 12
+ INVALID_MODIFICATION_ERR: 13
+ NAMESPACE_ERR: 14
+ INVALID_ACCESS_ERR: 15
+ VALIDATION_ERR: 16
+ TYPE_MISMATCH_ERR: 17
+ SECURITY_ERR: 18
+ NETWORK_ERR: 19
+ ABORT_ERR: 20
+ URL_MISMATCH_ERR: 21
+ QUOTA_EXCEEDED_ERR: 22
+ TIMEOUT_ERR: 23
+ INVALID_NODE_TYPE_ERR: 24
+ DATA_CLONE_ERR: 25
+ code: 19: Failed to execute 'send' on 'XMLHttpRequest': Failed to load 'https://pedigree.progenygenetics.com/progenyrpcservice.html?ACTION=LOGOUT&uid=1667563205&X-XSRF-Cookie=1667563205&nocache=0.9800571340506481': Synchronous XHR in page dismissal. See https://www.chromestatus.com/feature/4664843055398912 for more details.<br> at Unknown.synchronousLogout(https://pedigree.progenygenetics.com/@17)<br> at Unknown.qEi(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@39)<br> at Unknown.YGe(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@49)<br> at Unknown.kHe(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@22340)<br> at Unknown.icd(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@21)<br> at Unknown.mcd(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@21485)<br> at Unknown.tS(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@11134)<br> at Unknown.SY(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@20)<br> at Unknown.ZY(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@213)<br> at Unknown.dZ(https://pedigree.progenygenetics.com/progeny/C22D7639A28BE3483964317318797AAA.cache.html@18)<br>|1|2|3|4|5|6|2|7|8|7|9|9|1667563205|

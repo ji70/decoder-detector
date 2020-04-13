@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/phoenix-framework
+Sec-Fetch-Dest empty
+X-CSRF-Token hDu/sszG1qLZ6jWrkeKKIO349hyUYktctm8DkuikGGShitBqhoUZPWxOXaDGDrtRP+rZIiXhCYaHiiFUEGlz4g==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"phoenix-framework"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

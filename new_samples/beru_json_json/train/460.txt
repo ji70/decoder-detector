@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/catalog/avtoakustika/76922/list?hid=308016
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=f271f3f3bb29aa91&rand=hljvdc&sj=kQ3jur609E_qI5YFl8fQXtYZ1S5F50Ro3AmwXGmfH2bodDIe0QRqSd1kIKfWJ5zA572WNs8OSLk6M0a45-xMFnogK8Z-ZS8nEuYdjLId5w%3D%3D&lts=fdixuve&p5=hiknl&pr=linjdpr&p1=chjwo&rqs=SIcQs01B_l2udG5eoMJsPzFDW6hpbKlx&pm=b&p2=goyr"},{"url":"https://ads6.adfox.ru/264672/event?hash=f3a0c8c8f8132662&rand=hodidfw&sj=TnpT-44fy8ZWqslM4aSzSsgDu3duK6plHTHfXGOfGvUozRfDKH2PpNdsTt8SCAg05Bnd3xCy-a_8TjG6b5T3tg4tv7U45IT05K52rO536g%3D%3D&lts=fdixuve&p5=hpsht&pr=linjdpr&p1=cixlj&rqs=SIcQs01B_l2udG5em9mjfdxGqxmHmT_f&pm=b&p2=grzq"}],"path":"/catalog/avtoakustika/76922/list?hid=308016"}

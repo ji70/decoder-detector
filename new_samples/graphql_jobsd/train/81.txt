@@ -1,0 +1,8 @@
+POST https://xapi.supercharge-srp.co/job-search/employerRelatedJobs/graphql?country=hk
+Referer https://hk.jobsdb.com/hk/en/job/android+framework+developer-100003007700493
+Sec-Fetch-Dest empty
+X-Employer-Id 2586-null
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"query":"{\n      jobs(country: \"hk\",accNums: 2586){ \n        total\n        queryParameters {\n          key\n          searchFields\n        }\n        jobs {\n          id\n          jobTitle\n          jobUrl\n          postingDuration\n          jobTitleSlug\n        }\n      }\n    }"}

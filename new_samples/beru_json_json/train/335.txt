@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Host beru.ru
+Connection keep-alive
+Content-Length 2120
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=77d57f291297a93ac1d1adab20bf45fc%2C31d3c4121a435118244aa4eb694042e2%2Ce55b480cbe074e1a168fbee56b6847b0%2Cdd7f483991d36163b2a1baeb46aeefc8%2Ccf9e73727b19068d68d2d7116b8869ba; last-loaded-page-id=blue-market%3Alist
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"rTIjI_EZv1mdQXfaGklRFA","count":1,"shopId":431782,"categoryId":12943735,"hid":12943735,"feeShow":"OTNDnItfwRO6zrnlRDZCBrAVHI-o4y3wxOZhKnco7XnRO6jUYuRbwj3AfKljNI4Wncwfc1JQHku6Ace0aYxtDz-Z4YlidCZPxqDVISGy1IpNu5EZTXGZftbfljZIboH5XDGOTmVyNvuHO23AKUjW9l0qgEE1jhHdq6s3kFjXGas,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrAVHI-o4y3wxOZhKnco7XnRO6jUYuRbwj3AfKljNI4Wncwfc1JQHku6Ace0aYxtDz-Z4YlidCZPxqDVISGy1IpNu5EZTXGZftbfljZIboH5XDGOTmVyNvuHO23AKUjW9l0qgEE1jhHdq6s3kFjXGas,","price":{"value":100,"currency":"RUR"},"vendorId":13041588,"feedId":475690,"feedOfferId":"570782.R237137","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgX6hCVepfzz8e69n8O7z1x1bV3R4FwYMnT8YHbRTZIOj1R0DDSiV_3SkqCc5NaqEAzLrZINzPgSTxGYctIm4kOQBA6omMryvd3MbNWvSUZ1MXY6mvUQlKlDG79qv3YC3FvAdR7VOCY-wnf4-Wl7rXIsd9CGhqcIpATD60SMMPbmPxkIbf1bBLDrpCsK8c2obkIVcdtI8ArYU-JoWJteKJKYq_KKLmiBs22WklYkK-78W1FBEBpWGelemA8is804B8kjRw87upK72zcLH_M4E1N_1sQ47VRs6imGfqPeEdAHAeLnqLVg0gXpEliCTWE4_O_gPckXHAdCCv3OarA2XVX8eGnV-nnX4nxdzIcwba2De2_6osC9xYZicr0y6DaeAhrg62OlkmB-PWrd2U3-O25UGOL3i5QCjda2_GbfZuZJAIoiYzmq_r4M-otumQznwXZxJY18xoMdXDrRYqKTt8lWvzfHRuAnOgD22Tjq9nZ8Y7hns2DmmXrmJBtI906vwSYcixh4K0Dk3hzgpXQpr-AMkCOJ6l0wudyTRrfRX5yudum2WU_nSzPo6oaNBsI8-xEBw_rg2I8hc1hyjnuuJ5MjXqvb5Dk3Y7Owm9IOd9wE9ZflBNISXgg_xOv75A6sWeipPCJBQiXVg-lq9GKO23oI-MrdLC9vj7C-v_dDcx0CPpe-O4j2E4NY827KLzMMM5TPZCjVRI37vqXl3-FuVAL13vwVcJRuqExmtyRqWDeWW47IyyQ7g2kyP2o6SRYfx5hn-U2TNslbp9CxLHDopwQaibXtnyc9Gt6b5xhLU94RNlKGWQi-pVTDoEaIqZS7TyvH4oCjcGjSh8iioU4-eLRbbR5uLuyKuTssmIpgMSY7ljtntyvHEdnM2aPAkOXonHfBGG-JysMwnTvabFRQf_cwG1a3CHUvk8j6sJLq14crtZk3HAaj6xE7qZIHoJn9Jw-rTuvxpaVTtxmaefo_6AC2y_GxKBmnrPVoREYf13Sb2kUnuMM3ZI4ozXm0eOddePv54IMurj7-WYuPCexek4bmKGsPNzsdE6bxICbRtGeGCCQnjuEmJj5hhVi4_-2Gedaaow5iyaWx8sModNnAYmkNPc4y0BRtPmEpoeMd54G6IMn3AayTQGHTeWyV37vPNhAEUJkbhle3VJBGZxfDeKA7LNVkafn0wuObk7XNn7nBipkAgiS-b198,/b64e=1/sign=c6b9fa5d09572c44afc43bb0919ac930/keyno=1/*","name":"Скребок ROZENBAL Celeste голубой","skuId":"100788515731","slug":"skrebok-rozenbal-celeste-goluboi"}]}],"path":"/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735"}

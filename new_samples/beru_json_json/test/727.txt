@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=checkout/resolveActualizedCartGroup:resolveActualizedCartGroup
+Referer https://beru.ru/my/cart
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"carts":[{"id":"431782_171_true","shopId":431782,"items":[{"feedId":475690,"feedOfferId":"598852.000056.12580000","offerId":"r90Opt8OILKpzGEKfYWW6g","feeShow":"OTNDnItfwRO6zrnlRDZCBn_IRZc_rJn3TouBHMaTr_IIXnhp00IpYnBxv3MlOhEELjPDXQbWWksbWPkS0lmMcZb_WpSEc9DdRL7k9z_wturLsDe-i7fR4M5tW-xYQ_4f9hibbAu9urlGF9H5hmnZayOGasFUDc5uRqFhNKx7DyI,","price":{"value":4502,"currency":"RUR"},"userLastSeenPrice":{"value":4739,"currency":"RUR"},"count":1,"label":"c2snrqh4bzq","cartItemGroupId":"c2snrqh4bzq"}],"delivery":{"regionId":213},"recipient":{},"brokenData":{"regionId":false}}]}],"path":"/my/cart"}

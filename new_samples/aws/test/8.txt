@@ -1,0 +1,7 @@
+POST https://fls-na.amazon.com/1/batch/1/OE/
+Referer https://www.amazon.com/ap/signin?openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0&openid.mode=checkid_setup&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=amzn_aws_training&openid.return_to=https%3a%2f%2fwww.aws.training%2fAuthPortal%2fResponse%3fReturnUrl%3d%252f%26clientContext%3d0k51hkm2ymdnkzec1l4smutz&openid.pape.max_auth_age=1200&pageId=awstraining_global_ap&language=en_US&clientContext=0k51hkm2ymdnkzec1l4smutz
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+{"rid":"WAH22S30VT2GKH90861Z","sid":"133-9005428-2761447","mid":"ATVPDKIKX0DER","sn":"www.amazon.com","reqs":[{"cel":{"k":"unr_mcm","t":34938,"dt":5.83,"x":389,"y":301,"p":"//*[@id='a-autoid-0']","n":"SPAN","i":"a-autoid-0","c":["a-button","a-button-span12","a-button-primary"]}},{"cel":{"k":"res_mcm","t":41550,"m":4}},{"csm":{"k":"chk","f":3,"l":{"csmcount":14,"csm":4,"cap-ciba":1,"cel":2},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":471}}]}

@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/postgresql
+Sec-Fetch-Dest empty
+X-CSRF-Token dvlB8rGTG/MGqLSypgFT9A36Xcjj8L6o91nRj9dtjUsG/WW/S7qClp8p4jhP+F5pxQ/eerNpoD1iLquF8+A10w==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"postgresql"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

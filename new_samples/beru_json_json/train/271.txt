@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/my/cart
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"url":"https://ads6.adfox.ru/264672/event?hash=5ac2c0ae6e95cdbf&rand=eiervyi&sj=q9nNtjnoXQlnHDsQEDPbQu9_S5F8x6sik3LfJpMQIUzUeRYlCapeoMrcq48hTV3qs_sXjIDVAJ6Uo2rfG46o4aAwLKNYbN4Hg6JythFkFQ%3D%3D&lts=fdixvgk&p5=hqicx&pr=gjdsrei&p1=cjaab&rqs=SIcQs01B_l3SdW5eJvxwxYS4KEDSrhoe&pm=b&p2=gpsz"}],"path":"/my/cart"}

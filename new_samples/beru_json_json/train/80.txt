@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cms/resolveDataFromGarson:resolveDataFromGarson
+Referer https://beru.ru/catalog/bytovaia-tekhnika/79807?hid=198118
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"resources":{"garsons":[{"params":{"data":[{"p2":"gpsz","pp":"g","entity":"bannerMeta","provider":"adfox","id":77749049},{"p2":"gpsz","pp":"h","entity":"bannerMeta","provider":"adfox","id":77901693}]},"id":"MediaSet"}]},"limit":2}],"path":"/catalog/bytovaia-tekhnika/79807?hid=198118"}

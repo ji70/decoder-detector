@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/graphql
+Sec-Fetch-Dest empty
+X-CSRF-Token tVO0PrJWMZlSCpvdKy0Sk1awY3ruG4BsHCb3eWntgijFV5BzSH+o/MuLzVfC1B8OnkXgyL6CnvmJUY1zTWA6sA==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"trackViews","variables":{"decisionIds":["101581720978247157","101031322436242738","101221613263986211","102493621731402213","101031322416246058","101221631128279046"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

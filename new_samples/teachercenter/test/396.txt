@@ -1,0 +1,9 @@
+POST https://teachercenter.withgoogle.com/support_ell/rest/analytics
+Accept text/plain, */*; q=0.01
+Referer https://teachercenter.withgoogle.com/support_ell/unit?unit=5&lesson=8
+Sec-Fetch-Dest empty
+X-Requested-With XMLHttpRequest
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded; charset=UTF-8
+
+request=%7B%22xsrf_token%22%3A%221584205755%2F4OXVn9fEQmwp_RKbQGrsdw%3D%3D%22%2C%22payload%22%3A%7B%22event%22%3A%22Support+English+Language+Learners-Making+School+Accessible-Empowering+Specialist+Staff+to+Work+with+ELLs%22%7D%7D

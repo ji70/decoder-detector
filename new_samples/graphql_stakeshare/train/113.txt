@@ -1,0 +1,20 @@
+POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 161
+accept */*
+sec-fetch-dest empty
+x-csrf-token KJ3ndYWMPcWFccIBBFi61DtaA1Z+3mbxvLNEyO6Nji5YmcM4f6WkoBzwlIvtobdJ86+A5C5HeGQpxD7CygA2tg==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/optimizely
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU0NjI4OTQsImV2ZW50SWQiOjE2MSwiaWRlbnRpZnlJZCI6NTgsInNlcXVlbmNlTnVtYmVyIjoyMTl9; _stackshare_production_session=qpItbGBrWtjCFj3vUgX7aw%2B8UIoK%2F7iKYpXCYo0uSOun5IhYsyHRpMM3H8BhWqQlWWo4RaIYr3WflZ9nuWFMmWjPpuhrVfncDmmzLfqNjdEy2RuZ9A472UdE83F0jtoU7Lot2nkZWqeCBmB3TcArp4kIu2UyklU2p2yGw307UwffhuHsZjJKt06cAJetGmXFTBC4Q4uqM43hpyojJFUUFmeDZiqeBM7UlKWaLlswTgX2qAdnSdOAgTmLcACmtU%2F%2BT9YXTPQyz7MyXp%2Fy4kkvlc0W%2B8IbTa23KDSBDlCb%2FTp2S4d4oOwjnJIImayhfKPcNegRyEeXt%2BugXgi9rKFURl68vI3GKC%2Fx4puwXG8WKxVZG0o0iwmfjVeu%2FTzcoXOPAxibg44NjjGtrpHpfp9gWaYvOLYl%2BZ28ujvZKmjPHP0Oa6IPO%2B9I%2FkAtMJqFhmG8n58mNI%2BKDLQX2nt75U1gDywySinAdb0GYEjcAHe64wePqNScnl%2F8ZVgdcJdFnn0d5pVXLik5CtSwl%2FnkEd26RVm8hsmI4eMiYJowNuKU34j5ik28fLDl3dS03lgNY%2FtyrsT3Rsjh%2Fux5Ef8zObmm%2BXfzzzGPhe2MrmfUY0XJqNEV--0UmCmBSQ1t1SFt95--MmqXZJsCzGCb4PK4%2F6S3Zg%3D%3D
+
+{"operationName":"trackViews","variables":{"decisionIds":[]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

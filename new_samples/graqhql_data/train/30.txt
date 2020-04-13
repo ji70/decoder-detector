@@ -1,0 +1,9 @@
+POST https://www.coursera.org/graphqlBatch
+accept */*
+referer https://www.coursera.org/browse/health/health-informatics
+sec-fetch-dest empty
+r2-app-version 419e5e7320689cf1806e68022d493fa73179d80e
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+[{"operationName":"DomainSubdomainQuery","variables":{"domainSlug":"health","subdomainSlug":"health-informatics"},"query":"query DomainSubdomainQuery($domainSlug: String!, $subdomainSlug: String!) {\n  DomainsV1Resource {\n    slug(slug: $domainSlug) {\n      elements {\n        ...DomainFragment\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  SubdomainsV1Resource {\n    slug(slug: $subdomainSlug) {\n      elements {\n        ...SubdomainFragment\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment DomainFragment on DomainsV1 {\n  description\n  displayColor\n  id\n  name\n  slug\n  keywords\n  backgroundImageUrl\n  subdomains {\n    elements {\n      ...SubdomainFragment\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment SubdomainFragment on SubdomainsV1 {\n  id\n  domainId\n  slug\n  name\n  description\n  __typename\n}\n"}]

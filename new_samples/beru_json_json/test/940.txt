@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=checkout/resolveActualizedCartGroup:resolveActualizedCartGroup
+Host beru.ru
+Connection keep-alive
+Content-Length 1046
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/my/cart
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=3ccee3d615c6098fe4ec632242ead7c4%2C4a3b906bef3f42bf613bba9d4ae5758e%2C4ce07b8c1f31ff21219042979ed95621%2C36480ca9c5c6f679aa771025adc619c9%2Ced54de6cf5da0e568bef5e29767ac7b9; last-loaded-page-id=blue-market%3Acart
+
+{"params":[{"carts":[{"id":"431782_172_true","shopId":431782,"items":[{"feedId":475690,"feedOfferId":"637707.000248.1540024","offerId":"FOD6DzaXvPTzORLeBmQo4w","feeShow":"OTNDnItfwRO6zrnlRDZCBvdnefN2ZRGS4Iz1sAGFfhmwr4Uy09Vc9QkMiiRNnx4r8AxXdzQCF5ev4euDtPWSovZzOpiuoRn3IIA6k9WMHONQHG9dXeYJ4gHl6v1uhWF0oXDDt8IGIBfx1UDB66Nm7PksX5y4mXmipoMdRmPIAV8,","price":{"value":109,"currency":"RUR"},"userLastSeenPrice":{"value":135,"currency":"RUR"},"count":1,"label":"mglx90z6wyt","cartItemGroupId":"mglx90z6wyt"},{"feedId":475690,"feedOfferId":"637707.000308.3046920027281","offerId":"YRjMvbb79C28SiUZlnfNiA","feeShow":"8c0JGR0bBFXcl2YUmxG-aBb7B4OWdNDSgQLlhuqVrNHFJA7pICCMbzrghCyetYoDbaP8HFLARLGTzTvz2AcIm5uJeM2pWJbieM4lhQTdtdKTo75xun7nmlF3rnIRJFOXx9uyHoHDFaVKzPjshSimFBV9njwEDu5qpVggtue0NKkhvkukyuiXeg,,","price":{"value":169,"currency":"RUR"},"userLastSeenPrice":{"value":169,"currency":"RUR"},"count":1,"label":"lg2t0r8ba18","cartItemGroupId":"lg2t0r8ba18"}],"delivery":{"regionId":213},"recipient":{},"brokenData":{"regionId":false}}]}],"path":"/my/cart"}

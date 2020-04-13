@@ -1,0 +1,7 @@
+POST https://api.mindbox.ru/v1.1/customer/track-visit?version=0.45.68&transport=beacon
+Referer https://www.perekrestok.ru/catalog/skidki-mesyatsa/ryba-ikra-moreprodukty
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+requestUrl=https%3A%2F%2Fwww.perekrestok.ru%2Fcatalog%2Fskidki-mesyatsa%2Fryba-ikra-moreprodukty&referrerUrl=https%3A%2F%2Fwww.perekrestok.ru%2Fcatalog%2Fskidki-mesyatsa%3Fpage%3D2%26sort%3Drate_desc&ianaTimeZone=Europe%2FMoscow&session.deviceGuid=f1f16901-6755-4437-952d-469764d63869&originDomain=www.perekrestok.ru&screenResolution=1920x1080

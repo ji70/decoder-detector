@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://horoscopes.rambler.ru/dizain-cheloveka/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+et=extln&pid=213403&rid=1584109070.851-1268271370&tid=t1.2553558.487024757.1584108088625&v=1.8.0&extln=https%3A%2F%2Fnews.rambler.ru%2F%3Futm_source%3Dhoroscopes%26utm_campaign%3Dself_promo%26utm_medium%3Dtopline%26utm_content%3Dnews_media&sp=%5B%22new%22%5D

@@ -1,0 +1,17 @@
+POST https://kraken.rambler.ru/cnt/
+Host kraken.rambler.ru
+Connection keep-alive
+Content-Length 322
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded;charset=UTF-8
+Accept */*
+Origin https://horoscopes.rambler.ru
+Sec-Fetch-Site same-site
+Sec-Fetch-Mode cors
+Referer https://horoscopes.rambler.ru/longread/43829950-lyubovnyy-goroskop-na-nedelyu-16-22-marta-babochki-v-zhivote-zaporhayut-vnov/
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie ruid=AAAAADiSa15NmFCTAUtGKQB=; _gcl_au=1.1.652827739.1584108088; dvr=gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA:1584108088; top100_id=t1.2553558.487024757.1584108088625; _gk=GA1.2.1028060141.1584108089; _gk_gid=GA1.2.1011882599.1584108089; proto_uid=1CIAADiSa15sB9gBAWtDiwB=; user-id_1.0.5_lr_lruid=pQ8AADmSa16CKjnHAVLx1AA%3D; _ym_uid=1584108089101375433; _ym_d=1584108089; user-id_1.0.5_FingerPrint=pA8AAGsis1e42Qy5AXDwIwA%3D; sspjs_2.28.0_af_lpdid=%7B%22DATE%22%3A1584108088870%2C%22ID%22%3A%2224%3A1593380472%22%7D; uuts=4vrJyJwNezB7nFqzHg9237nb7XU7AKr9; _ym_wasSynced=%7B%22time%22%3A1584108088898%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; rambler_3rdparty_v2=; _ym_isad=2; _ym_visorc_27744069=w; c8980c62834072c480df58741f1fd039393df9aaea5446dbb1dd2187750209fe_2=AAAAADiSa15NmFCTAUtGKQB%3D; _gid=GA1.2.788234636.1584108218; _ym_visorc_26649402=b; _ym_visorc_25662845=b; _ym_visorc_30260347=b; _ym_visorc_27440552=b; _ym_visorc_140541=w; detect_count=0; _ym_visorc_11431643=w; _ga_K96QL47Q5H=GS1.1.1584108333.1.1.1584108342.0; _ga=GA1.2.2047023648.1584108218; chash=765775076; __gads=ID=62ccf082bc97c5d1:T=1584108474:S=ALNI_MZ33Inlc-LYWHtXhhMAXIDBZ6GvMw; _ym_visorc_44184634=w; _ym_visorc_44184749=w; _ym_visorc_36085315=w; _ym_visorc_40633735=w; _ym_visorc_26557758=w; _ym_visorc_29581275=w; _ym_visorc_48779969=w; sts=0.1584108089.1.1584108089.2.1584108089.3.1584108089.4.1584108089.https:.1584109081; _ym_visorc_36855860=w; _ym_visorc_45572427=w; _ym_visorc_44184864=w; _ym_visorc_44184889=w; _ym_visorc_259479=w; _gat=1; _ym_visorc_28161048=b; last_visit=1584098341004::1584109141004; _ym_visorc_25662806=b; _ym_visorc_250894=w; lvr=1584109152; _ym_visorc_222078=w
+
+et=cl&pid=213403&rid=1584109152.72-844365307&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22horo%3A%3Alongread%3A%3Acluster_news%3A%3Amenu_top%3A%3A%5Cu041b%5Cu0443%5Cu043d%5Cu043d%5Cu044b%5Cu0439%20%5Cu043a%5Cu0430%5Cu043b%5Cu0435%5Cu043d%5Cu0434%5Cu0430%5Cu0440%5Cu044c%3A%3Anot_current%22%5D&sp=%5B%22new%22%5D

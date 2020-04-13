@@ -1,0 +1,22 @@
+POST https://teachercenter.withgoogle.com/digital_citizenship/answer
+:method POST
+:authority teachercenter.withgoogle.com
+:scheme https
+:path /digital_citizenship/answer
+content-length 846
+cache-control max-age=0
+origin https://teachercenter.withgoogle.com
+upgrade-insecure-requests 1
+content-type application/x-www-form-urlencoded
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest document
+accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site same-origin
+sec-fetch-mode navigate
+sec-fetch-user ?1
+referer https://teachercenter.withgoogle.com/digital_citizenship/unit?unit=16&assessment=18
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie _ga=GA1.3.770855944.1584205568; _gid=GA1.3.233185570.1584205568; SACSID=~AJKiYcF-5P6Mk5XAy2AT27qynQX0xGyyoMi4RVmTrK7b_fTR9-1w9u4vegeUUT9QA11VdhXzmFHXuPOZYJvYAlIw1sspS2U9Mw_AdnFYq6ebHfajT8StLhRyiDiGaMfBDx_0UDCWuEDKtNjdjNn2iRPpx8raOeS3Fjz772gd2eRnQnfXSyOhWBs4JVa9qtuIBQ7XGekZ-Xg9eJsi0Lxk8l6Y5yZUoMyhYoPqXxtDnAtmZiooB39yeLqc-l4RVNoFOWbVaNlVtgsLa8oxtMPjV_BsSq3llIcBBmv5YryAE6cnmnvtV7C8gzLz-DQW6_DrLmVBvEUZqrLV; _gat_UA-64000824-2=1
+
+assessment_type=18&score=0.00&answers=%7B%22version%22%3A%221.5%22%2C%22individualScores%22%3A%7B%22MO1GuZMg8a37%22%3A%5B0%2C0%2C0%2C0%2C0%5D%7D%2C%22containedTypes%22%3A%7B%22MO1GuZMg8a37%22%3A%5B%22McQuestion%22%2C%22McQuestion%22%2C%22McQuestion%22%2C%22McQuestion%22%2C%22McQuestion%22%5D%7D%2C%22answers%22%3A%7B%22MO1GuZMg8a37%22%3A%5B%5B%5D%2C%5B%5D%2C%5B1%5D%2C%5B2%5D%2C%5B2%5D%5D%7D%2C%22MO1GuZMg8a37%22%3A%7B%22MO1GuZMg8a37.0.5649952705347584%22%3A%5Bfalse%2Cfalse%2Cfalse%2Cfalse%5D%2C%22MO1GuZMg8a37.1.5766596232478720%22%3A%5Bfalse%2Cfalse%2Cfalse%2Cfalse%5D%2C%22MO1GuZMg8a37.2.5704837555552256%22%3A%5Bfalse%2Ctrue%2Cfalse%2Cfalse%5D%2C%22MO1GuZMg8a37.3.5722383033827328%22%3A%5Bfalse%2Cfalse%2Ctrue%5D%2C%22MO1GuZMg8a37.4.5740087962763264%22%3A%5Bfalse%2Cfalse%2Ctrue%5D%7D%7D&xsrf_token=1584205626%2FDnOMySBtAokV_Io81mRxYg%3D%3D

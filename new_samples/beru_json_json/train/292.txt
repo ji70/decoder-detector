@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=whiteMarket:resolveReferenceOffersByMarketSku&r=skuCard/skuWithDefaultOffer:resolveSkuInfo&r=wishlist/resolveWishlistByReference:resolveWishlistByReference&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/product/chai-chernyi-greenfield-earl-grey-fantasy-v-paketikakh-25-sht/100405226573?show-uid=15842974029349414011106006&offerid=ZGlGqR5iR4HrBmwCnAYizw
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"skuId":"100405226573"},{"skuId":"100405226573","visibleEntityId":"wqpgfxdubaj"},{"references":[{"referenceEntity":"sku","referenceId":"100405226573"}]},{"url":"https://ads6.adfox.ru/264672/event?hash=7b4f0aeac89e97fc&rand=npxivar&sj=PtVasx6rb_uxZ_GEPk209wgvkfLuR7dwtRggDUvU1UmhQndouWHP_46wQjy70L131BNpejhYoA_x47nQuMI_UTgGlvAG9UGpfz0TqT5oaw%3D%3D&utg=oxum&lts=fdixvfx&p5=hphzs&pr=lnqwfpn&p1=chsvz&rqs=SIcQs01B_l3FdW5eIKwxa04Eo8Mf_Tty&pm=b&p2=goyr"}],"path":"/product/chai-chernyi-greenfield-earl-grey-fantasy-v-paketikakh-25-sht/100405226573?show-uid=15842974029349414011106006&offerid=ZGlGqR5iR4HrBmwCnAYizw"}

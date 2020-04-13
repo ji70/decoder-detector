@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Host beru.ru
+Connection keep-alive
+Content-Length 391
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/catalog/svechi-zazhiganiia/76784/list?hid=14696956
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=ed54de6cf5da0e568bef5e29767ac7b9%2C304106110fb2706866b61bf54e09c0f2%2C0a58c7479fcf91ab827e885ff4e8b13c%2C7267770c308fe3e1a0fd163c65732f41%2Ce98524b29d3ca3b42448367314079742; last-loaded-page-id=blue-market%3Alist
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=ea710db468c15a09&rand=gyvanbp&sj=LojAaDhF5ic1Evu-1DzoQTNc5rcljPHl-L0kA4V34TwfTMurXMGwG6INWZuwiPlxr-Krt2z_vtq0OQ_OvAJY3nLt37IWfVCj3lheH-JESQ%3D%3D&utg=oxum&lts=fdixusp&p5=hphzs&pr=bwyessu&p1=chjwo&rqs=SIcQs01B_l1rdG5eRL9aLx5URg2q8EwE&pm=b&p2=goyr"}],"path":"/catalog/svechi-zazhiganiia/76784/list?hid=14696956"}

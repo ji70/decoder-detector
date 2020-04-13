@@ -1,0 +1,18 @@
+POST https://beru.ru/api/resolve/?r=threshold/resolveThresholdForCartItemsDeprecated:resolveThresholdForCartItemsDeprecated
+Host beru.ru
+Connection keep-alive
+Content-Length 2011
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/catalog/pylesosy/16334403/list?hid=16302535
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; parent_reqid_seq=ae2e1cd9f4c45643123239007580cdf6%2C5c2aaeb97ef6d8927d110b5c483d1826; last-loaded-page-id=blue-market%3Alist
+
+{"params":[{"result":[129996957,129996990],"collections":{"cartItem":{"129996957":{"id":129996957,"objId":"NeVL7FmEkFZltEk26P2Q-A","shopId":431782,"count":1,"fee":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_4FkeomeMOy4kvr4UlsHaWHlMdhgixIj1AtjZ4nFBw7WKY1DRgN2Mssb4wdIreqo9oHARU81x0Mt1x2Y4df5WYNMxmegsHWfeAe-HlE3HowgLMQyVeUy1Jvt2W_NZXi0OM,","feeShow":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_4FkeomeMOy4kvr4UlsHaWHlMdhgixIj1AtjZ4nFBw7WKY1DRgN2Mssb4wdIreqo9oHARU81x0Mt1x2Y4df5WYNMxmegsHWfeAe-HlE3HowgLMQyVeUy1Jvt2W_NZXi0OM,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_4FkeomeMOy4kvr4UlsHaWHlMdhgixIj1AtjZ4nFBw7WKY1DRgN2Mssb4wdIreqo9oHARU81x0Mt1x2Y4df5WYNMxmegsHWfeAe-HlE3HowgLMQyVeUy1Jvt2W_NZXi0OM,","marketSku":"100624206292","hid":16302535,"name":"Пылесос VITEK VT-8105 черный/фиолетовый/серебристый","price":{"value":4290,"currency":"RUR"},"label":"08v3a7n15v9b","slug":"pylesos-vitek-vt-8105-chernyi-fioletovyi-serebristyi","isExpired":false,"creationTime":1584296830000,"cartId":-1},"129996990":{"id":129996990,"objId":"5MEw5U6C-1pU-zMx126DDA","shopId":431782,"count":1,"fee":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_70NC6eZ943ROOJbz4Hj33I8VXSikRR8WODgxpuw1CTQNa7R3w80B1WCfTzbxEiSI4f3zkiNDH11kPYRvZrEqO8bfI4mlu-vjIi8RL9CFKSjcQaDO0kVb1_ZmNicTL92y0,","feeShow":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_70NC6eZ943ROOJbz4Hj33I8VXSikRR8WODgxpuw1CTQNa7R3w80B1WCfTzbxEiSI4f3zkiNDH11kPYRvZrEqO8bfI4mlu-vjIi8RL9CFKSjcQaDO0kVb1_ZmNicTL92y0,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBmyfD_Ga42b9IXrOrZF18_70NC6eZ943ROOJbz4Hj33I8VXSikRR8WODgxpuw1CTQNa7R3w80B1WCfTzbxEiSI4f3zkiNDH11kPYRvZrEqO8bfI4mlu-vjIi8RL9CFKSjcQaDO0kVb1_ZmNicTL92y0,","marketSku":"100726283731","hid":16302535,"name":"Пылесос VITEK VT-8127 красный/черный","price":{"value":3590,"currency":"RUR"},"label":"wnejza2gi1d","slug":"pylesos-vitek-vt-8127-krasnyi-chernyi","isExpired":false,"creationTime":1584296834000,"cartId":-1}}}}],"path":"/catalog/pylesosy/16334403/list?hid=16302535"}

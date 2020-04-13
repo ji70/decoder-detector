@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://kassa.rambler.ru/msk/movie/100237
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+et=extln&pid=2553558&rid=1584108212.656-1688670327&tid=t1.2553558.487024757.1584108088625&v=1.8.0&extln=https%3A%2F%2Fnews.rambler.ru%2F%3Futm_content%3Dnews_media%26utm_medium%3Dtopline%26utm_source%3Dkassa

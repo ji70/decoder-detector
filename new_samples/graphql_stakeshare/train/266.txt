@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/phonegap
+Sec-Fetch-Dest empty
+X-CSRF-Token aYPNBpDUuMeXS2E1Dx1f3xIQ24PaWmjgpqxR8x5BpexMMqLe2pd3WCLvCT5Y8W6uwAL0vWvZKjqXSXM15ozOag==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"phonegap"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

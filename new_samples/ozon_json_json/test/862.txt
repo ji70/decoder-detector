@@ -1,0 +1,19 @@
+POST https://www.ozon.ru/api/tracker.bx/v2/composer_events
+:method POST
+:authority www.ozon.ru
+:scheme https
+:path /api/tracker.bx/v2/composer_events
+content-length 2025
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type text/plain;charset=UTF-8
+accept */*
+origin https://www.ozon.ru
+sec-fetch-site same-origin
+sec-fetch-mode no-cors
+referer https://www.ozon.ru/category/sport-i-otdyh-11000/?text=%D1%81%D0%BD%D0%BE%D1%83%D0%B1%D0%BE%D1%80%D0%B4&from_global=true&page=4
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie visid_incap_1101384=OeCTJmWDSnu/yWvHgBnf1VnheV4AAAAAQUIPAAAAAADuHhkKsuOF1PFF7P1cXoTy; nlbi_1101384=dVADX9rG6HqVglO5B/dZHAAAAAClA/HHK5nYUeq3BwaEKcKf; incap_ses_584_1101384=hjeEYRfEehLLvGyrXskaCFnheV4AAAAASUroFTdTmWeFrxaJMZ/g2g==; access_token=1ZZTvsGV3e4fFK2omxJCAFvKw14; refresh_token=Z66mQ-1dT-4uRDsZuzvMCmVbaKnWjev-e5lhibNs8MoDXSK0hlqh4fztisaDraoXGHk8sfFsPYQg5JHqOtZGgX-I0JcrtPt2DElAL9IcQp9YMXG96LToiVIqiqPffY_L5BcYILUecKxFe3A6UxsUFgGazRD-VpdLKhbesYY6iTtOMBIJVBHDD6YNalHdlenKoNZb6PC63OJKvvqIcXzpAs-puRiSlZpb2m0-kokgYDFvRJAGbDJGW8__B09mssVHloHk61ev8rZq9x9F0pXNAx3smj_UbTynuGScxzFtDcSOrV7uK0p_fKEL6UM-6mwpwMRL7cMS2w6SpTa7DtZikpRF08mg5XXo5a8Ub2xzH6JJHZDgj9QEf4a3sGa4kdSM1V88W7eh7Zc6v_KNile_Y-sdn1kJLh70m0YQkHvX9TyqVxJRRlLVJPpyElaiw1gx; abGroup=14; SessionID=8L2KWhlNSeW7UtiBqPprVw; xcid=dc9085bddb50d8ea3135b03ac5c5ba9c; _gcl_au=1.1.41392409.1585045852; _ga=GA1.2.1168629906.1585045852; _gid=GA1.2.765866889.1585045852; _fbp=fb.1.1585045852569.510968641; __exponea_etc__=897be87a-6dba-11ea-b7f9-56424f7b597d; __exponea_time2__=-0.0008437633514404297; tmr_lvid=fc968a59bf01b9c961762099d8cc7b56; tmr_lvidTS=1585045852961; flocktory-uuid=cd772c38-88e9-4f96-b9cc-09b1cdb6bc92-8; __sonar=2996538032026784294; userId=0; token_expiration="2020-03-24T15:30:49.7876905+03:00"; tmr_detect=0%7C1585046209691; _gat_UA-37420525-1=1; tmr_reqNum=163
+
+{"events":[{"attributes":{"app_version":"2.0.0","device_type":"desktop","namespace":"bx","platform":"site","screen_resolution_x":1920,"screen_resolution_y":1080},"page":{"category_id":11000,"current":"category","current_url":"/category/sport-i-otdyh-11000/?from_global=true&page=4&text=%D1%81%D0%BD%D0%BE%D1%83%D0%B1%D0%BE%D1%80%D0%B4","page_view_id":"92ec96bf-f211-4b52-960a-5a76a4b799a7","previous":"category","previous_page_view_id":"aab376e7-750c-449f-9cd3-30ace7cf7435","referral_url":"https://www.ozon.ru/category/sport-i-otdyh-11000/?text=%D1%81%D0%BD%D0%BE%D1%83%D0%B1%D0%BE%D1%80%D0%B4&from_global=true&page=3","layout_id":3526,"layout_version":61,"rule_id":2836},"special":true,"timestamp":"2020-03-24 13:36:45 +0300","user":{"ab_group":14,"client_id":0,"experiments":"219:221,318:439,320:443,326:485,327:483,328:480,338:550,339:555,345:569,346:570,347:573,349:577","google_id":"GA1.2.1168629906.1585045852","latitude":55.755814,"long_cookie":"dc9085bddb50d8ea3135b03ac5c5ba9c","longitude":37.617634,"region_id":2,"session_id":"8L2KWhlNSeW7UtiBqPprVw"}},{"action_type":"increment","composer":{"cell":{"index":139,"type":"product","id":161632583,"title":"Сноуборд BF snowboards Techno","availability":1,"price":11314,"finalPrice":6061,"deliverySchema":"Retail","marketplaceSellerId":0,"category":"Спортивные товары/Зимний спорт/Сноуборды и аксессуары/Сноуборды","brand":"BF snowboards","brandId":142599004,"availableInDays":0,"freeRest":3,"discount":46,"marketingActionIds":[11113523397090,11008828885490],"isPersonalized":false,"advId":"","deliveryTimeDiffDays":-1,"isSupermarket":false,"isPromotedProduct":false,"link":"/context/detail/id/161632583/","sellerId":0,"stock":1,"quantity":1,"totalQuantity":2}},"number":112,"timestamp":"2020-03-24 13:37:45 +0300","uuid":"0ad80e10-9a02-43ba-b87b-65c08f7b87f9","version":"2","widget":{"type":"catalog","name":"catalog.searchResultsV2","id":311201,"revision_id":291120,"config_revision_id":0,"index":27}}]}

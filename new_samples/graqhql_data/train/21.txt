@@ -1,0 +1,9 @@
+POST https://www.coursera.org/graphqlBatch
+accept */*
+referer https://www.coursera.org/degrees/master-of-computer-science-asu/student-experience
+sec-fetch-dest empty
+r2-app-version 9fc8bae0b6328f2c2c2f137b823da61d410f961f
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+[{"operationName":"membershipQuery","variables":{"userId":"20430477"},"query":"query membershipQuery($userId: String!) {\n  ProgramMembershipsV2Resource {\n    byUser(userId: $userId) {\n      elements {\n        id\n        enterpriseProgram {\n          id\n          thirdPartyOrganizationId\n          browsingExperience {\n            id\n            browsingExperience\n            __typename\n          }\n          metadata {\n            slug\n            name\n            description\n            endedAt\n            launchedAt\n            curriculumId\n            __typename\n          }\n          __typename\n        }\n        membershipState\n        programId\n        createdAt\n        userId\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  DegreeLearnerMembershipsV1Resource {\n    byUser(userId: $userId) {\n      elements {\n        id\n        createdAt\n        degreeId\n        role\n        degree {\n          id\n          name\n          slug\n          internalLaunchType\n          supportEmailAddress\n          partnerIds\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n  ProgramSwitcherSelectionsV1Resource {\n    get(id: $userId) {\n      id\n      selectionType\n      programId\n      degreeId\n      __typename\n    }\n    __typename\n  }\n}\n"}]

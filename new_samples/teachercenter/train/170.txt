@@ -1,0 +1,19 @@
+POST https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j81&tid=UA-64000824-2&cid=449827449.1584110046&jid=1265517784&gjid=1807533391&_gid=2060883829.1584110046&_u=QACAAMAACAAAAC~&z=465407607
+:method POST
+:authority stats.g.doubleclick.net
+:scheme https
+:path /j/collect?t=dc&aip=1&_r=3&v=1&_v=j81&tid=UA-64000824-2&cid=449827449.1584110046&jid=1265517784&gjid=1807533391&_gid=2060883829.1584110046&_u=QACAAMAACAAAAC~&z=465407607
+content-length 0
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type text/plain
+accept */*
+origin https://teachercenter.withgoogle.com
+sec-fetch-site cross-site
+sec-fetch-mode cors
+referer https://teachercenter.withgoogle.com/first-day-trainings/welcome-to-csfirst
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie IDE=AHWqTUlFYpmxOpEFNo9uYeIyY7TipKbagEth-r9wOtDBQU46zpUylqDwWcxBR7mJ
+
+undefined

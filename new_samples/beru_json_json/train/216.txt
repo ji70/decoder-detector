@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"2CT1jKpk_O18Fz5_6ZAfjQ","count":1,"shopId":431782,"categoryId":13776946,"hid":13776946,"feeShow":"OTNDnItfwRO6zrnlRDZCBqA04sJ-8LpQ9y8yVOy-6oX1Mi0rRHUtWPPK_ZkIBG6_K14PMewW3LJX4rUXCm8S1NnBC4wL7H94kw0ZUjLWRLSts_e0Rok_RhKybGkw5OwSWDZ67PYDgIKbiPOGmcH2AD1TeNhTkXU35qufDO494OU,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBqA04sJ-8LpQ9y8yVOy-6oX1Mi0rRHUtWPPK_ZkIBG6_K14PMewW3LJX4rUXCm8S1NnBC4wL7H94kw0ZUjLWRLSts_e0Rok_RhKybGkw5OwSWDZ67PYDgIKbiPOGmcH2AD1TeNhTkXU35qufDO494OU,","price":{"value":1901,"currency":"RUR"},"vendorId":10713597,"feedId":475690,"feedOfferId":"493303.000037.T3044","promocode":"promo_14percent_in_hid13776946_for_1p_if_hid13792950_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Набор для пикника Green Glade T3044, 26 предметов серебристый","skuId":"100603423895","slug":"nabor-dlia-piknika-green-glade-t3044-26-predmetov-serebristyi"}]}],"path":"/pricedrop"}

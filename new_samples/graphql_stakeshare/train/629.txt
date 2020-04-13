@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/bugsnag
+Sec-Fetch-Dest empty
+X-CSRF-Token EAG23BpN9rwMRh7rDx4no9posH2VuxkHgzYrmyonOyZgBZKR4GRv2ZXHSGHm5yo+Ep0zz8UiB5IWQVGRDqqDvg==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"contactBySlug","variables":{"id":"bugsnag"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

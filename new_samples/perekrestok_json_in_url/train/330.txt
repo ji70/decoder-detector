@@ -1,0 +1,17 @@
+POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
+Host api.mindbox.ru
+Connection keep-alive
+Content-Length 261
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+Accept */*
+Origin https://zoo.perekrestok.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode no-cors
+Referer https://zoo.perekrestok.ru/catalog/tovary-dlya-jivotnyh/hills
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie deviceUUID=f1f16901-6755-4437-952d-469764d63869
+
+originDomain=zoo.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.CategoryView.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22viewProductCategory%22%3A%7B%22productCategory%22%3A%7B%22ids%22%3A%7B%22website%22%3A%222785%22%7D%7D%7D%7D

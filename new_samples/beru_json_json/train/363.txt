@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=threshold/resolveThresholdForCartItemsDeprecated:resolveThresholdForCartItemsDeprecated
+Referer https://beru.ru/catalog/smazki/76752/list?hid=90489
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"result":[130001967],"collections":{"cartItem":{"130001967":{"id":130001967,"objId":"BZF2luDgsLDyWA6wyqLpFA","shopId":594677,"count":1,"fee":"OTNDnItfwRO6zrnlRDZCBix-ULHk-Bmt58Au16EDgdiO1yhsH_9W3j4N78_sX931SdGljy7ij79xGOuxLYx89WwKuaFgMJPlKmDgLR_Rc0J55eEjn9huuubO3XQV2yd2EazwYepIhRV9ZKpbRaoHswjucYEDL0eCHCJoGvfqZgY,","feeShow":"OTNDnItfwRO6zrnlRDZCBix-ULHk-Bmt58Au16EDgdiO1yhsH_9W3j4N78_sX931SdGljy7ij79xGOuxLYx89WwKuaFgMJPlKmDgLR_Rc0J55eEjn9huuubO3XQV2yd2EazwYepIhRV9ZKpbRaoHswjucYEDL0eCHCJoGvfqZgY,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBix-ULHk-Bmt58Au16EDgdiO1yhsH_9W3j4N78_sX931SdGljy7ij79xGOuxLYx89WwKuaFgMJPlKmDgLR_Rc0J55eEjn9huuubO3XQV2yd2EazwYepIhRV9ZKpbRaoHswjucYEDL0eCHCJoGvfqZgY,","marketSku":"100782767913","hid":90489,"name":"Автомобильная смазка WD-40 Средство универсальное 0.1 л","price":{"value":179,"currency":"RUR"},"label":"9zre9s6wmmv","slug":"avtomobilnaia-smazka-wd-40-sredstvo-universalnoe-0-1-l","isExpired":false,"creationTime":1584297380000,"cartId":71502047}}}}],"path":"/catalog/smazki/76752/list?hid=90489"}

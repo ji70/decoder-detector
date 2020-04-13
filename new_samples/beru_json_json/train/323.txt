@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility&r=adfox/resolveAdfoxBannerVisibility:resolveAdfoxBannerVisibility
+Referer https://beru.ru/catalog/sergi/17429354/list?hid=91275
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"url":"https://ads6.adfox.ru/264672/event?hash=55df14053e25f97b&rand=jhhnlzp&sj=nOb-fm_x-IR5K6icLNNij4RXUzTiy72edifyKvuSNGS6iD4QibBBBeRYAb97iiyt9eB7x80wxSRghzZRL0ugjgPB0C1hrQRDIMiDgyVmFA%3D%3D&utg=oxum&lts=fdixvas&p5=hphzs&pr=btfhvxo&p1=chjwo&rqs=SIcQs01B_l0-dW5eu6hUrxM6-ozs3AH-&pm=b&p2=goyr"},{"url":"https://ads6.adfox.ru/264672/event?hash=df5ddfc31f92cc20&rand=kgnswxe&sj=WzOpNmKaPOB38Rj9EsCu-20Gy82bs_G1crf9AMsPUzy1ud50x-0aszvZc4Brtp9ijf02Scjt17I21M0ZUqoMcl3OmYClXxJST4m3jvfVHw%3D%3D&lts=fdixvat&p5=hpsht&pr=btfhvxo&p1=cixlj&rqs=SIcQs01B_l0_dW5et41jL16KeL1VmJIu&pm=b&p2=grzq"}],"path":"/catalog/sergi/17429354/list?hid=91275"}

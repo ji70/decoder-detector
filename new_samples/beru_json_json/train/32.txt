@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=threshold/resolveThresholdForCartItemsDeprecated:resolveThresholdForCartItemsDeprecated
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"result":[130003703],"collections":{"cartItem":{"130003703":{"id":130003703,"objId":"julN_GX-5Ko-uBEinnZDKQ","shopId":431782,"count":1,"fee":"OTNDnItfwRO6zrnlRDZCBjpRzJMB8YPzXJhiJaftP6aQWhtgRQjFgDmZrD7yW4s-cUQi71dFKilfUCP-dcpRAvvwmakHylYuPBYWGoTtcJ12AgbGy3kWTFxZmKiVkamOk6u760-g7DQMg__qILCs_YG7_whmzluGQEOPGbFK85Q,","feeShow":"OTNDnItfwRO6zrnlRDZCBjpRzJMB8YPzXJhiJaftP6aQWhtgRQjFgDmZrD7yW4s-cUQi71dFKilfUCP-dcpRAvvwmakHylYuPBYWGoTtcJ12AgbGy3kWTFxZmKiVkamOk6u760-g7DQMg__qILCs_YG7_whmzluGQEOPGbFK85Q,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBjpRzJMB8YPzXJhiJaftP6aQWhtgRQjFgDmZrD7yW4s-cUQi71dFKilfUCP-dcpRAvvwmakHylYuPBYWGoTtcJ12AgbGy3kWTFxZmKiVkamOk6u760-g7DQMg__qILCs_YG7_whmzluGQEOPGbFK85Q,","marketSku":"100414412289","hid":15714106,"name":"Ореховые истории Урбеч Кокос тертый 300 г","price":{"value":373,"currency":"RUR"},"label":"h48eoirlbjj","slug":"orekhovye-istorii-urbech-kokos-tertyi-300-g","isExpired":false,"creationTime":1584297568000,"cartId":71502047}}}}],"path":"/pricedrop"}

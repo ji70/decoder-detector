@@ -1,0 +1,20 @@
+POST https://railwire.co.in/tarrifs-and-plans.php
+Host railwire.co.in
+Connection keep-alive
+Content-Length 20
+Cache-Control max-age=0
+Origin https://railwire.co.in
+Upgrade-Insecure-Requests 1
+Content-Type application/x-www-form-urlencoded
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Sec-Fetch-Dest document
+Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode navigate
+Sec-Fetch-User ?1
+Referer https://railwire.co.in/tarrifs-and-plans.php
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie _ga=GA1.3.1689628677.1585124426; _gid=GA1.3.1071129721.1585124426; PHPSESSID=i3atvrpp507gb99dfoe6q9c0u6
+
+state12345=NQ%3D%3D+

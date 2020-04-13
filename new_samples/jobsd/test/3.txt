@@ -1,0 +1,17 @@
+POST https://api-iam.intercom.io/messenger/web/ping
+:method POST
+:authority api-iam.intercom.io
+:scheme https
+:path /messenger/web/ping
+content-length 442
+content-type application/x-www-form-urlencoded
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+accept */*
+origin https://hk.jobsdb.com
+sec-fetch-site cross-site
+sec-fetch-mode cors
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+app_id=o7zrfpg6&v=3&g=5beeba9dc1914c591fb079ed7f3cee14a5cd61e8&s=b3250a2d-6a9e-4983-98cc-3edb6109ac3b&i=&r=&platform=web&Idempotency-Key=7192e197d94687c9&user_data=%7B%22Environment%22%3A%22Discover%22%7D&internal=%7B%7D&page_title=jobsDB%20%E2%80%93%20Hong%20Kong's%20no.%201%20jobs%2C%20employment%2C%20career%20and%20recruitment%20site&user_active_company_id=undefined&source=apiBoot&sampling=false&referer=https%3A%2F%2Fhk.jobsdb.com%2Fhk

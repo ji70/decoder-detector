@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/feed
+Sec-Fetch-Dest empty
+X-CSRF-Token PZ2KlCrTU8lak+JBtskZPsKIEhfDOdO4UL5lOCWVUgakkQgTPDi/hFKzzgzOEd/CNTMKE59hYGPowpTY6feomA==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"feedContext","variables":{"objectType":"user","objectSlug":""},"query":"query feedContext($objectType: String!, $objectSlug: String!) {\n  objectInfo(objectType: $objectType, objectSlug: $objectSlug) {\n    ... on Company {\n      id\n      name\n      features {\n        slug\n        __typename\n      }\n      __typename\n      imageUrl\n      canonicalUrl\n      path\n      tags {\n        id\n        name\n        __typename\n      }\n    }\n    ... on User {\n      id\n      displayName\n      __typename\n      imageUrl\n      path\n      title\n      companyName\n    }\n    ... on Tool {\n      id\n      name\n      __typename\n      imageUrl\n      canonicalUrl\n      following\n      category {\n        name\n        slug\n        __typename\n      }\n      layer {\n        name\n        slug\n        __typename\n      }\n      function {\n        name\n        slug\n        __typename\n      }\n    }\n    ... on Layer {\n      id\n      name\n      __typename\n    }\n    ... on Function {\n      id\n      name\n      __typename\n    }\n    ... on Category {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n}\n"}

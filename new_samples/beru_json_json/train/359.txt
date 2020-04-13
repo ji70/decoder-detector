@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=whiteMarket:resolveReferenceOffersByMarketSku&r=skuCard/skuWithDefaultOffer:resolveSkuInfo&r=wishlist/resolveWishlistByReference:resolveWishlistByReference
+Referer https://beru.ru/product/uvlazhnitel-vozdukha-proffi-ph8749-belyi-korichnevyi/100320285770?show-uid=15842971032928497121706012&offerid=t-z5wpYNhxNwQSCe2xHouQ
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"regionId":213},null,{"skuId":"100320285770"},{"skuId":"100320285770","visibleEntityId":"pmmryhn860b"},{"references":[{"referenceEntity":"sku","referenceId":"100320285770"}]}],"path":"/product/uvlazhnitel-vozdukha-proffi-ph8749-belyi-korichnevyi/100320285770?show-uid=15842971032928497121706012&offerid=t-z5wpYNhxNwQSCe2xHouQ"}

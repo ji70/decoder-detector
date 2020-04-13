@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"julN_GX-5Ko-uBEinnZDKQ","count":1,"shopId":431782,"categoryId":15714106,"hid":15714106,"feeShow":"OTNDnItfwRO6zrnlRDZCBjpRzJMB8YPzXJhiJaftP6aQWhtgRQjFgDmZrD7yW4s-cUQi71dFKilfUCP-dcpRAvvwmakHylYuPBYWGoTtcJ12AgbGy3kWTFxZmKiVkamOk6u760-g7DQMg__qILCs_YG7_whmzluGQEOPGbFK85Q,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBjpRzJMB8YPzXJhiJaftP6aQWhtgRQjFgDmZrD7yW4s-cUQi71dFKilfUCP-dcpRAvvwmakHylYuPBYWGoTtcJ12AgbGy3kWTFxZmKiVkamOk6u760-g7DQMg__qILCs_YG7_whmzluGQEOPGbFK85Q,","price":{"value":351,"currency":"RUR"},"vendorId":14875695,"feedId":475690,"feedOfferId":"637707.000439.4620767921583","promocode":"promo_6percent_in_hid15714106_for_1p_if_hid90401_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Ореховые истории Урбеч Кокос тертый 300 г","skuId":"100414412289","slug":"orekhovye-istorii-urbech-kokos-tertyi-300-g"}]}],"path":"/pricedrop"}

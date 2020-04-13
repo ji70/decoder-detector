@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://news.rambler.ru/community/43839342-shnurov-napisal-maternoe-stihotvorenie-pro-prodazhnogo-navalnogo/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
+
+et=extln&pid=127846&rid=1584108457.08-779679764&tid=t1.2553558.487024757.1584108088625&v=1.8.0&extln=https%3A%2F%2Fapi.rnet.plus%2F%2FService%2FTeaserClicked%3Fblock_id%3D271%26teaser_id%3D217101%26user_id%3D53408685-bc44-b568-1d68-dd3a5b77c847%26u%3Dtrue%26count_jump%3Dtrue%26orig_url%3Dhttps%253A%252F%252Fex.24smi.info%252Ftop%252Fin%252F2781373%252F1302%252F%253Fi%253D11087%2526utm_medium%253Dcpc%2526r%253DgAAAAABea5OryKGuend1D9a4mF-267WZ3oxUY6hqo_8inu9wBV9FVZeEpz86tXx1EgAd7LYVzDmm2nUerLmLMRSzwIUe5qfdDQ%25253D%25253D%2526h%253D661c2ca890dbaabd0b09be783df71b34%2526utm_source%253D1302&sp=%5B%22desktop%22%5D

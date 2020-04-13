@@ -1,0 +1,21 @@
+POST https://accounts.google.com/_/signin/sl/challenge?hl=ru&_reqid=172382&rt=j
+:method POST
+:authority accounts.google.com
+:scheme https
+:path /_/signin/sl/challenge?hl=ru&_reqid=172382&rt=j
+content-length 2961
+x-same-domain 1
+sec-fetch-dest empty
+google-accounts-xsrf 1
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/x-www-form-urlencoded;charset=UTF-8
+accept */*
+origin https://accounts.google.com
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://accounts.google.com/signin/v2/sl/pwd?continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2F&service=ah&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie NID=200=Aj9g8pgASWruvalnSP_IuiyWhYgp_UBjXvXXtjLb8C7dlwXUNjQ2njjPZPYx9keDODrtBSCVKYp0WmJyWpK3vHRu9X3Yw2vF1g1PTxX1uNr4xUBtWwN6b7cK7v_cB89qUy-BTwfA3llLKmkhq2J-C0tygkr9VJgvAIS5ewV3Wpc; GAPS=1:eksjzu3KMm9OtVQqQvMjvO_PVNQdhw:DjylbUabwCa7SKtz
+
+continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2F&service=ah&rip=1&f.req=%5B%22AEThLlyPDbfvHapxSlS7xKCKgR1EAI5dUiQWz6gXvo-X3AQoW1ZDa1_4DYYgOeJXVCn-QGGFBXWSP1sgdH1-9n5wgQsG623AEnolf6AA--C3KPHgqGJRD6AFCKVj4xTHGg4UlqY1_SRqMMTtVFADYFv49KZqlZMuPdGjc1Wxa77283NNkTfHECzkvF3E8wLO9mG32fbSmjYhNtveGqxzFYQXgpZ6VPBbVjaFHlfc6YHH0Cydfg4mpqci61ETHGUHnSW9aN9FnkeTkO4G0aOceiBiCkt_jnrcE4KZaj-K0sPfeBoD4GvXg5Ae7HrFazE2iv9rPMObno7hFnvbRI4FTNiaukmmslZgADYlOcpHClyplUzdJlW1bgY8ekIy8ZWX_MsCuWs6qkAGS6l3ZUaH6-xLPPJL1yIrxu88Ataab57zNqMqNrtdwQ6wJnAN52So-7K3tByS8AgJ2FYE9Jf-DvIQ7h_4cywdWO2PRjUXj-XVDcqzPA8c-Pg1PxjKGu_9Xf8p-TmT3qm9eosZwFE5X6Par6ohxPs-EAW9BOAS9LuvSTtq_6tmQOS-66fMYoFuDgo__N5_wD7L2KNyf4oIhLltjTvm5S6z_3wkAlVaBbuoiPEYTjrgG_cgc-BaoJlWm3FzjSDhRXyKE0Anj8pnWIxQOn_mNsd9Jg%22%2Cnull%2C1%2Cnull%2C%5B1%2Cnull%2Cnull%2Cnull%2C%5B%22sefr32tg%22%2Cnull%2Ctrue%5D%5D%2C%5Bnull%2Cnull%2C%5B2%2C1%2Cnull%2C1%2C%22https%3A%2F%2Faccounts.google.com%2FServiceLogin%3Fcontinue%3Dhttps%253A%252F%252Fappengine.google.com%252F_ah%252Fconflogin%253Fcontinue%253Dhttps%253A%252F%252Fteachercenter.withgoogle.com%252F%26service%3Dah%26sacu%3D1%26rip%3D1%22%2Cnull%2C%5B%5D%2C4%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5B%5D%5D%2C1%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%2Cnull%2Cnull%2Cnull%2Ctrue%2Cnull%2Cnull%2Cnull%2Cnull%2C%22anharusp%22%5D%5D&bgRequest=%5B%22identifier%22%2C%22!np2lnbxC5HVg9S7mqsxY4bePBgReWO0CAAAAhVIAAAAWmQIiZbhQDDCmu9Lm3FcyZmdYgOp1rCxS-NbtOa0fhmitfS74fS70g7T3BjvXrn4E73-lDF44zu5Wi1Xyd29D7gwFl03tyqI-XPNmDOgKPoEzsYRnS3oPdpwOGJ_51CSE58_5jQoSblyKqvpqAQzKdw9Jhb1Oezk3_t5rk007049MVT7Ac_z_SxabtZ_OzJmWnkxJAuIqnb3BrA8YQ0ExuHIrsVY8VsvTuvDwgwnU7bT4w7y9c79pDzfDQ5U9M2ooicUtbrdzuiog4bdl350fBtofpkZJFnCmO9moLL85LX4vchnQxTIv3DZV6Od7xagQO3YMV7xJGs7gODIduFfcVs3kpO_nSrMwBfZLyTLa4yhSIr43pYGNqy0dTP9xRnxf0A4cpQ9rPtx6FlNKfzDzbwQZKzgENuWcMGGbHYz7sIi1lQU_KwTdBcXAQH93J-ODtXim86IjRHlGtYoE4AV5Enuq9zJ__mTCP7t43qzk8frtBG02urAMTaibNvJqMuaBmB4puVvOiRIjZI75XDZLSGKNEZjgZ4tPDiD8LLSwkk9KngyemrxvW8Wq9JtsMOAEqGSaf5KE3NmPzy_ta9fP3GstbsVHvS2r6gLaOJO5N0aVYOAW8MC5nDdV9t9DDygphggF6ymwpWNuams7BIk7vAYHrcmZhZTIv5piwjjNA_DwGCqXygFpDmMultNRmDwzbRy0UoIrnvEDopETcu9vdO76MPyu%22%5D&bghash=ckq-BLGbg480ujf2K0UQ2zQDu-BvCo9Xhy5fyHAuIG0&azt=AFoagUUZO69J7Ey0oYdJHwcMW62osw5rSw%3A1584205572008&cookiesDisabled=false&deviceinfo=%5Bnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%5D&gmscoreversion=undefined&checkConnection=youtube%3A303%3A0&checkedDomains=youtube&pstMsg=1&

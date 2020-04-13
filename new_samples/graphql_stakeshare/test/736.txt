@@ -1,0 +1,20 @@
+POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 181
+accept */*
+sec-fetch-dest empty
+x-csrf-token FTqaHPCHQqRVySPfi2AHipXwUoV7DlqWKgmEJ56eIYQwi/XEusSNO+BtS9TcjDb7R+J9u8qNGEwb7KbhZlNKAg==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/numpy
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; _gali=stp-services; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODY3MDg1OTgsImV2ZW50SWQiOjQ1LCJpZGVudGlmeUlkIjoyMywic2VxdWVuY2VOdW1iZXIiOjY4fQ==; _stackshare_production_session=e6vdbYRPTYsw%2BG9H96LmuvqcDLIKyEuSJF82XRpIa2hf4t7kvrsE8c6uuu6%2F%2BMbRd4%2Bwal9InsN%2BGEDHgNwvuOjpuP1xhEXBqiIW2PMdTUvonPDE5lcvtmwT76MgcLF2Z46BNVNsW36jFngfyDpxEzENsKSfD1d62ECgM7ONgqgZdyx4Km%2BVTcO50eh1orfWGVaMB5HAbJ53FSxRLcUuVrKGr0Mj9UqMoDm0DAzj0oUu8Q%2FZGSbcxao9C0QoMyHqPfIqxjfPfM%2Ba%2FF5J3qi6t1sD%2B7M%2F%2FUl2U3oCaEyg8NQRYSaUPoikJDaAAjM4us2A9cCAYemzt2bcerjwxyOhLO8IlIE3yg8Syt5PjITUfitSfUKzGRslUK1i8SgYUOhytNdKfIMQc8HEBxCYjVZTNAgHaBQzBROoRRVV6gefzmzKERUrhDKtMFyM6UJ9VBFFrlfCh2XdzqHCqfJ6yW%2F4U4nn7NUIfJq34fav9FPt9Vse61N8GJQDEbkXkvVcEG3zaaT%2FbLRx%2FRvJZD3oYTPeTqMj%2BVWEXrQoOQQy4c0%3D--PXr3X8f8jpSkfcAl--GDRm0FsGhMMggASS1MYIvg%3D%3D
+
+{"operationName":"trackViews","variables":{"decisionIds":["101743683161514279"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

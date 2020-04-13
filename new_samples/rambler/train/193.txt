@@ -1,0 +1,7 @@
+POST https://kraken.rambler.ru/cnt/
+Referer https://horoscopes.rambler.ru/taurus/
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/x-www-form-urlencoded;charset=UTF-8
+
+et=cl&pid=213403&rid=1584109015.284-1521515987&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22horo%3A%3Azodiac%3A%3Aothers%3A%3Amid_menu%3A%3A%5Cu0417%5Cu0430%5Cu0432%5Cu0442%5Cu0440%5Cu0430%22%5D&sp=%5B%22new%22%5D

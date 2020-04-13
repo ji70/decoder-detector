@@ -1,0 +1,9 @@
+POST https://graphql.stackshare.io/graphql
+accept */*
+Referer https://stackshare.io/feed
+Sec-Fetch-Dest empty
+X-CSRF-Token fdP3OxiPPKNtB3EiKy3K61JXNEI18GTDl0UXxQrW5/9YYpjjUszzPNijGSl8wfuagEUbfIRzJhmmoDUD8huMeQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"leaderboards","variables":{},"query":"query leaderboards {\n  leaderboards {\n    name\n    items {\n      decisionsCount\n      rank\n      ... on Company {\n        slug\n        name\n        path\n        imageUrl\n        __typename\n      }\n      ... on Tool {\n        name\n        slug\n        imageUrl\n        __typename\n      }\n      ... on User {\n        username\n        displayName\n        imageUrl\n        title\n        companyName\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

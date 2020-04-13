@@ -1,0 +1,18 @@
+POST https://xapi.supercharge-srp.co/job-search/graphql?country=hk&isSmartSearch=false
+:method POST
+:authority xapi.supercharge-srp.co
+:scheme https
+:path /job-search/graphql?country=hk&isSmartSearch=false
+content-length 1628
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+accept */*
+origin https://hk.jobsdb.com
+sec-fetch-site cross-site
+sec-fetch-mode cors
+referer https://hk.jobsdb.com/hk/jobs/information-technology/1
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"query":"{\n    jobs(country: \"hk\",keyword: \"\",jobFunctions: [131],categories: [\"131\"],locations: [],careerLevels: [],salaryType: 1,jobTypes: [],workTypes: [],page: 1,isDesktop: false,sVi: \"[CS]v1|2F35A8FE851585B5-40000BA5443436B5[CE]\",userAgent: \"Mozilla/5.0%20(X11;%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/80.0.3987.0%20Safari/537.36\"){\n      total\n      totalJobs\n      solMetadata\n      suggestedEmployer {\n        name\n        totalJobs\n      }\n      queryParameters {\n        key\n        searchFields\n        pageSize\n      }\n      gdpSearchAlgoGroup\n      experiments {\n        flight\n      }\n      jobs {\n        id\n        sourceCountryCode\n        isStandout\n        companyMeta {\n          id\n          isPrivate\n          name\n          title\n          logoUrl\n          slug\n        }\n        qualificationName\n        careerLevelName\n        workExperienceName\n        employmentTermName\n        jobTitle\n        jobUrl\n        jobTitleSlug\n        description\n        employmentTypes {\n          code\n          name\n        }\n        sellingPoints\n        locations {\n          code\n          name\n          slug\n          children {\n            code\n            name\n            slug\n          }\n        }\n        categories {\n          code\n          name\n          children {\n            code\n            name\n          }\n        }\n        postingDuration\n        salary\n        salaryCommission\n        salaryVisible\n        bannerUrl\n        isClassified\n        solMetadata\n      }\n    }\n  }"}

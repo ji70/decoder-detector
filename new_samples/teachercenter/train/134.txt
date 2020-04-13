@@ -1,0 +1,21 @@
+POST https://accounts.google.com/_/common/diagnostics/?hl=ru&_reqid=263298&rt=j
+:method POST
+:authority accounts.google.com
+:scheme https
+:path /_/common/diagnostics/?hl=ru&_reqid=263298&rt=j
+content-length 883
+x-same-domain 1
+sec-fetch-dest empty
+google-accounts-xsrf 1
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/x-www-form-urlencoded;charset=UTF-8
+accept */*
+origin https://accounts.google.com
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://accounts.google.com/signin/v2/sl/pwd?continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Fautoregister%3Ffall_back%3Dhttps%253A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Funit%253Funit%253D4&service=ah&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin&cid=1&navigationDirection=forward
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie SID=uwejxM5N4f-KdkExxnkg8Q7BwpH18QZNVfj-6qIN5LIvRkIGhqbdpPFbkAxAxCKFCigKWw.; __Secure-3PSID=uwejxM5N4f-KdkExxnkg8Q7BwpH18QZNVfj-6qIN5LIvRkIGJtFCRppZQxkzcUAm52yeSw.; LSID=uwejxPVt3nUKd_OtIpp83R2Ps8j-M8hvPZVRY1zjVIjdbymQKVscTvw6wtZXMXXu-AaqJg.; __Host-3PLSID=uwejxPVt3nUKd_OtIpp83R2Ps8j-M8hvPZVRY1zjVIjdbymQJJuTr1xS_O_6JnF0wJR-wQ.; HSID=AabCtfBm4Evrh-f-b; SSID=AHlv3br1DRfusigIG; APISID=dR-m4KEoSt-DDhAZ/AMTuPaQqK8YEQlcjV; SAPISID=XCJR_MMQfTHqUL30/AdgvT2CBKNyBAVKR1; __Secure-HSID=AabCtfBm4Evrh-f-b; __Secure-SSID=AHlv3br1DRfusigIG; __Secure-APISID=dR-m4KEoSt-DDhAZ/AMTuPaQqK8YEQlcjV; __Secure-3PAPISID=XCJR_MMQfTHqUL30/AdgvT2CBKNyBAVKR1; ACCOUNT_CHOOSER=AFx_qI6FYZZt-RBgD2ZNmmOMqUfDi8SFpcLz0w0G08vOIwAhfN0ujyaf10zxW07gXOvNx6Zh3k_zocc_bGXiJ0ad90zH0Kc6CmykdKk2uKsuL0f_Ic6ILWs; GAPS=1:KSNBmv1miEeqsviS-JDIMP4XAQWZs8N9hbvpkxSSnF5TCyQ7N3RvPXYmq5-r2NbE0M9MKGdpADWA0PVDkpNpL1jiZc5S0A:FZuCO1T_9Zn4tDs3; NID=200=YEA_FWrrPFMqO9Rk3uwGKA_5NoDG18nzvcuAn-g9DwFHT0vNpMWQGoG1lTL_1JqrHQiT_0zPya96oLt2Hf5r3SWVEzCZvcg10vTQhjqFbtvUVKWJadBozpxg1tHcup-QwwkP_RU-SxsaWrz3WJuILy-ZCWBiiCA-Fow2B1zfbZq3fiZuL8WAqBI
+
+diagnostics=%5B%5B%5B%22gaia_fe_minutemaid%3Ass%22%2Cnull%2Cnull%2Cnull%2C1584110088926%5D%2C%5B%22gaia_fe_minutemaid%3AsignInAttempt%22%2Cnull%2Cnull%2Cnull%2C1584110088926%5D%2C%5B%22gaia_fe_minutemaid%3AidentifierPage%22%2Cnull%2Cnull%2Cnull%2C1584110089364%2C8745%5D%2C%5B%22gaia_fe_minutemaid%3Asl%2FpwdPage%22%2Cnull%2Cnull%2Cnull%2C1584110098109%2C5157%5D%5D%5D&azt=AFoagUWkB1DsTyAoTV4etSZZVif-i5XrMQ%3A1584110088660&cookiesDisabled=false&deviceinfo=%5Bnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%5D&gmscoreversion=undefined&checkConnection=youtube%3A113%3A0&checkedDomains=youtube&pstMsg=1&

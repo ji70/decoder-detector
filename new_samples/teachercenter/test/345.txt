@@ -1,0 +1,22 @@
+POST https://teachercenter.withgoogle.com/fundamentals/answer
+:method POST
+:authority teachercenter.withgoogle.com
+:scheme https
+:path /fundamentals/answer
+content-length 1131
+cache-control max-age=0
+origin https://teachercenter.withgoogle.com
+upgrade-insecure-requests 1
+content-type application/x-www-form-urlencoded
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest document
+accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+sec-fetch-site same-origin
+sec-fetch-mode navigate
+sec-fetch-user ?1
+referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=66&assessment=87
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie _ga=GA1.3.770855944.1584205568; _gid=GA1.3.233185570.1584205568; SACSID=~AJKiYcFqffrzNMgqiiRw0WHuTwi860Vs7VuhE82l0ILyZ-zuNcdbp6xxT-vQuI03BOGWzamaK8QoDXVJro-sEqhl0UuT425KkhdRI-jr5Uc_lGzCyf2VDdi7JBN9lTGZPIFzFlFQwUrOjmw9Kk2dWwkGj1aUyXgM7kO-9ZxKp8tLYgJzFLz0OztF45ZVYe-BcI5R0O8aYCdg9NSBGKf9f3fTkmcsjtzrBj7W7-rWrpDsGAbyed2048AvmOG8DB46kr8cCQ0t7eXn4uSZuMWE55GAYVpeyTN9-DUecw2qQbLYZ10d7o5_wQWuA9gKATnOvrjZLz0KOvXi; _gat_UA-64000824-2=1
+
+assessment_type=87&score=0.00&answers=%7B%22version%22%3A%221.5%22%2C%22individualScores%22%3A%7B%222gblaDDbNBpg%22%3A0%2C%22yJzUF0nCFxhH%22%3A0%2C%22FL0ToD7SwnjQ%22%3A0%2C%22FoC9bWSU8w0S%22%3A0%2C%22pkFA31z3QZBy%22%3A0%2C%226Mphn15LVCna%22%3A0%7D%2C%22containedTypes%22%3A%7B%222gblaDDbNBpg%22%3A%22McQuestion%22%2C%22yJzUF0nCFxhH%22%3A%22McQuestion%22%2C%22FL0ToD7SwnjQ%22%3A%22McQuestion%22%2C%22FoC9bWSU8w0S%22%3A%22McQuestion%22%2C%22pkFA31z3QZBy%22%3A%22McQuestion%22%2C%226Mphn15LVCna%22%3A%22McQuestion%22%7D%2C%22answers%22%3A%7B%222gblaDDbNBpg%22%3A%5B%5D%2C%22yJzUF0nCFxhH%22%3A%5B%5D%2C%22FL0ToD7SwnjQ%22%3A%5B3%5D%2C%22FoC9bWSU8w0S%22%3A%5B0%2C1%5D%2C%22pkFA31z3QZBy%22%3A%5B3%5D%2C%226Mphn15LVCna%22%3A%5B%5D%7D%2C%222gblaDDbNBpg%22%3A%5Bfalse%2Cfalse%2Cfalse%2Cfalse%5D%2C%22yJzUF0nCFxhH%22%3A%5Bfalse%2Cfalse%2Cfalse%2Cfalse%5D%2C%22FL0ToD7SwnjQ%22%3A%5Bfalse%2Cfalse%2Cfalse%2Ctrue%5D%2C%22FoC9bWSU8w0S%22%3A%5Btrue%2Ctrue%2Cfalse%2Cfalse%5D%2C%22pkFA31z3QZBy%22%3A%5Bfalse%2Cfalse%2Cfalse%2Ctrue%5D%2C%226Mphn15LVCna%22%3A%5Bfalse%2Cfalse%2Cfalse%2Cfalse%5D%7D&xsrf_token=1584206718%2FcLow7I7vud1P6mmhR0NHgQ%3D%3D

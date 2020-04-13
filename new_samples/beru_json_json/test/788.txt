@@ -1,0 +1,8 @@
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/pricedrop
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sk s0840fa0a3ba4a764c62ec6e047934b69
+Content-Type application/json
+
+{"params":[{"cartId":71502047,"items":[{"offerId":"PlUv2qZt-VUd93t198518Q","count":1,"shopId":431782,"categoryId":15727944,"hid":15727944,"feeShow":"OTNDnItfwRO6zrnlRDZCBiuTiFS4YSN5I08jmd2ll0h2eQ0MnbmdcVmVKuCmtTdfqeoybr-KEfu38_NJgZNevIoIwz7Quczo-Vd2crFp0YwfQZJNxJ95gQ1slf7ZYf1BjXAiogkT3LJiC_SM6x5lQwHbuECTuAGCtsOM_mrV4gQ,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBiuTiFS4YSN5I08jmd2ll0h2eQ0MnbmdcVmVKuCmtTdfqeoybr-KEfu38_NJgZNevIoIwz7Quczo-Vd2crFp0YwfQZJNxJ95gQ1slf7ZYf1BjXAiogkT3LJiC_SM6x5lQwHbuECTuAGCtsOM_mrV4gQ,","price":{"value":63,"currency":"RUR"},"vendorId":14882184,"feedId":475690,"feedOfferId":"637707.000339.4605460000346","promocode":"promo_1percent_in_hid15727944_for_1p_if_hid15720045_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Грибное ассорти Экопродукт маринованное икра грибная 340 г","skuId":"100475672785","slug":"gribnoe-assorti-ekoprodukt-marinovannoe-ikra-gribnaia-340-g"}]}],"path":"/pricedrop"}
