@@ -1,7 +1,0 @@
-POST https://mapixl.com/pixl/updatewithcanvasdata/34847p002/7/4e0746f9-0d36-43e7-bef9-8daddeddcb5c?canvasValues=%7B%22canvasId%22%3A%22a8373da713893ade557058830a9b759d%22%2C%22adblock%22%3Afalse%2C%22timezoneOffset%22%3A3%2C%22touchPoints%22%3A0%2C%22touchEvent%22%3Afalse%2C%22touchStart%22%3Afalse%2C%22platform%22%3A%22Linux%20x86_64%22%2C%22resolution%22%3A%221920x1080%22%7D&callback=?
-referer https://www.coursera.org/
-sec-fetch-dest empty
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type application/x-www-form-urlencoded
-
-undefined

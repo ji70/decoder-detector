@@ -1,9 +1,0 @@
-POST https://www.coursera.org/graphqlBatch
-accept */*
-referer https://www.coursera.org/account-settings
-sec-fetch-dest empty
-r2-app-version dbe85d7e161652e731d84525d9d25873b4507902
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type application/json
-
-[{"operationName":"membershipQuery","variables":{},"query":"query membershipQuery($userId: String!) {\n  EnterpriseAdminRolesV1Resource {\n    byUser(userId: $userId) {\n      elements {\n        id\n        managedLevelScope\n        role\n        thirdPartyOrganizationId\n        programId\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}]

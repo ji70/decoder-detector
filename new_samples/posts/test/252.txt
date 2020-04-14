@@ -1,7 +1,0 @@
-POST https://mapixl.com/pixl/getpixl/34847p002/7/prod?eventParameters=%7B%22user%22%3A%222568927983-1583495812955%22%7D&utmValues=%7B%22utmSource%22%3A%22%22%2C%22utmMedium%22%3A%22%22%2C%22utmCampaign%22%3A%22%22%2C%22utmTerm%22%3A%22%22%2C%22utmContent%22%3A%22%22%2C%22isGoogleAd%22%3Afalse%2C%22refererUrl%22%3A%22%22%7D&isPageLoad=true&maCookie={%22cid%22:%22unknown%22,%22sid%22:%224e0746f9-0d36-43e7-bef9-8daddeddcb5c%22,%22isSidSaved%22:false,%22sessionStart%22:%222020-03-06T11:56:56.000Z%22}&isSessionStart=true&originUrl=https%3A%2F%2Fwww.coursera.org%2F&callback=?
-referer https://www.coursera.org/
-sec-fetch-dest empty
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type application/x-www-form-urlencoded
-
-undefined

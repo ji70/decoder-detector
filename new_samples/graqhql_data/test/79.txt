@@ -1,9 +1,0 @@
-POST https://www.coursera.org/graphqlBatch
-accept */*
-referer https://www.coursera.org/degrees/master-of-computer-science-asu
-sec-fetch-dest empty
-r2-app-version 9fc8bae0b6328f2c2c2f137b823da61d410f961f
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type application/json
-
-[{"operationName":"DegreeHomeAppQuery","variables":{"slug":"master-of-computer-science-asu"},"query":"query DegreeHomeAppQuery($slug: String!) {\n  DegreesV1Resource {\n    degrees: bySlug(slug: $slug) {\n      elements {\n        id\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}]
