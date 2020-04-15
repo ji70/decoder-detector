@@ -5,4 +5,4 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"count":1,"by":"offerIds","cartOfferIds":["2BnOfD93ZcdEsR9Dx1gySA"]}],"path":"/catalog/smazki/76752/list?hid=90489"}
+{"params":[{"count":1,"by":"offerIds","cartOfferIds":["dInrgp28isOhVpyRIKirew"]}],"path":"/catalog/smazki/76752/list?hid=90489"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videokamery-i-ekshn-kamery-2287/ekshn-kamery-2288/f/brand=gopro?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"directCredit","variables":{"productIds":["10022293","10022292","10019090","10022758","10019091","10022757","10014007","10010716","10019019","10013183","10012697"],"parameters":{"regionId":"1"}},"query":"query directCredit($productIds: [String]!, $parameters: BaseQueryParameters) {\n  directCredit(productIds: $productIds, parameters: $parameters) {\n    productId\n    isCredit\n    payment\n    __typename\n  }\n}\n"}

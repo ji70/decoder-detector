@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/react
+Referer https://stackshare.io/airbnb/airbnb
 Sec-Fetch-Dest empty
-X-CSRF-Token QHcCDRIZM4p53bn7E2+MY0P7TBDeua1CAqkL9u1h1RQwcyZA6DCq7+Bc73H6loH+iw7Poo4gs9eX3nH8yextjA==
+X-CSRF-Token lUXyOGv/gm4KcZ85ijeUxY4j99UIalKIPWT4nz2Onb5fDlFGTvam7iLRKR92L38JISf0N9vDPtRKJKTRled/Xg==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"companyStacksUsing","variables":{"id":"101231773849098825","first":9},"query":"query companyStacksUsing($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    companyStacksUsing(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          name\n          imageUrl\n          thumbUrl\n          thumbRetinaUrl\n          identifier\n          id\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"airbnb"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

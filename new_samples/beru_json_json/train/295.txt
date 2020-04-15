@@ -1,8 +1,8 @@
-POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
-Referer https://beru.ru/pricedrop
+POST https://beru.ru/api/resolve/?r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
+Referer https://beru.ru/catalog/smazki/76752/list?hid=90489
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"cartId":71502047,"items":[{"offerId":"FoF-96L1MeV-kAHUXHheDQ","count":1,"shopId":431782,"categoryId":13776641,"hid":13776641,"feeShow":"OTNDnItfwRO6zrnlRDZCBqA04sJ-8LpQ9y8yVOy-6oXEIzlUSTJszAUpAdsqZH_w1WThqr9wJMeIZKNIaR4fJ9iSiQnGu2_ZF7AuMm4FzL3mpgWlyytdznwkRveqwvguDKpdUWXOKS4jZC4yJITUlsGCG92kj9WUrxymwi-4TUE,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBqA04sJ-8LpQ9y8yVOy-6oXEIzlUSTJszAUpAdsqZH_w1WThqr9wJMeIZKNIaR4fJ9iSiQnGu2_ZF7AuMm4FzL3mpgWlyytdznwkRveqwvguDKpdUWXOKS4jZC4yJITUlsGCG92kj9WUrxymwi-4TUE,","price":{"value":819,"currency":"RUR"},"vendorId":10713977,"feedId":475690,"feedOfferId":"493303.002799.8303","promocode":"promo_8percent_in_hid13776641_for_1p_if_hid13792950_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Варежка Weber 8303","skuId":"424218244","slug":"varezhka-weber-8303"}]}],"path":"/pricedrop"}
+{"params":[{"count":1,"by":"offerIds","cartOfferIds":["gPpL7Eh_o2ecgbiDv6oX-g"]}],"path":"/catalog/smazki/76752/list?hid=90489"}

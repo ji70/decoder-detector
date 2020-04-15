@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1408
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/domashnie-i-ofisnye-telefony-radiostancii-32/domashnie-telefony-4367
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[3,3],"time":[1586337625813,-180],"url":"https://www.mvideo.ru/domashnie-i-ofisnye-telefony-radiostancii-32/domashnie-telefony-**67","navctx":{"historyLength":26,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":44,"y":157,"tgen":1586337625312,"tin":1586337625312,"id":1},{"type":"up","x":44,"y":157,"tgen":1586337625390,"tin":1586337625390,"id":1},{"type":"click","x":44,"y":157,"tgen":1586337625441,"tin":1586337625441,"id":1}]},"move":{"data":[{"x":40,"y":167,"t":1586337624761,"d":"NNONONNNOPQSQPNNNMNNMNNOOOOP+1,12W1^IT2121"},{"x":45,"y":157,"t":1586337625668},{"x":46,"y":157,"t":1586337625775,"d":"OOQQ0+"}]},"movegen":{"data":[{"x":40,"y":167,"t":1586337624780,"d":"NNONONNONOPQRPQPNNNMNNNNNNOOOOOP*/'-7Q))aHQ--))1"},{"x":45,"y":157,"t":1586337625669},{"x":46,"y":157,"t":1586337625785,"d":"OOQQ1("}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337624760,"d":"##!#'%&(%(&%'%&&%&&&%&&&%&&(&%'%&&&&%&&%&&&%&&%&&&&&%&&&&&&&&'&&%&%&&&&%&&&&%&&%&&%&&&%&&&&&&%'"},{"t":1586337625334,"d":"%%%&%%&%%%&%%d&%&&%%%&%%&%%%&%&'&%&%&&'&%(&&%&%&'%&&%%&(%&(&%'%&%&%&%%&%&%%&%%&%&%%&%&&&&"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

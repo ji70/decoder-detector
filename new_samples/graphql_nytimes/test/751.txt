@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/2020/03/06/arts/music/mccoy-tyner-dead.html
+Referer https://www.nytimes.com/2020/03/11/theater/about-love-review-culture-project.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/06/arts/music/mccoy-tyner-dead.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}
+{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/11/theater/about-love-review-culture-project.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}

@@ -1,7 +1,7 @@
 POST https://kraken.rambler.ru/cnt/
-Referer https://news.rambler.ru/politics/
+Referer https://kassa.rambler.ru/msk/concert/705152
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-Content-Type application/x-www-form-urlencoded;charset=UTF-8
+Content-Type text/plain;charset=UTF-8
 
-et=bv&pid=127846&rid=1584108749.077-930261887&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Amail%3A%3Alogin%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Atech%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Astarlife%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Aarmy%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Aarticles%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Avideo%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Atop_menu%3A%3Aphoto%3A%3Anot_current%22%2C%22blocks%3A%3Adesktop%3A%3Anews%3A%3Arubric%3A%3Aworld%3A%3Arcol%3A%3Arnet%22%2C%22cerber-topline%3A%3Anews-top%3A%3Auser%3A%3Alogin%22%2C%22cerber-search%3A%3Aenter%22%2C%22cerber-search%3A%3Abutton%22%2C%22cerber-search%3A%3Aswitch%22%2C%22cerber-search%3A%3Asuggest%22%5D&sp=%5B%22desktop%22%5D
+et=act&pid=2553558&rid=1584108284.334-557879719&tid=t1.2553558.487024757.1584108088625&v=1.8.0&meta=%7B%22time%22%3A4%2C%22screens%22%3A%5B0%2C0%2C0%2C0%2C0%2C2%2C4%2C4%2C4%2C4%2C4%2C4%2C2%5D%7D

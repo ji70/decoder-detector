@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205/f/brand=oppo?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"30043637","price":9990},{"id":"30043638","price":9990},{"id":"30043639","price":7990},{"id":"30043700","price":7990},{"id":"30044524","price":15595},{"id":"30045963","price":10990},{"id":"30045964","price":10990},{"id":"30045965","price":17990},{"id":"30045966","price":17990},{"id":"30046043","price":27990},{"id":"30048332","price":72990},{"id":"30048338","price":29990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/hi-fi-tehnika-5/aksessuary-hi-fi-190
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"delivery","variables":{"productIds":["50052506","50036182","50052507","50036181","10011508","50036183","10010923","50132320","50072473","50038415","50132313","10006221"],"parameters":{"regionId":"1"}},"query":"query delivery($productIds: [String]!, $parameters: DeliveryQueryParameters) {\n  delivery(productIds: $productIds, parameters: $parameters) {\n    productId\n    methods {\n      price\n      dateDescription\n      type\n      __typename\n    }\n    __typename\n  }\n}\n"}

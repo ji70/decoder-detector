@@ -1,8 +1,8 @@
-POST https://beru.ru/api/resolve/?r=cms/resolveDataFromGarson:resolveDataFromGarson
-Referer https://beru.ru/catalog/tovary-dlia-rukodeliia/71676?canonical=tovary-dlia-rukodeliia&hid=15521377&track=pieces
+POST https://beru.ru/api/resolve/?r=checkout/resolveActualizedCartGroup:resolveActualizedCartGroup
+Referer https://beru.ru/my/cart
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"resources":{"garsons":[{"params":{"data":[{"p2":"gpsz","pp":"g","entity":"bannerMeta","provider":"adfox","id":77749049},{"p2":"gpsz","pp":"h","entity":"bannerMeta","provider":"adfox","id":77901693}]},"id":"MediaSet"}]},"limit":2}],"path":"/catalog/tovary-dlia-rukodeliia/71676?canonical=tovary-dlia-rukodeliia&hid=15521377&track=pieces"}
+{"params":[{"carts":[{"id":"577858_220_false","shopId":577858,"items":[{"feedId":630940,"feedOfferId":"2245646","offerId":"oqPIa2Ha7G3d77SD4u2-XQ","feeShow":"OTNDnItfwRO6zrnlRDZCBrUjLSt3Dqm6OMEWDPaeIUSt4B7IgFq3BNJ3eUbEMwGR0V9GLsJ_fHjNkxOWsD2FRGSd5KlWaMcfpX30jfZYAsB8QgPT1eZC2LBUxQ8wdeBeYaZId4CB8Yx7wZHokSpklX4E2fqOvghZWIVz3mxQFgQ,","price":{"value":969,"currency":"RUR"},"userLastSeenPrice":{"value":969,"currency":"RUR"},"count":1,"label":"tb6wuvjmfs","cartItemGroupId":"tb6wuvjmfs"},{"feedId":630940,"feedOfferId":"529625","offerId":"lOpK1WLckbztYELGAglm2Q","feeShow":"51cho0pvM9zF3AeN8tC18iH40dexFtIagwKTUAixInSswPOjlXkzIzv7qFIQQUTSRRKG5Dfapgf6FpeqJCE0FkF5i5CNIEksfmBFia0T5nUYCjs-P8FhDTKwXNra_GDEKY-YB_BXg3PXz-VqnTB5JLofgGeBBJJgKnqYLYqutkhFX7DmJeDdNw,,","price":{"value":113,"currency":"RUR"},"userLastSeenPrice":{"value":113,"currency":"RUR"},"count":1,"label":"4ut8zmhkq0l","cartItemGroupId":"4ut8zmhkq0l"}],"delivery":{"regionId":213},"recipient":{},"brokenData":{"regionId":false}}]}],"path":"/my/cart"}

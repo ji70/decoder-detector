@@ -1,18 +1,8 @@
-POST https://beru.ru/api/resolve/?r=cms/resolveDataFromGarson:resolveDataFromGarson
-Host beru.ru
-Connection keep-alive
-Content-Length 264
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/product/uvlazhnitel-vozdukha-proffi-ph8749-belyi-korichnevyi/100320285770?show-uid=15842971032928497121706012&offerid=t-z5wpYNhxNwQSCe2xHouQ
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
-Accept */*
-Origin https://beru.ru
-Sec-Fetch-Site same-origin
-Sec-Fetch-Mode cors
-Referer https://beru.ru/pricedrop
-Accept-Encoding gzip, deflate, br
-Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=fa1ad9dd1626fec06af7463af9eb9b59%2C63dd118ad380971c075630a1a75d8e8e%2C77d57f291297a93ac1d1adab20bf45fc%2C31d3c4121a435118244aa4eb694042e2%2Ce55b480cbe074e1a168fbee56b6847b0
 
-{"params":[{"resources":{"garsons":[{"params":{"data":[{"p2":"gpsz","pp":"g","entity":"bannerMeta","provider":"adfox","id":77749049},{"p2":"gpsz","pp":"h","entity":"bannerMeta","provider":"adfox","id":77901693}]},"id":"MediaSet"}]},"limit":2}],"path":"/pricedrop"}
+{"params":[{"cartId":71502047,"items":[{"offerId":"t-z5wpYNhxNwQSCe2xHouQ","count":1,"shopId":431782,"categoryId":734595,"hid":734595,"feeShow":"uGjUacdPo1rd4RdgAX6-dD9kvVna4BemNAI3nFyqViYjBb3Z4iL5eqBW7fCL4UjCdHGS1-kJAnOsw6P5Sxcu68RkRPh0GNijWK8tWpPfgoAEH_1hlXrbBI_ubIS8qJoMEucP0n7z0jSSx3tWIcDBhKu3t9244K5fVgA3fZUs9EGTqLQ6DtkKpQ,,","showPlaceId":"uGjUacdPo1rd4RdgAX6-dD9kvVna4BemNAI3nFyqViYjBb3Z4iL5eqBW7fCL4UjCdHGS1-kJAnOsw6P5Sxcu68RkRPh0GNijWK8tWpPfgoAEH_1hlXrbBI_ubIS8qJoMEucP0n7z0jSSx3tWIcDBhKu3t9244K5fVgA3fZUs9EGTqLQ6DtkKpQ,,","price":{"value":1115,"currency":"RUR"},"vendorId":12874565,"feedId":475690,"feedOfferId":"623168.PH8749","promocode":"aiHFWhvF6GaqybK_le1C2Q","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgcA3oYy7Pf2kE9Pca56LBOQl5-DU1Ux4UAePQZaV2RBiYBOo_OL2QS3c4WurLRomPwIZ2R7bXFUbE2RfR6dd_pQPEDlsDzP4CXufYwQWrvbwY0QMCVnZr68FT7eAKdV7QM7A5hPqPZQ31k4906Sv-K0x28ckx-p5JGbpbRsYssDAqCK5zH-hyCxVMqqyb8-CH2o-2qB0jAgjyXexBlbXC1hbtiMTmUDxELZuDWG0EdAj-PCuUVCDZ0tjFzCg1DptPhfwy_TIM1iSbvE4zNby6EDbanQKzQ6yI1TcDcug_OAUPnrzPqAnlVrEVnwoOC328X42K89nbzZyW0fij3giSBG653rOJT-Xp_G8siHz7pgF8z32s-1TQ7nQCWGl2pUw38EZ3z4KvYSza_DWRX2MeKcsDu_CqnZDrgTzFimf3PmKKIpbjs4uxN55fwfIK_wwo5WPk0fHtD4RnPMDVklSpT0hWwTQffFnUEGmKzUbUggUd5MiCE1QGBO8tkcIM3p7KlZV6Es9igUyLSR8P61bRUlwh-3rtb9da4zzY0XJ-gpkHA4qMlTn6iWflAwmSxzmKPQB2Z2EG1u5LNN-FGuA5COELFW6rRkM5T-3LTPGoNFiWuKldiz2xsSYKq5_jHgdBSPm0FqDn50Zdr1dueYZCs-uecNw6ti_oD9zCYepMMZDA-Mql1gashI3m8BWPQt_SIA3qpD0dRtLba1mdPCkWyq1HMYziSBTz32fnaX_xn9JJQWi2zN5QK7TJXOLLKGo3Dy8dV6j4BLYZfe50njgXJg7OdFsGndrk8YGqs6kfyWvXSxJx0lV9U6STNbxV5tkoFV6-5GDEiuQ6Yrr2bz9K6cXzwBj1KdmoOAjoi237PVsKRzN_1SCii3-JRjC55nku659vG3CWkIWIhxdxj2zM1tMzSPExoqOIKqYVzHGhhsRQkyvusYlb9vbWPw5QcPYc7ZnHedwBrVdqCOe7TrCSHNz8XzAE38FpbRjjISbb8COCxxHlo-0dyMvA6foSGXYRVgjq0bg3TqedqrUJC6IvAemFuwiURj8mp4EwOOedG8DTpQ39IhL-hRV58v-NbbzUUFCB69yh0WlvPwU639pEuUYwdUyxOm-x96VTpTDfsTwF69JpW0arhvfP2kp8RuohfiHWeRvrpuG5TGJp1CDPacm_hMgx5v4A31wA40CYyYgV3YAzf7AYb5_CH9UGt1UpYzV_8y2fTsRPUKQ_YC11SZ5hlntiUzn4g,,/b64e=1/sign=9387bbb983f905f9c4c902a534259027/keyno=1/*","name":"Увлажнитель воздуха PROFFI PH8749, белый/коричневый","skuId":"100320285770","slug":"uvlazhnitel-vozdukha-proffi-ph8749-belyi-korichnevyi"}]}],"path":"/product/uvlazhnitel-vozdukha-proffi-ph8749-belyi-korichnevyi/100320285770?show-uid=15842971032928497121706012&offerid=t-z5wpYNhxNwQSCe2xHouQ"}

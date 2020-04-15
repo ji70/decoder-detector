@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/fossilo/fossilo
+Referer https://stackshare.io/graphql
 Sec-Fetch-Dest empty
-X-CSRF-Token h/BJCDjtUKHCHZD3xaVnO8wjn88vHt10uA/oB5zQBGeiQSbQcq6fPne5+PySSVZKHjGw8Z6dn66J6srBZB1v4Q==
+X-CSRF-Token tVO0PrJWMZlSCpvdKy0Sk1awY3ruG4BsHCb3eWntgijFV5BzSH+o/MuLzVfC1B8OnkXgyL6CnvmJUY1zTWA6sA==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"fossilo"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"jobs","variables":{"id":"101231775212866992","first":6},"query":"query jobs($id: ID!, $first: Int) {\n  tool(id: $id) {\n    jobsList(first: $first) {\n      count\n      edges {\n        node {\n          id\n          angellistJobUrl\n          title\n          location\n          services {\n            ...serviceFields\n            __typename\n          }\n          company {\n            name\n            imageUrl\n            path\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      pageInfo {\n        endCursor\n        hasNextPage\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}

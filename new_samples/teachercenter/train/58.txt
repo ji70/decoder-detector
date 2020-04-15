@@ -1,20 +1,21 @@
-POST https://teachercenter.withgoogle.com/advanced_training/rest/events
+POST https://accounts.google.com/_/signin/sl/lookup?hl=ru&_reqid=63298&rt=j
 :method POST
-:authority teachercenter.withgoogle.com
+:authority accounts.google.com
 :scheme https
-:path /advanced_training/rest/events
-content-length 321
-accept */*
+:path /_/signin/sl/lookup?hl=ru&_reqid=63298&rt=j
+content-length 2771
+x-same-domain 1
 sec-fetch-dest empty
-x-requested-with XMLHttpRequest
+google-accounts-xsrf 1
 user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type application/x-www-form-urlencoded; charset=UTF-8
-origin https://teachercenter.withgoogle.com
+content-type application/x-www-form-urlencoded;charset=UTF-8
+accept */*
+origin https://accounts.google.com
 sec-fetch-site same-origin
 sec-fetch-mode cors
-referer https://teachercenter.withgoogle.com/advanced_training/course
+referer https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Fautoregister%3Ffall_back%3Dhttps%253A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Funit%253Funit%253D4&service=ah&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie _ga=GA1.3.449827449.1584110046; _gid=GA1.3.2060883829.1584110046; SACSID=~AJKiYcHnc6tY_zelN7ka-1Ccq0CQBVZCm-ZJGNwo7CebNmuYdzQ1mxABZicLIifdW1JCVqdHrBcFR_zsKPnHg5zkcW-k-0vx3lMT5NJFYmkruCYOYi9d57mBLY2SpbB4SQkGynP8RUtEYOhnFntRSRjYGMFVPxHM42lBv2fOayV03UhGNDGB3zp61HbR20st7Y7-41vucCcliNx8rc5H6i-lGLF6J5vo4YUT5leS7oePPVQ9IbA_4_QrvQgT4cRBcDa2P5BNbzMhmOIntutvGDHotlzkMfapxfd7gpfeezxHHRFYpXN-b35CfSdUB-GNeUlObO9tbETf; _gat_UA-64000824-2=1
+cookie GAPS=1:4Ze7yyuvfF6Q0DSJLwAxcbDb5JZfNQ:6UQPRkwhmQ5qloFW; NID=200=bKpNZzTCDIWf_SB0RT86UHb-i5AlqL7WmI3SG34IyvWq75dpNpUa5FzDVJ81MQJWa3nYGc4M88BkQLmVEJxSIvRZfTed15wAet8tN5aDJq7UH1En1APHkiGCMtkfmfK4haw9wt3nC-HKujM2_FvyOzdVw_clzW8vP3ppZsOFsYM
 
-request=%7B%22source%22%3A%22enter-page%22%2C%22payload%22%3A%22%7B%5C%22location%5C%22%3A%5C%22https%3A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Fcourse%5C%22%2C%5C%22loc%5C%22%3A%7B%5C%22page_locale%5C%22%3A%5C%22en_US%5C%22%7D%7D%22%2C%22xsrf_token%22%3A%221584110580%2FK34q2awpquxnNXmCKW2ryA%3D%3D%22%7D
+continue=https%3A%2F%2Fappengine.google.com%2F_ah%2Fconflogin%3Fcontinue%3Dhttps%3A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Fautoregister%3Ffall_back%3Dhttps%253A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Funit%253Funit%253D4&service=ah&rip=1&f.req=%5B%22an.harusp%22%2C%22AEThLlxVREa8kUZ9zLH9sDaUuVrBYKeRmmZZDffieKiq1ITSQirbbkjcsh3fwq0cgQwrvf8RUQbPCUmq3XBWVmF279sMXfJA6SR_3C5YRLWIduWMondksMopFKAo0Swb8hrHWdxhKHhXleU8bKkvVGEtwiYtH7kGXwMovjT8MZ-MC1JJAqTlTQ1m_8wvxbLs_4gTEcJ5RLtw%22%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C2%2Cfalse%2Ctrue%2C%5Bnull%2Cnull%2C%5B2%2C1%2Cnull%2C1%2C%22https%3A%2F%2Faccounts.google.com%2FServiceLogin%3Fcontinue%3Dhttps%253A%252F%252Fappengine.google.com%252F_ah%252Fconflogin%253Fcontinue%253Dhttps%253A%252F%252Fteachercenter.withgoogle.com%252Fadvanced_training%252Fautoregister%253Ffall_back%253Dhttps%25253A%252F%252Fteachercenter.withgoogle.com%252Fadvanced_training%252Funit%25253Funit%25253D4%26service%3Dah%26sacu%3D1%26rip%3D1%22%2Cnull%2C%5B%5D%2C4%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5B%5D%5D%2C1%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%2Cnull%2Cnull%2Cnull%2Ctrue%5D%2C%22an.harusp%22%5D&bgRequest=%5B%22identifier%22%2C%22!ICOlIwJCXX-STEPuCIBYnS33o_0F670CAAAARFIAAAAjmQJeGXnakWCP61tRkey-QJp03pKklWhksbScdEZLMV2UnNEH_nXd6uRIZgpp2cFEO3rXafvTKO-5PXFFxXh6SmyUsq2BAF9mumFyqUnEc61cw4GU8SYDvAbjt88i-WjEDj_apw8lNKwjfrcpnu_fDEHakcusjwQhpinA5wQFPCR1BsfrNwVxY_eC7C1SSLayDbZgHoX9vL6bf2iSfY3nsCDinSOGcimlpuox-4BIBi02g-Zt8vyB20G_0syIGpFh48fE4lrqVpz4wMHdWbx7AEU5uCltplnYjMl5O3jkd4J_1EVivGoSFnd4a8DVV2TcDRSB5ikV4f4sW9MXL2GWzMR0ata7sSPptA2l9E12c1-oQfH6CLFvukpv5UPTsnCzenOuGXAvi2csiEPZzyDDM-btPkjorc3Gzo4PotWHg0EtL-G-3HzslRvUcAGsbIDlStsDUjS3leJzlf0M2I1YSyI2CIh9zq_JJgPHU0bEbKEohIcwinRMCYOhqYD57JPNQDc-jGh80gJThos97nD9UmfJV-6qRv0bHc8H3XKxsg0Au1vwXdFtRLiApn_0aVYWT7WFSgIDUXXUhjQyjLBiugZj4bn0rHViRc-z5l-hUFMUWsD6OwRXNbqViZ1IpnuJpfWTUho-roAkTbSVhVmuYrm8OXICBnM0wfk8BxReACQUt0uQqrysQ1CxMwmgGP5uTjhRcBMxHILK2ClNLC6IwWQnNMD3a_l71-Kn3seuW_RX1yrXmA4ZwA3TplLh0SPbz-zc_5q_k9dD6-4sKEUXI4SA_id29ZVFbCZJYG3yutaK%22%5D&azt=AFoagUWkB1DsTyAoTV4etSZZVif-i5XrMQ%3A1584110088660&cookiesDisabled=false&deviceinfo=%5Bnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2C%22RU%22%2Cnull%2Cnull%2C%5B%5D%2C%22GlifWebSignIn%22%2Cnull%2C%5Bnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5D%2Cnull%2Cnull%2Cnull%2C%5B%5D%2C%5B%5D%5D%5D&gmscoreversion=undefined&checkConnection=youtube%3A113%3A0&checkedDomains=youtube&pstMsg=1&

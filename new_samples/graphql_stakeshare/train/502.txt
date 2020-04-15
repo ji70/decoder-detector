@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 463
 accept */*
-Referer https://stackshare.io/delivery-hero-se/delivery-hero
-Sec-Fetch-Dest empty
-X-CSRF-Token 7g5C4G70eqPjx8810drRml59QeCY7SxUqybqbddtdcLLvy04JLe1PFZjpz6GNuDrjG9u3ilubo6aw8irL6AeRA==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token cUuNtAeRxSVZPNPjzCcqIBiviKIIdJVhwVa9mm4fSBMBT6n5/bhcQMC9hWkl3ie90FoLEFjti/RUIceQSpLwiw==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/backbone
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU2NDQ5MDQsImV2ZW50SWQiOjI0OCwiaWRlbnRpZnlJZCI6OTYsInNlcXVlbmNlTnVtYmVyIjozNDR9; _stackshare_production_session=znpBVvPUeJC7IvqRqyP5CXpOg4%2BdWnumx6BW65frnjw7vy%2FBa%2FPWa3glushTe7QsMAq9ytqcQrky7LQQOYVJr2E7WOpRqhluvZIw4sk8nJbnA%2FHP0l9ZzqgzltLqBYbfbC%2FF6%2FOlERePuavG0ZQyZacF8JYK5qbwzsKFJhzFabFH40GZFd1RuoHqUFHR0uB4o%2BKtIkbQiFxTHZ4q4z9jP8xaalkjxv8pOnDvMaptTJMjGCBjIPOpi%2FkK%2BgSuEM00l%2BlQhfedLb4C79g8%2BYlrxipks8rzpR6965V1qTids44VZ1CYPfFqLLV1bwXe4jZ4eOEAnvg3GcXmM24IGzcXZqFpRXdL9bhg9km59ZTrzpdB2EQsfyi48goV6NpBsmOAMspi5PN06sql%2FwotRFUcdS96LtdvFFTl%2BtmqJsZ3ACvfsu4xNU5kx%2FRM6N1nuMCN%2FrPAltNmAwvTwsb97aPlj1MT%2FanmvPphVZgB3L%2FLai3R92vgciAuJLpe2aLNgci6i%2FO99DeAQUeBlZNDGO7wlSTJjQRyAqHTZOuYKK89%2Ffy6A32mjaJtArUIYII2Fn8Gy8nl8%2BSHNC7fooDvJdRpchptqqV5A5xt2s1guJwrraxp--Bl6G5OH9t5kSOsfT--kKLiA818nyXqsUA%2BhW0RhA%3D%3D
 
-{"operationName":"otherStacks","variables":{"id":"delivery-hero-se/delivery-hero","limit":3},"query":"query otherStacks($id: String!, $limit: Int!) {\n  stackProfile(identifier: $id) {\n    id\n    otherStacks(first: $limit) {\n      count\n      edges {\n        node {\n          id\n          slug\n          name\n          services {\n            id\n            name\n            slug\n            title\n            imageUrl\n            layer {\n              slug\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"backbone"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

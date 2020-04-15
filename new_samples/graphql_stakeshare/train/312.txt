@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/feed
+Referer https://stackshare.io/zeppelin
 Sec-Fetch-Dest empty
-X-CSRF-Token zrhyCOKrl4jvBIKLdOJDQMZyb3NNj3K7xlCm8vb+NyTrCR3QqOhYF1qg6oAjDnIxFGBATfwMMGH3tYQ0DjNcog==
+X-CSRF-Token bcHEsd7kVqkKCgOALUEFE41cZkk9C/gHi1HYEsfW7IwdxeD8JM3PzJOLVQrEuAiORanl+22S5pIeJqIY41tUFA==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

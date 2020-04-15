@@ -1,18 +1,8 @@
-POST https://beru.ru/api/resolve/?r=djRecommender:logUserProfile
-Host beru.ru
-Connection keep-alive
-Content-Length 182
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
-Accept */*
-Origin https://beru.ru
-Sec-Fetch-Site same-origin
-Sec-Fetch-Mode cors
-Referer https://beru.ru/product/shokolad-lindt-excellence-temnyi-s-karameliu-i-morskoi-soliu-100-g/100410023046?show-uid=15842969684761742835806011&offerid=YRjMvbb79C28SiUZlnfNiA
-Accept-Encoding gzip, deflate, br
-Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=e42fe7bcf12577e701b2efcf3f6cb2ea%2C9baa685a50edea218abe11ef0b16e4e5%2C3ccee3d615c6098fe4ec632242ead7c4%2C4a3b906bef3f42bf613bba9d4ae5758e%2C4ce07b8c1f31ff21219042979ed95621; last-loaded-page-id=blue-market%3Aproduct
 
-{"params":[null],"path":"/product/shokolad-lindt-excellence-temnyi-s-karameliu-i-morskoi-soliu-100-g/100410023046?show-uid=15842969684761742835806011&offerid=YRjMvbb79C28SiUZlnfNiA"}
+{"params":[{"cartId":71502047,"items":[{"offerId":"gNF16z1XIcV_r7d9Oo2jdw","count":1,"shopId":431782,"categoryId":12943735,"hid":12943735,"feeShow":"OTNDnItfwRO6zrnlRDZCBrAVHI-o4y3wxOZhKnco7XnTy7Pe7fX8LOukZzslLvUExcNC-YSAOT9x2wjguhhzXBg-yGAtfPZCnXktqYwOSw8kiilPs6m4-9fMjRKvSd0Ykm4B07lm4RyOl7Vb_dE3R7A8v1owwPKR-cWf3PTM6qE,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrAVHI-o4y3wxOZhKnco7XnTy7Pe7fX8LOukZzslLvUExcNC-YSAOT9x2wjguhhzXBg-yGAtfPZCnXktqYwOSw8kiilPs6m4-9fMjRKvSd0Ykm4B07lm4RyOl7Vb_dE3R7A8v1owwPKR-cWf3PTM6qE,","price":{"value":429,"currency":"RUR"},"vendorId":12262995,"feedId":475690,"feedOfferId":"504281.310408","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgX6hCVepfzz8e69n8O7z1x1bV3R4FwYMnT8YHbRTZIOj1R0DDSiV_3SkqCc5NaqEAzLrZINzPgSTxGYctIm4kOQBA6omMryvd3MbNWvSUZ1MXY6mvUQlKlA4d8_2g98O5vWxescRp3BxbVN2G-AtHkO5lZAbkSj0mg8noAvyFMzBsJaj8hkd3k0gTPbJtCzeyRdPGfvo1GZvVWxuMc6oSTDFEOx4utS3pyBB03Hzb7fDLHzYyacElt6b44EHNf1EXydPtIV0atLeorcyoUTxlI7HiF8OAPzAKAEtj3RUH_zZsvURiysi_gV7FxLF1lAE_3Soc8vHZgwTNVlagS1uRp-NJDaeNOjLrEuZDaMh4uyDcc0ktz-DNZyQZYXlfznrxJE-s64HW2XllSYwSFh_v2gkGm-Qp52iPZVTDqVz8d605rPIQDZ0AuK6lSb6CNyetoW-FUy-sZ7vnbz22rPkrYQIigvpcJO7jtToNzuM8RkcC0JxEIzhuKSJhJYWzODX2CgrJ7dvedgCspKVHXw3j0_WvSrfuNBsm2gNuRaSkuXfJs9GZkyrAkN_SUbQudYpFXBZN9pXxZ64HVPyVIHY3SPm3Zu0iiEnNfcbWeVDTQ5lsjgL7raaGHyHzLcEAglix8rzcdaLnrT8pyfdGnyvxQUbuXtTkUU8HTyUj4cS_VGKwaoTawCY6Oo3GsMewCO5pMK-ZAFzaQvc_YI1BpBzQYSUrMatNdtk7SIbSxblUhD3CAWzaHLnBeuh0op9ewpB6NJ_cvRVVlTHvBR9mXJeyHHs79uSWNeKo8SH2brgwb-2TUrrLbbNLxxxOId6iyVtfGohm2AFppyGSLLPMMbZpuweNl-oR7kBrO46oFvPNecEmvbNyj8MxUhtNXVwnofMy9cCHdTG_aCzDE7ovPFIGsgyr-JdYkgb-BtGBZVmbHIm42y_C4BAw5azNG0LvHI7yG_9W8ZzxWG_8SMIGEZC4xRtF4Fk-ifh-ma5EpHmLFH7AVw_fEtsfb8_1yJ-Bkor2XH4vTs7g7d8E7DZK-etdZxM3yHMn_plF6igv3qpxchpPbh-7Ve1U0P3jC7Zyisj_WxYgAj6wgQ8jiv8R8V8tiDWhZ1emsYeh4B2JG0l_98VwXV_ElauN0cncyXsgS6w45w2sLJc4RjHSJaFZnm-29EDQVzmBahX_DRJP5rWTxQZ-vWCwOphwaA,/b64e=1/sign=92413f92b8bbe16ffecd3f70f9842c4f/keyno=1/*","name":"Стекломой Рыжий кот WS-07-F складной с телескопической ручкой голубой","skuId":"100688354815","slug":"steklomoi-ryzhii-kot-ws-07-f-skladnoi-s-teleskopicheskoi-ruchkoi-goluboi"}]}],"path":"/catalog/steklomoi-skrebki-sgony/81510/list?hid=12943735"}

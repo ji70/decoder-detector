@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 265
 accept */*
-Referer https://stackshare.io/zenly/zenly
-Sec-Fetch-Dest empty
-X-CSRF-Token P2q3tBtGk3s57WfjzPxWmQopTOpmwjPS9oIA77fjPSca29hsUQVc5IxJD+ibEGfo2Dtj1NdBcQjHZyIpTy5WoQ==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token lUXyOGv/gm4KcZ85ijeUxY4j99UIalKIPWT4nz2Onb5fDlFGTvam7iLRKR92L38JISf0N9vDPtRKJKTRled/Xg==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/airbnb/airbnb
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTU4NDA4NTEwMzA5MSwibGFzdEV2ZW50VGltZSI6MTU4NDA4NTE5NjU4MywiZXZlbnRJZCI6MzYsImlkZW50aWZ5SWQiOjEyLCJzZXF1ZW5jZU51bWJlciI6NDh9; _stackshare_production_session=gH9h2VT1QTJOVlBv74OSwNlpcz9MTOjan3mFTsduYvZJGF8nUAJRRNB4NGREiEY0tp%2FmSnVDkj5jAD%2FnMKo83jE54wOM%2FfvpstDvkoF8Pz2q1PJ5k%2Fo9InHq5%2FHySgq%2F%2BDpeGOafK33lwqY%2FJF3YxDGxID%2FSUAKrhqOoCFMI8G2t%2BNepxqynH%2B8u%2BZSNdGOpxLpj4%2FibPj40pA7AyQkL6ls3h4z0zpMcQ9msXCDoDito5u5xTm%2FMryg1NXFILQsWPHwF6n5%2F7sfDYS6jedAS7hC9mbJjxUg%2F46QZ%2F8cmdy%2BrwDM%2FqS8u2NVtVH1Ol8vNhsJTUZX52zkcDmCdRcmnpWwmySoGEAU9wuBoltvXovLjEjcuUu0CBSvT9si%2FpolDnDpaFMH%2FIl7l2FMAWu3hDPOdAjD8jbIzkTFeqnWgL%2FDpe8J2LvV19co5xNhDtHDvsin8OwMy9641CHaejo%2F%2FCd1fxdm4u%2FcnwlavdhgJterNVBgEYhadDDv5Rc%2Bzwm837atj0RimX6lR5RsCtQlH2g6f6XaPx6oxpkkh%2BNJPdAuIvYWflFbLPHcYOhfPYrZz0aUjMuoWBUGqE%2Bb7j0Bgptc0zvqPauGGOhnemZZYAAtLG9BTPVotcAk%3D--sb7amePdECdEHYty--XqSXqbIAdDJ58%2BnhzlPT2g%3D%3D
 
-{"operationName":"otherStacks","variables":{"id":"zenly/zenly","limit":3},"query":"query otherStacks($id: String!, $limit: Int!) {\n  stackProfile(identifier: $id) {\n    id\n    otherStacks(first: $limit) {\n      count\n      edges {\n        node {\n          id\n          slug\n          name\n          services {\n            id\n            name\n            slug\n            title\n            imageUrl\n            layer {\n              slug\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["101221613263986211","101221631128279046","101221638658214139","101221644935499174","102366435330562180"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

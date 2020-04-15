@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/2020/03/12/world/europe/germany-afd.html
+Referer https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"newsletterQuery","variables":{},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"2ea1806b9716cb5639ad3e4a740eab1aa5fec9b90c0981feb766eb7cada074a0"}}}
+{"operationName":"StorylinesInteractiveClient","variables":{"id":"100000006938224"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"90ea0fad5e4d5040e1aee530172f77c74c4115fb15fb67f4d2261c9f3ece21c6"}}}

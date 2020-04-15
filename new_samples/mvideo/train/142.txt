@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/holodilniki-i-morozilniki-2687/holodilniki-i-morozilnye-kamery-159/f/category=holodilniki-side-by-side-i-mnogodvernye-668
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"directCredit","variables":{"productIds":["20064972","20062865","20062867","20062422","20051978","20028715","20037796","20062864","20062692","20038770","20035789"],"parameters":{"regionId":"1"}},"query":"query directCredit($productIds: [String]!, $parameters: BaseQueryParameters) {\n  directCredit(productIds: $productIds, parameters: $parameters) {\n    productId\n    isCredit\n    payment\n    __typename\n  }\n}\n"}

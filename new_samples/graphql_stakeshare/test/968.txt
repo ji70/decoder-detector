@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/infoshare/infoshare
+Referer https://stackshare.io/nginx
 Sec-Fetch-Dest empty
-X-CSRF-Token SsrGbHx9u3C/BFeIIcWvkn0c/nvyR8NltQH3ECVnv6pve6m0Nj507wqgP4N2KZ7jrw7RRUPEgb+E5NXW3arULA==
+X-CSRF-Token qv35Z5DomnR/hWRzFvAbCLxS8qVoHMJsLn/MNHYLYWVgtloZteG+9Fcl0lXq6PDEE1bxR7u1rjBZP5B63mKDhQ==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"infoshare"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"contactBySlug","variables":{"id":"nginx"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

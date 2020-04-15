@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/category=led-8k-televizory-6947
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10018391","price":999990},{"id":"10020265","price":699990},{"id":"10020266","price":1499990},{"id":"10021357","price":299990},{"id":"10021358","price":449990},{"id":"10021359","price":585990},{"id":"10021360","price":3999990},{"id":"10022140","price":349990},{"id":"10022208","price":1299990},{"id":"10022209","price":5999990},{"id":"10022290","price":234990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

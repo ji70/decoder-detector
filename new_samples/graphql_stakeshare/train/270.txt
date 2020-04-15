@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/infoshare/infoshare
+Referer https://stackshare.io/paw/paw
 Sec-Fetch-Dest empty
-X-CSRF-Token SsrGbHx9u3C/BFeIIcWvkn0c/nvyR8NltQH3ECVnv6pve6m0Nj507wqgP4N2KZ7jrw7RRUPEgb+E5NXW3arULA==
+X-CSRF-Token I3ZggGszH9KLLJZ82li7kTlwIr665r1eEMNDdufQ2Y0Gxw9YIXDQTT6I/neNtIrg62INgAtl/4QhJmGwHx2yCw==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/gadzhety-64/smart-chasy-400/f/brand=samsung?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"directCredit","variables":{"productIds":["30039926","30039927","30046028","30046060","30046029","30040109","30043073","30046026","30046027","30047917","30047919","30043075"],"parameters":{"regionId":"1"}},"query":"query directCredit($productIds: [String]!, $parameters: BaseQueryParameters) {\n  directCredit(productIds: $productIds, parameters: $parameters) {\n    productId\n    isCredit\n    payment\n    __typename\n  }\n}\n"}

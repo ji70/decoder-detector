@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/apollo
+Referer https://stackshare.io/feed
 Sec-Fetch-Dest empty
-X-CSRF-Token 5DlnYlIuesWepJ77VDnCZneHRkh4UmBk0KslXjHlTqeUPUMvqAfjoAclyHG9wM/7v3LF+ijLfvFF3F9UFWj2Pw==
+X-CSRF-Token xOy+aH6urRCU7AUBbfvHodUSizPTibhWVU/wZtSz1t606JolhIc0dQ1tU4uEAso8HecIgYMQpsPAOIps8D5uRg==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/gadzhety-64/fitnes-braslety-403
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"directCredit","variables":{"productIds":["30044987","30045600","30045408","30048388","30045409","30040243","30046240","30048386","30045876","30045874","30045875","30043699"],"parameters":{"regionId":"1"}},"query":"query directCredit($productIds: [String]!, $parameters: BaseQueryParameters) {\n  directCredit(productIds: $productIds, parameters: $parameters) {\n    productId\n    isCredit\n    payment\n    __typename\n  }\n}\n"}

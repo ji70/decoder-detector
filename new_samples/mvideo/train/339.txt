@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1273
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/category=led-8k-televizory-6947
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[3,3],"time":[1586337035596,-180],"url":"https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/category=led-8k-televizory-**47","navctx":{"historyLength":3,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[]},"move":{"data":[{"x":415,"y":373,"t":1586337033703,"d":"NOOPPPQPQTTUSQQPPOOOOONNOONNNNNNMMPPQQQPQOOOOOQQPPPPPQPPPPPPPPPQPPQQV91A)92(/2122127S+222Z*36-59)1102A"}]},"movegen":{"data":[{"x":438,"y":362,"t":1586337033662,"d":"GIMKLNOOPPPQPQQRQRPRQRPQQPPOOOOONNOONNNNNNNNMRQQRPPPQQQPQOOOOOOOOOPPQPPPPPQPPPPPPPPPQPPPPQM(%),a80@(80(())()())()1)A9A111b))A)99)111))A"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337033703,"d":"7%#!%%&%&%%&&&&%&'%&&&&%%&&%&&&%&&'(&&&%&(&&(%&(&&(&&'&&%&&%&(&%92%%%&%&&%&%&%(&&%%&&%&%%%&%&%&%&&&%&'%(&&&(&%&&%(&&'&&'&%(%&%&&%&&&(%&&%&&%&&&%&&&&&%&&&&&&&&&%&&&&&&&&&%&((v1%&%&%%&%&%&%%&%&%&%%&%&%%&%&%%&%&%%&%&%&&%&&%&%&%&&&%&&&%&&&%&&&&&%&&&%&&&&&&%&&&&&&&&%&&&&&%&&&&%&%&&&%&&&&&&%&&&&%&&&&&&'%&%&&&&&&%&&&&%&&&&&&&&&&"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

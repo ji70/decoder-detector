@@ -1,7 +1,7 @@
-POST https://beru.ru/api/resolve/?r=threshold/resolveThresholdForCartItemsDeprecated:resolveThresholdForCartItemsDeprecated&r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
+POST https://beru.ru/api/resolve/?r=cart/removeItemsFromCart:removeItemsFromCart
 Host beru.ru
 Connection keep-alive
-Content-Length 1300
+Content-Length 76
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
@@ -10,9 +10,9 @@ Accept */*
 Origin https://beru.ru
 Sec-Fetch-Site same-origin
 Sec-Fetch-Mode cors
-Referer https://beru.ru/product/kovsh-cycle-standart-krepysh-1113-00-chernyi-33-5x45-sm/100809241946?show-uid=15842970499045894165706002&offerid=hwK0S8IFrNcJiQMcgjgaFg
+Referer https://beru.ru/my/cart
 Accept-Encoding gzip, deflate, br
 Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=4ce07b8c1f31ff21219042979ed95621%2C36480ca9c5c6f679aa771025adc619c9%2Ced54de6cf5da0e568bef5e29767ac7b9%2C304106110fb2706866b61bf54e09c0f2%2C0a58c7479fcf91ab827e885ff4e8b13c; last-loaded-page-id=blue-market%3Aproduct
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=57cecc7510184679383f1a8a2fd35a8e%2Cd32e0df9755f872a9e8c1acf613ea72c%2C43d4d462ac4bc9ee0a6c2ffdad73cf3a%2C28da5eec1518cdceb4ffadefc173ee43%2Cf4a439ef50bc161ff5803233ae53a9bb; last-loaded-page-id=blue-market%3Acart
 
-{"params":[{"result":[129998978],"collections":{"cartItem":{"129998978":{"id":129998978,"objId":"hwK0S8IFrNcJiQMcgjgaFg","shopId":431782,"count":1,"fee":"51cho0pvM9wXsPvtKU_fIHTopaQb32_hxu7_VHmDY0SPE2GimW0AiESubZdlZHyg9vlCupsJBUSurrnDi4DFDsUKUlwCXCzQkc7mdkCHbqiRWpZ2TUs6c_O4HOE5upGd-OxyTIYroNPZOKD6iv8oXqeUCiFdbzH42HQ0XRd65HM8k_1-d4fgiQ,,","feeShow":"51cho0pvM9wXsPvtKU_fIHTopaQb32_hxu7_VHmDY0SPE2GimW0AiESubZdlZHyg9vlCupsJBUSurrnDi4DFDsUKUlwCXCzQkc7mdkCHbqiRWpZ2TUs6c_O4HOE5upGd-OxyTIYroNPZOKD6iv8oXqeUCiFdbzH42HQ0XRd65HM8k_1-d4fgiQ,,","showPlaceId":"51cho0pvM9wXsPvtKU_fIHTopaQb32_hxu7_VHmDY0SPE2GimW0AiESubZdlZHyg9vlCupsJBUSurrnDi4DFDsUKUlwCXCzQkc7mdkCHbqiRWpZ2TUs6c_O4HOE5upGd-OxyTIYroNPZOKD6iv8oXqeUCiFdbzH42HQ0XRd65HM8k_1-d4fgiQ,,","marketSku":"100809241946","hid":15706546,"name":"Ковш Cycle Стандарт Крепыш (1113-00) черный 33.5x45 см","price":{"value":160,"currency":"RUR"},"label":"j2iog264rve","slug":"kovsh-cycle-standart-krepysh-1113-00-chernyi-33-5x45-sm","isExpired":false,"creationTime":1584297058000,"cartId":71502047}}}},{"by":"offerIds","count":24,"page":2,"cartOfferIds":["hwK0S8IFrNcJiQMcgjgaFg"]}],"path":"/product/kovsh-cycle-standart-krepysh-1113-00-chernyi-33-5x45-sm/100809241946?show-uid=15842970499045894165706002&offerid=hwK0S8IFrNcJiQMcgjgaFg"}
+{"params":[{"cartId":71502047,"cartItemIds":[130001384]}],"path":"/my/cart"}

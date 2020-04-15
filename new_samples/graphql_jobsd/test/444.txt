@@ -1,18 +1,19 @@
-POST https://xapi.supercharge-srp.co/job-details/graphql?country=hk
+POST https://xapi.supercharge-srp.co/job-search/employerRelatedJobs/graphql?country=hk
 :method POST
 :authority xapi.supercharge-srp.co
 :scheme https
-:path /job-details/graphql?country=hk
-content-length 2234
+:path /job-search/employerRelatedJobs/graphql?country=hk
+content-length 310
 sec-fetch-dest empty
+x-employer-id 2949-5
 user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 accept */*
 origin https://hk.jobsdb.com
 sec-fetch-site cross-site
 sec-fetch-mode cors
-referer https://hk.jobsdb.com/hk/en/job/analyst+programmer+i-100003007699625
+referer https://hk.jobsdb.com/hk/en/job/assistant+case+manager-100003007675658
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 
-{"query":"{\n    jobDetail(jobId: \"100003007699625\",country: \"hk\",locale: \"en\") {\n      id\n      pageUrl\n      jobTitleSlug\n      applyUrls {\n       mobile\n       external\n       loggedInApply\n      }\n      isExpired\n      isConfidential\n      isClassified\n      accountNum\n      advertisementId\n      subAccount\n      showMoreJobs\n      adType\n      header {\n        banner {\n          bannerUrls {\n            large\n          }\n        }\n        salary {\n          max\n          min\n          type\n          extraInfo\n          currency\n          isVisible\n          salaryOnDisplay\n        }\n        logoUrls {\n          small\n          medium\n          large\n          normal\n        }\n        jobTitle\n        company {\n          name\n          url\n        }\n        review {\n          rating\n          numberOfReviewer\n        }\n        expiration\n        postedDate\n        isInternship\n      }\n      companyDetail {\n        companyWebsite\n        companySnapshot {\n          avgProcessTime\n          registrationNo\n          employmentAgencyPersonnelNumber\n          employmentAgencyNumber\n          telephoneNumber\n          workingHours\n          website\n          facebook\n          size\n          dressCode\n          nearbyLocations\n        }\n        companyOverview {\n          html\n        }\n        videoUrl\n        companyPhotos {\n          caption\n          url\n        }\n      }\n      jobDetail {\n        summary,\n        jobDescription {\n          html\n        },\n        jobRequirement {\n          careerLevel\n          yearsOfExperience\n          qualification\n          fieldOfStudy\n          industryValue {\n            value,\n            label\n          }\n          skills\n          employmentType\n          languages\n          postedDate\n          closingDate\n          jobFunctionValue {\n            code,\n            name,\n            children {\n              code,\n              name\n            }\n          },\n          benefits\n        },\n        whyJoinUs\n      },\n      location {\n        location\n        locationId\n        omnitureLocationId\n      }\n      sourceCountry\n    }\n  }"}
+{"query":"{\n      jobs(country: \"hk\",accNums: 2949,subAccount: 5){ \n        total\n        queryParameters {\n          key\n          searchFields\n        }\n        jobs {\n          id\n          jobTitle\n          jobUrl\n          postingDuration\n          jobTitleSlug\n        }\n      }\n    }"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videokamery-i-ekshn-kamery-2287/ekshn-kamery-2288/f/brand=gopro?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10010716","price":16795},{"id":"10012697","price":15815},{"id":"10013183","price":14995},{"id":"10014007","price":29790},{"id":"10019019","price":12990},{"id":"10019090","price":18990},{"id":"10019091","price":28990},{"id":"10022292","price":42990},{"id":"10022293","price":31990},{"id":"10022757","price":38990},{"id":"10022758","price":29990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

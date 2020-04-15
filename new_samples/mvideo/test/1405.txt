@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/fotoapparaty-12/fotoapparaty-mgnovennoi-pechati-325
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"directCredit","variables":{"productIds":["10002992","10002997","10022547","10022546","10022545","10022544","10002998","10007613","10008230","10007617","10019934","10022776"],"parameters":{"regionId":"1"}},"query":"query directCredit($productIds: [String]!, $parameters: BaseQueryParameters) {\n  directCredit(productIds: $productIds, parameters: $parameters) {\n    productId\n    isCredit\n    payment\n    __typename\n  }\n}\n"}

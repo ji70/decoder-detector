@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 2769
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205/f/seriya-samsung=note-seriya?reff=menu_main
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[3,3],"time":[1586337925503,-180],"url":"https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-*05/f/seriya-samsung=note-seriya?reff=menu_main","ref":"https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-*05/f/seriya-samsung=s-seriya","navctx":{"historyLength":38,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":43,"y":145,"tgen":1586337924136,"tin":1586337924137,"id":1},{"type":"up","x":43,"y":145,"tgen":1586337924206,"tin":1586337924206,"id":1},{"type":"click","x":43,"y":145,"tgen":1586337924251,"tin":1586337924251,"id":1}]},"move":{"data":[{"x":161,"y":344,"t":1586337923223},{"x":74,"y":331,"t":1586337923242},{"x":12,"y":321,"t":1586337923253,"d":"IO%"},{"x":7,"y":224,"t":1586337923512,"d":"PVSTRRSSTTVXYSKFIKLIMONMMLML(2221/22112112"},{"x":78,"y":154,"t":1586337923877,"d":"NLE:NMNJ*-1V"},{"x":42,"y":145,"t":1586337924263},{"x":41,"y":145,"t":1586337924570,"d":"R]__nb^YXRQY]^hab`[X,212222212"},{"x":178,"y":319,"t":1586337924842,"d":"OQPQOPOOOOOOONOOOSZYZYaR[UTPQPQPQP&22222212127620)4"},{"x":183,"y":420,"t":1586337925291,"d":"OOPQ31"},{"x":183,"y":424,"t":1586337925470,"d":"OQ,"}]},"movegen":{"data":[{"x":161,"y":344,"t":1586337923227},{"x":74,"y":331,"t":1586337923245},{"x":16,"y":321,"t":1586337923250,"d":"KIOO%$"},{"x":7,"y":224,"t":1586337923513,"d":"PSRRPRQORPQPRPRRQRQRSTSUSQQQOOOOOOOOOOMNLJJLIMLLMMKJKJNMMNMMKOMOONOMONNMNNNMNMLMNMNMNMNLLNMNOMNOOOOM)))*(**()))))))*))%-)))))*)3?**2***1%11()))))*)))("},{"x":42,"y":145,"t":1586337924269},{"x":41,"y":145,"t":1586337924585,"d":"RUVVWVWZYXYWWUTTSTROPOOQOPOOOPPOOPOQOOPOQOOOPOOOOOOOOOOOONOOOQSUUVWUWWWXWYWWWSWURRPRRRQQQRRQRTSSUTTTTUUSUTURTTQSQRQPQPQPQP-()))%)())))))))))))%%-))))))))))))))))))))))%-))))))))A521(5"},{"x":183,"y":420,"t":1586337925304,"d":"OOPQ41"},{"x":183,"y":424,"t":1586337925483,"d":"OQ)"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[{"type":"leave","x":6,"y":321,"tgen":1586337923260,"tin":1586337923258},{"type":"enter","x":7,"y":224,"tgen":1586337923512,"tin":1586337923511}]},"performance":{"data":[{"t":1586337923222,"d":"#!#!&%'%)%&%%&%&&%&&&%&&&&%&&&&%&&&&&&&%&&&&%&&&&%%%&%&&%&&&%&&%%&%&'&&)%%)%&(&%&&%)&%)%&(&%)%&%&%&&&%&%%&'%&"},{"t":1586337923913,"d":"%%P&%%%%&%%&%&%&%%&%&%&%%&%&%&%&%%&%&%&%(%&&%&%&&&%&&&%b'%(&%%&%&&&%&%&%&%&%'&%&%&%(%&%&%%(%&%&%&)%%&%&%&%%&%%&%&%%&%%&%'%%&%%&%%%&%%&&&%&'%&&%&%'&%*%&%&%&&'"},{"t":1586337924861,"d":")%%%&%&%&%%&%&&%&&&%&%&%&'&%&%&&'%&&%&%&%'&%&%&%&&%&%&%&&%&&%&%&&%&&%&&%&%&&%&%&%&&%&&%&%&&%&&%&%&%&&%&&%&%&&%&&%&&%&&%'&&%&&&%&%&&&'%"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

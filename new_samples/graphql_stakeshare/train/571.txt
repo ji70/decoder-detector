@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/google-cloud-firestore
+Referer https://stackshare.io/ruby
 Sec-Fetch-Dest empty
-X-CSRF-Token Az7Y1fnbKEFWkR6aQgBrN0Z4RmnzfjEUGLwDQ2ZwJdsmj7cNs5jn3uM1dpEV7FpGlGppV0L9c84pWSGFnr1OXQ==
+X-CSRF-Token Nl2fyWaCe+D0ZhKKHH7FVGW/Z40mz7tdQTMlMzX6U2cT7PARLMG0f0HCeoFLkvQlt61Is5dM+Ydw1gf1zTc44Q==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

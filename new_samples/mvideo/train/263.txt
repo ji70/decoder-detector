@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/hi-fi-tehnika-5/akustika-hi-fi-192
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10002042","price":10990},{"id":"10005254","price":6990},{"id":"10007354","price":9990},{"id":"10010769","price":10790},{"id":"10011465","price":3990},{"id":"10020119","price":32990},{"id":"10020706","price":62990},{"id":"10020766","price":39890},{"id":"10020830","price":37990},{"id":"10021289","price":27990},{"id":"10022644","price":149990},{"id":"50051696","price":6490}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

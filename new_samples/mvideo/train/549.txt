@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/diagonal=66
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"prices","variables":{"productIds":["10021627","10021191","10022058","10021202","10022283","10021516","10018527","10022721","10021623","10018528","10021626","10022224"],"regionId":"1"},"query":"query prices($productIds: [String]!, $regionId: String!) {\n  prices(productIds: $productIds, regionId: $regionId) {\n    productId\n    actionPrice\n    basePrice\n    economy\n    bonusRubles\n    __typename\n  }\n}\n"}

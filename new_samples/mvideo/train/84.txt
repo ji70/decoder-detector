@@ -1,0 +1,18 @@
+POST https://public-api.uxfeedback.ru/v1/widgets/5b8d1cc6d09a6b111b4feb2b?uid=8dd1e140-7978-11ea-a396-ed4d2f006014&uidType=new
+:method POST
+:authority public-api.uxfeedback.ru
+:scheme https
+:path /v1/widgets/5b8d1cc6d09a6b111b4feb2b?uid=8dd1e140-7978-11ea-a396-ed4d2f006014&uidType=new
+content-length 343
+accept application/json
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json; charset=UTF-8
+origin https://www.mvideo.ru
+sec-fetch-site cross-site
+sec-fetch-mode cors
+referer https://www.mvideo.ru/televizory-i-video
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"url":"https://www.mvideo.ru/televizory-i-video","cookies":"wurfl_device_id=generic_web_browser; PaymentMethodsOnCart_2=1; MVID_REGION_ID=1; MVID_DELETE_WITH_POPUP=1; COMPARISON_INDICATOR=false; CACHE_INDICATOR=false; NewRasProc=1; flacktory=no; bIPs=434929338; SMSError=; authError=; uxs_uid=8dd1e140-7978-11ea-a396-ed4d2f006014; uxs_mig=1"}

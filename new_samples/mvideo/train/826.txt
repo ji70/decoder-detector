@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 2102
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205/f/seriya-samsung=s-seriya
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[5,5],"time":[1586337854799,-180],"url":"https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-*05/f/seriya-samsung=s-seriya","navctx":{"historyLength":36,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":146,"y":309,"tgen":1586337852171,"tin":1586337852173,"id":1},{"type":"up","x":146,"y":309,"tgen":1586337852272,"tin":1586337852272,"id":1},{"type":"click","x":146,"y":309,"tgen":1586337852323,"tin":1586337852307,"id":1},{"type":"down","x":156,"y":299,"tgen":1586337854307,"tin":1586337854308,"id":1},{"type":"up","x":156,"y":299,"tgen":1586337854400,"tin":1586337854401,"id":1},{"type":"click","x":156,"y":299,"tgen":1586337854452,"tin":1586337854459,"id":1}]},"move":{"data":[{"x":133,"y":238,"t":1586337851629,"d":"PORRPOQPQO]SWYUWVUVQT122212212"},{"x":147,"y":310,"t":1586337852672,"d":"QPQPOPPOPOPSUSSTUTPQ9131221221"},{"x":156,"y":347,"t":1586337852961,"d":"OOOOOOOOLHFKGGKJ32222112"}]},"movegen":{"data":[{"x":133,"y":238,"t":1586337851644,"d":"POOPOQPOQOPOOQOOPPPO]RPQQSRRSQSRTRSRRTQQE9%))%%%)))))))))))1"},{"x":147,"y":310,"t":1586337852688,"d":"QPOQOPOOOOPPOOOOPOPQQSQQQQQQRPQRQRPQ9)))%)))))))%))))1"},{"x":156,"y":347,"t":1586337852976,"d":"OOOOOOOOOOOOOOOOLLKLLLKJLJLLNMNM1))))%-)))))))))"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337851629,"d":"$!#!&%%&&%&%&%%&&%%&%&%&&&&%&&%'%%&%&&'%&&%&%'&%&%&&%&%&&&%&&%&&%&&%&&%&%&%&&%&&&%&&&&%&&&&%&&&&&%&&&&(%&&&%&&%&&%&&&*&%&%&%&&%%&%&%%&%&%%&J%%%%&%%%&%+%&&%&%&&&&%%("},{"t":1586337852614,"d":"%&%&%%&%&%%&%&%%&%&%%&%%&&&&%&%%&%&%(&%%&%&'&%&%&&'%&&%&&&&&%&&&&%&&&&&%%&'%&%&&%&%&&&&&%&&&)%&&%&%&%&'%&%&&&%&&&%&&&%&&&&%&&%%&&%&&&%&&&&&&%&&&%&&&&&%&&&&%&&&&&&&&&&%&'&*"},{"t":1586337853546,"d":"%%%&%%&%%&%&%&%&%&&%&%&&&&%&%&%&&%&%&%&&%&%&&%&%&%&%&&%&&%&&&%&&%&&%&&%&&%&&%&&&%&&%&&%&&%&%&&%&%&&&%&&%&%&&&%-&%&%&&%"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

@@ -1,7 +1,7 @@
 POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
-Referer https://www.perekrestok.ru/catalog/kofe-chay-sahar/kofe/lebo-kofe-extr-arab-jar-zer-1kg--450179
+Referer https://www.perekrestok.ru/catalog/makarony-krupy-spetsii/muka
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8
 
-originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.AddProductToBasketItemList.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22addProductToList%22%3A%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A%22308830%22%7D%7D%2C%22price%22%3A59.9%7D%7D
+originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.AddProductToBasketItemList.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22addProductToList%22%3A%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A%22447458%22%7D%7D%2C%22price%22%3A53.9%7D%7D

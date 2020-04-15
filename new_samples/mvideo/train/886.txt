@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videotehnika-20/saundbary-2547
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"prices","variables":{"productIds":["10021654","10022252","10021532","10021652","10022251","10021653","10011664","10021651","10016773","10022007","10021530","10022250"],"regionId":"1"},"query":"query prices($productIds: [String]!, $regionId: String!) {\n  prices(productIds: $productIds, regionId: $regionId) {\n    productId\n    actionPrice\n    basePrice\n    economy\n    bonusRubles\n    __typename\n  }\n}\n"}

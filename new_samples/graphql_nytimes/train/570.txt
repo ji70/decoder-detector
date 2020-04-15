@@ -1,10 +1,21 @@
 POST https://samizdat-graphql.nytimes.com/graphql/v2
-Referer https://www.nytimes.com/section/technology
-nyt-app-version 0.0.5
-nyt-token MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+/oUCTBmD/cLdmcecrnBMHiU/pxQCn2DDyaPKUOXxi4p0uUSZQzsuq1pJ1m5z1i0YGPd1U1OeGHAChWtqoxC7bFMCXcwnE1oyui9G1uobgpm1GdhtwkR7ta7akVTcsF8zxiXx7DNXIPd2nIJFH83rmkZueKrC4JVaNzjvD+Z03piLn5bHWU6+w+rA+kyJtGgZNTXKyPh6EC6o5N+rknNMG5+CdTq35p8f99WjFawSvYgP9V64kgckbTbtdJ6YhVP58TnuYgr12urtwnIqWP9KSJ1e5vmgf3tunMqWNm6+AnsqNj8mCLdCuc5cEB74CwUeQcP2HQQmbCddBy2y0mEwIDAQAB
-Sec-Fetch-Dest empty
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-nyt-app-type project-vi
-Content-Type application/json
+:method POST
+:authority samizdat-graphql.nytimes.com
+:scheme https
+:path /graphql/v2
+content-length 2553
+nyt-app-version v3.44.14
+nyt-token MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuNIzKBOFB77aT/jN/FQ+/QVKWq5V1ka1AYmCR9hstz1pGNPH5ajOU9gAqta0T89iPnhjwla+3oec/Z3kGjxbpv6miQXufHFq3u2RC6HyU458cLat5kVPSOQCe3VVB5NRpOlRuwKHqn0txfxnwSSj8mqzstR997d3gKB//RO9zE16y3PoWlDQXkASngNJEWvL19iob/xwAkfEWCjyRILWFY0JYX3AvLMSbq7wsqOCE5srJpo7rRU32zsByhsp1D5W9OYqqwDmflsgCEQy2vqTsJjrJohuNg+urMXNNZ7Y3naMoqttsGDrWVxtPBafKMI8pM2ReNZBbGQsQXRzQNo7+QIDAQAB
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+nyt-app-type vhs
+content-type application/json
+accept */*
+origin https://www.nytimes.com
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://www.nytimes.com/interactive/2020/us/elections/joe-biden.html
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 
-{"operationName":"UserQuery","variables":{},"query":"   query UserQuery {     user {       __typename       profile {         displayName         email       }       userInfo {         regiId         entitlements         demographics {           emailSubscriptions           wat           bundleSubscriptions {             bundle             inGrace             promotion             source           }         }       }       subscriptionDetails {         graceStartDate         graceEndDate         isFreeTrial         hasQueuedSub         startDate         endDate         status         entitlements       }     }   } "}
+{"query":"\nquery VideoQuery($id: String!) {\n  video(id: $id) {\n    ...on Video {\n      advertisingProperties {\n        sensitivity\n        sponsored\n      }\n      bylines {\n        renderedRepresentation\n      }\n      contentSeries\n      cues {\n        name\n        type\n        timeIn\n        timeOut\n      }\n      duration\n      embedded\n      headline {\n        default\n      }\n      is360\n      isLive\n      liveUrls\n      playlist {\n        headline {\n          default\n        }\n        promotionalHeadline\n        url\n        sourceId\n        section {\n          displayName\n        }\n        videos(first: 20) {\n          edges @filterEmpty {\n            node {\n              advertisingProperties {\n                sensitivity\n                sponsored\n              }\n              id\n              sourceId\n              duration\n              section {\n                id\n                name\n              }\n              headline {\n                default\n              }\n              renditions {\n                url\n                type\n              }\n              url\n              promotionalMedia {\n                ... on Image {\n                  crops(cropNames: [SMALL_SQUARE, MEDIUM_SQUARE, SIXTEEN_BY_NINE]) {\n                    renditions {\n                      name\n                      width\n                      height\n                      url\n                    }\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n      promotionalHeadline\n      promotionalMedia {\n        ... on Image {\n          crops (cropNames: [SMALL_SQUARE, MEDIUM_SQUARE, SIXTEEN_BY_NINE, THREE_BY_TWO, TWO_BY_THREE, FLEXIBLE]) {\n            name\n            renditions {\n              name\n              width\n              height\n              url\n            }\n          }\n        }\n      }\n      promotionalSummary\n      related {\n        ... on Article {\n          promotionalHeadline\n          url\n          sourceId\n        }\n      }\n      renditions {\n        type\n        width\n        height\n        url\n        bitrate\n      }\n      section {\n        name\n      }\n      shortUrl\n      sourceId\n      subsection {\n        name\n      }\n      summary\n      timesTags {\n        __typename\n        displayName\n        isAdvertisingBrandSensitive\n        vernacular\n      }\n      url\n    }\n  }\n}","variables":{"id":"nyt://video/7314f11e-d0be-539c-9616-d37346d2030d"}}

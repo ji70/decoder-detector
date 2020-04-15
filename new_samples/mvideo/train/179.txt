@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/komputernye-aksessuary-24/sumki-dlya-noutbukov-216/f/category=keisy-k-macbook-1083
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"customer","variables":{},"query":"query customer($parameters: CustomerQueryParameters) {\n  customer(parameters: $parameters) {\n    firstName\n    lastName\n    city\n    email\n    bonusRubles\n    availableBonusRubles\n    personalOffersCount\n    favoriteShopId\n    type\n    userId\n    cityId\n    __typename\n  }\n}\n"}

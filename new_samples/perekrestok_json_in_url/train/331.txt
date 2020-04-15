@@ -1,5 +1,5 @@
 POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
-Referer https://www.perekrestok.ru/catalog/hleb-sladosti-sneki/hleb-lavash-lepeshki
+Referer https://www.perekrestok.ru/catalog/hleb-sladosti-sneki/hleb-lavash-lepeshki?attr%5B2255%5D%5B%5D=vypechka&attr%5B2255%5D%5B%5D=lepeshka&attr%5B2255%5D%5B%5D=osnova-dlya-pitstsy&page=1&sort=rate_desc
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/portativnoe-audio-25/portativnaya-akustika-202
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"prices","variables":{"productIds":["10021610","10020634","10022014","10018338","10013407","10018823","10020635","10018753","10022015","10013389","10012873","10020636"],"regionId":"1"},"query":"query prices($productIds: [String]!, $regionId: String!) {\n  prices(productIds: $productIds, regionId: $regionId) {\n    productId\n    actionPrice\n    basePrice\n    economy\n    bonusRubles\n    __typename\n  }\n}\n"}

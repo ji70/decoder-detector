@@ -1,17 +1,7 @@
 POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
-Host api.mindbox.ru
-Connection keep-alive
-Content-Length 1708
+Referer https://www.perekrestok.ru/catalog/moloko-syr-yaytsa/syry
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8
-Accept */*
-Origin https://www.perekrestok.ru
-Sec-Fetch-Site cross-site
-Sec-Fetch-Mode no-cors
-Referer https://www.perekrestok.ru/cart
-Accept-Encoding gzip, deflate, br
-Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie deviceUUID=f1f16901-6755-4437-952d-469764d63869
 
-originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.SetCartItemList.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22productList%22%3A%5B%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A553115%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2288.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A318603%7D%7D%2C%22count%22%3A9%2C%22price%22%3A%2299.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A517040%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22239.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A377065%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2299.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A311478%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22175.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A311324%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2246.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A315783%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22149.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A312572%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22297.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A309947%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22221.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A443726%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22549.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A548360%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22269.00%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A311862%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2299.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A311861%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%22109.90%22%7D%5D%7D
+originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.AddProductToBasketItemList.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22addProductToList%22%3A%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A%22312843%22%7D%7D%2C%22price%22%3A%2247.90%22%7D%7D

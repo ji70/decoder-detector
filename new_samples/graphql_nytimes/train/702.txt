@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/interactive/2020/us/elections/delegate-count-primary-results.html
+Referer https://www.nytimes.com/2020/03/06/science/boeing-starliner-nasa.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"StorylinesInteractiveClient","variables":{"id":"100000006700124"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"90ea0fad5e4d5040e1aee530172f77c74c4115fb15fb67f4d2261c9f3ece21c6"}}}
+{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/06/science/boeing-starliner-nasa.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}

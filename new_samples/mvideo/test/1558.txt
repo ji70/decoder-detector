@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/domashnie-i-ofisnye-telefony-radiostancii-32/domashnie-telefony-4367
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"prices","variables":{"productIds":["30013751","30011947","30011949","30032527","30018048","30011972","30013753","30021163","30025011","30022644","30021803","30020338"],"regionId":"1"},"query":"query prices($productIds: [String]!, $regionId: String!) {\n  prices(productIds: $productIds, regionId: $regionId) {\n    productId\n    actionPrice\n    basePrice\n    economy\n    bonusRubles\n    __typename\n  }\n}\n"}

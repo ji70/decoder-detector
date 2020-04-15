@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/aksessuary-dlya-televizorov-41/pristavki-smart-tv-i-priemniki-dvb-t2-358
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"labels","variables":{"productIds":["50120342","50051267","50051709","50130198","50119406","50125742","50124394","50132359","50126530","50109617","50109618","50050554"]},"query":"query labels($productIds: [String]!, $parameters: BaseQueryParameters) {\n  labels(productIds: $productIds, parameters: $parameters) {\n    productId\n    promotionLabels {\n      name\n      borderColor\n      filledBg\n      tooltip {\n        description\n        backgroundColor\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -6,4 +6,4 @@ Referer https://pedigree.progenygenetics.com/
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/x-gwt-rpc; charset=UTF-8
 
-7|2|7|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|proGetIndividual|I|1|2|3|4|5|6|3|7|7|7|1174848|15|1667563205|
+7|2|7|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|proGetIndividual|I|1|2|3|4|5|6|3|7|7|7|1174851|4|1667563205|

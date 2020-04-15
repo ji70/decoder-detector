@@ -1,8 +1,8 @@
-POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
-Referer https://beru.ru/pricedrop
+POST https://beru.ru/api/resolve/?r=cataloger/resolveNavigationMenu:resolveNavigationMenu&r=secretSale/resolveSecretSale:resolveSecretSale&r=whiteMarket:resolveReferenceOffersByMarketSku&r=skuCard/skuWithDefaultOffer:resolveSkuInfo&r=wishlist/resolveWishlistByReference:resolveWishlistByReference
+Referer https://beru.ru/product/desiatoe-korolevstvo-nabor-dlia-vyshivaniia-krestikom-ezhik-00303/107658313?show-uid=15842974641655559724906008&offerid=lOpK1WLckbztYELGAglm2Q
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"cartId":71502047,"items":[{"offerId":"Tmvp9G5QAJNx_yS7to1ZqQ","count":1,"shopId":431782,"categoryId":15727878,"hid":15727878,"feeShow":"OTNDnItfwRO6zrnlRDZCBrCe0U3WgxZOT09HOQLucHevyBr6dQX4bC-y3Y13ltxetCoV0CgZWYukpS_z_nYdB1XAOVzqvGTmO5qftZKTFjEWa34GdsdG8VNphRSXbkK2GRgU-1uK-UqfQWHdt8ccOVuYKQ7hiMTgXmugQIj9Shs,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrCe0U3WgxZOT09HOQLucHevyBr6dQX4bC-y3Y13ltxetCoV0CgZWYukpS_z_nYdB1XAOVzqvGTmO5qftZKTFjEWa34GdsdG8VNphRSXbkK2GRgU-1uK-UqfQWHdt8ccOVuYKQ7hiMTgXmugQIj9Shs,","price":{"value":141,"currency":"RUR"},"vendorId":14694203,"feedId":475690,"feedOfferId":"637707.000362.26131","promocode":"promo_6percent_in_hid15727878_for_1p_if_hid15720045_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Fortuna Тунец рубленый в томатном соусе, 185 г","skuId":"235757550","slug":"fortuna-tunets-rublenyi-v-tomatnom-souse-185-g"}]}],"path":"/pricedrop"}
+{"params":[{"regionId":213},null,{"skuId":"107658313"},{"skuId":"107658313","visibleEntityId":"rlmvbq2jwhp"},{"references":[{"referenceEntity":"sku","referenceId":"107658313"}]}],"path":"/product/desiatoe-korolevstvo-nabor-dlia-vyshivaniia-krestikom-ezhik-00303/107658313?show-uid=15842974641655559724906008&offerid=lOpK1WLckbztYELGAglm2Q"}

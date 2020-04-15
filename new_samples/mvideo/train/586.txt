@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1458
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205/f/brand=huawei
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[2,2],"time":[1586337568089,-180],"url":"https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-*05/f/brand=huawei","navctx":{"historyLength":22,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":54,"y":148,"tgen":1586337567966,"tin":1586337567966,"id":1}]},"move":{"data":[{"x":120,"y":304,"t":1586337566932,"d":"HLMNNNNROOOONN.1UuB12"},{"x":103,"y":305,"t":1586337567305,"d":"MOMK@1"},{"x":71,"y":229,"t":1586337567435,"d":"OOMOONNONOOOOMONMNMKOLJJJLLNNMMMKJLKIJNJ@N(/1322242/121212112Y,"}]},"movegen":{"data":[{"x":120,"y":304,"t":1586337566932,"d":"MNMMMNMNNNNPOOQOOOOONN,%$$.%Zt808"},{"x":103,"y":305,"t":1586337567313,"d":"MOMNLLLLKLKMMOOMOOOOONNONOOOOOOONNOOONOMNNNONOOMOONOMKJKJIHHHFGHJLJKNLMMNLNNMMMNMNMLMNLNLLLMNLMNLMNLMNMN@1,*****))%))(()))%,))9=1(1)))()))))&,())5)%&))))))-"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[{"type":"enter","x":120,"y":304,"tgen":1586337566906,"tin":1586337566906}]},"performance":{"data":[{"t":1586337566931,"d":"*!!'%%&&%%&%&%&&%&%'&%&&&%&%+&)&%)&%&%&&&%&(%&(&%&&%&%&%&&%&&%&&%&&%&%&&&&&%&&%&&%&(%'x8%%%'%&%&%&(%%)%&&%&%%&&%%+)&%(&%&%&%'&%&%&%(&%)&%(%&%%&%'&%Q%%%&%%%&%%%&%%%&&%&%%&%&&%%&&%&%%&&&%)%%&%&%%&%%&%&%%&%&%%&%&%%"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/2020/03/12/theater/stephen-sondheim-playwright.html
+Referer https://www.nytimes.com/section/theater
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/12/theater/stephen-sondheim-playwright.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}
+{"operationName":"CollectionsQuery","variables":{"id":"/section/theater","first":10,"query":{"sort":"newest"},"exclusionMode":"HIGHLIGHTS_AND_EMBEDDED","cursor":"YXJyYXljb25uZWN0aW9uOjk="},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"0ce7ad597c49b47e93f93707503f1afd1b90e2376c37c4c1789ce6c94d899d4b"}}}

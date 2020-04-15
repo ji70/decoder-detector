@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/holodilniki-i-morozilniki-2687/holodilniki-i-morozilnye-kamery-159/f/category=holodilniki-side-by-side-i-mnogodvernye-668
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"searchListing","variables":{"condition":{"categoryId":"159","filters":[{"name":"category","values":["668"]}],"shopId":null,"availableNow":false},"limit":12,"offset":0,"order":"DEFAULT"},"query":"query searchListing($condition: SearchListingCondition!, $order: SearchOrder, $limit: Int!, $offset: Int) {\n  searchListing(condition: $condition, order: $order, limit: $limit, offset: $offset) {\n    result {\n      groups {\n        total\n        items\n        filters {\n          name\n          values {\n            count\n            value\n            name\n            url\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    seo {\n      ...seoFields\n      __typename\n    }\n    newUrl\n    breadcrumbs {\n      name\n      link\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment seoFields on SeoSetting {\n  h1\n  title\n  metaDescription\n  keywords\n  seoText\n  templatedSeoText\n  canonicalUrl\n  __typename\n}\n"}

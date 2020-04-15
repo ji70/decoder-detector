@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/2020/03/09/movies/max-von-sydow-dead.html
+Referer https://www.nytimes.com/2020/03/12/arts/nyc-this-weekend-comedy.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/09/movies/max-von-sydow-dead.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}
+{"operationName":"RelatedCoverageQuery","variables":{"id":"https://www.nytimes.com/2020/03/12/arts/nyc-this-weekend-comedy.html"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"95fbe40c7bc981e3e412613c2125e51d7ba628f3a7fc1f02d5491cbb959d340b"}}}

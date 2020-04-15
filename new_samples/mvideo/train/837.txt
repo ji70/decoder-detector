@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/aksessuary-dlya-televizorov-41/pristavki-smart-tv-i-priemniki-dvb-t2-358
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"50050554","price":1890},{"id":"50051267","price":1190},{"id":"50051709","price":990},{"id":"50109617","price":1690},{"id":"50109618","price":1890},{"id":"50119406","price":1590},{"id":"50120342","price":890},{"id":"50124394","price":350},{"id":"50125742","price":5990},{"id":"50126530","price":990},{"id":"50130198","price":5990},{"id":"50132359","price":1190}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

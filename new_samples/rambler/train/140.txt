@@ -1,7 +1,7 @@
 POST https://kraken.rambler.ru/cnt/
-Referer https://horoscopes.rambler.ru/moon/calendar/
+Referer https://news.rambler.ru/?utm_content=news_media&utm_medium=topline&utm_source=kassa
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type application/x-www-form-urlencoded;charset=UTF-8
 
-et=bv&pid=213403&rid=1584109178.938-166088278&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Avkontakte%22%2C%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Afacebook%22%2C%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Aodnoklassniki%22%2C%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Alivejournal%22%2C%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Atwitter%22%2C%22rambler-share%3A%3Ahoroscopes.rambler.ru%3A%3Ahttps%3A%2F%2Fhoroscopes.rambler.ru%2Fmoon%2Fcalendar%2F%3A%3Agoogleplus%22%5D&sp=%5B%22new%22%5D
+et=cl&pid=127846&rid=1584108452.816-1875830&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22blocks%3A%3Adesktop%3A%3Anews%3A%3Amain%3A%3Anews%3A%3Adaily%3A%3A5%22%5D&sp=%5B%22desktop%22%5D

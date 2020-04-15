@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/radioupravlyaemye-ustroistva-56/kvadrokoptery-2289
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10018354","price":9990},{"id":"10018835","price":136490},{"id":"10019092","price":134990},{"id":"10019093","price":104490},{"id":"10019095","price":32190},{"id":"10020716","price":11790},{"id":"10021613","price":13990},{"id":"10022795","price":169890},{"id":"40067504","price":62790},{"id":"40067506","price":62790},{"id":"40067507","price":84790},{"id":"40067509","price":84790}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

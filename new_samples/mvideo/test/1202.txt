@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 2568
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/gadzhety-64/apple-watch-2947
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[4,4],"time":[1586337784016,-180],"url":"https://www.mvideo.ru/gadzhety-64/apple-watch-**47","navctx":{"historyLength":33,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":171,"y":308,"tgen":1586337783097,"tin":1586337783097,"id":1},{"type":"up","x":171,"y":308,"tgen":1586337783200,"tin":1586337783201,"id":1},{"type":"click","x":171,"y":308,"tgen":1586337783256,"tin":1586337783257,"id":1}]},"move":{"data":[{"x":120,"y":445,"t":1586337779020,"d":"PQTVZWTRQPMNJKDIKLMM(/21221212"},{"x":166,"y":404,"t":1586337779536,"d":"QOPQOOOOOOOJNKJMKMMNMN0)021221212"},{"x":171,"y":373,"t":1586337779813,"d":"POOOPPOMNNMNNN0111ZQ0"},{"x":174,"y":362,"t":1586337780091},{"x":174,"y":323,"t":1586337782417,"d":"NOOMMJNL'3/2"},{"x":170,"y":311,"t":1586337782785,"d":"OPNMG:"},{"x":171,"y":307,"t":1586337783504},{"x":171,"y":306,"t":1586337783637,"d":"OOOLNMLLMONMHIJHEELM),2113211Z"}]},"movegen":{"data":[{"x":120,"y":445,"t":1586337779033,"d":"PQRQSRRRTSSRQQPQPMNMLMMLLJMKMMMNMM)))))*()*)(*)))(1"},{"x":166,"y":404,"t":1586337779549,"d":"QOPPPOOOOOOOOOOOJNKLMNNNMNNNMNMN1)%-))*)))$*(111"},{"x":171,"y":373,"t":1586337779825,"d":"POOOPPOOMNNMNNNM2110ZQ1r"},{"x":174,"y":360,"t":1586337782330,"d":"QPPOOOONNMNOOOMKMLLJJLKKKMLMNL=)))$*))))())*9"},{"x":170,"y":311,"t":1586337782798,"d":"OPNME="},{"x":171,"y":307,"t":1586337783518},{"x":171,"y":306,"t":1586337783650,"d":"OOOOOLONNNMNMNOMOONMNMKINKLKJJJKNMNM))))%-)))))))))))Y"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337778950,"d":"+''%&%&%&&&%&%'&%&&%&&%&'&%&&%&&&&'&&&&%&%&%&%%&%&&%&&&%&&&&&%&&&&&%)~3&%%%&%%%&%%&%&%%&%&%%&%&%%&%&%%&%&&&%&&&%&%&&&&&%(&&&%&%'%&&%&%'%&&%&%&%&&&%&&&%&&&&%&&&&%&&&&&'&&'&&'&&%&&'%&&&%&%&&%&&%&&&&&)&%&&%&%&&%&&&%&&&&&%&&&&&%&&&&&%&&&&&%&%&&%&&&&&&%&&&&&&%&&&"},{"t":1586337780398,"d":"&%%%%%%&%%%%%&%%%%&%&%%&%%&&%%&%%&%&%%&%%&%&%%&%%&%&%%&%%&%&%%&%%&%&%%&&%&&%&&&%&&%&%&&&&&%&&&&%&&&&&%&&%&&&&%&&&&%&&&%&%&&%&&&%&&&&%&&%&&&&%&&&%&&&&&&%"},{"t":1586337782444,"d":"!!!%&%%&%%&%%&%&%%'%&&%&%&%%&&%&&%&%&%&%&%&&%&&%&&&&%&&&%&%&&%&&&&%&&&%&&%&&%&&&&%&%&%&%&(%&&%&&&%&&&&%&&&&&&%&%&&&&%&&&&&&&%&&&&&&&%&&&&&&%+&%&%%&&&%&&&&&%&&&&%&`'%%&'{2%%&%%%&%%%&%%%&%%%'%&%&%&%&%&%&%&&&&%&&&&%&&&&&%&&&&&&%&&&%&(&&%&&%&&%&&%&)&%&%&&%&&%&&&%&&&&%&&&&&&&%&&&&%&&&&&&&%&&%&%&&%&&%&&&&"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

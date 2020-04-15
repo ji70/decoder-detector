@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/dart
+Referer https://stackshare.io/bitupper/bitupper
 Sec-Fetch-Dest empty
-X-CSRF-Token DDCO5C/HujhB1R1CX+R46RKXmJLIp9rHSjI5d8uHenYpgeE8ZYR1p/RxdUkICEmYwIW3rHkkmB171xuxM0oR8A==
+X-CSRF-Token imJokygvMsiQwrrMChziL3cIrINpXLvGMwTqXpcPOtz6Zkze0garrQlD7Ebj5e+yv/0vMTnFpVOmc5BUs4KCRA==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"contactBySlug","variables":{"id":"dart"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"bitupper"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

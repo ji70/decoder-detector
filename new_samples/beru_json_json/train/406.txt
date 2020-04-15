@@ -1,8 +1,18 @@
-POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
-Referer https://beru.ru/catalog/nabory-dlia-vyshivaniia/16593222/list?hid=6430983
+POST https://beru.ru/api/resolve/?r=cart/removeItemsFromCart:removeItemsFromCart
+Host beru.ru
+Connection keep-alive
+Content-Length 76
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
+Accept */*
+Origin https://beru.ru
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://beru.ru/my/cart
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=57cecc7510184679383f1a8a2fd35a8e%2Cd32e0df9755f872a9e8c1acf613ea72c%2C43d4d462ac4bc9ee0a6c2ffdad73cf3a%2C28da5eec1518cdceb4ffadefc173ee43%2Cf4a439ef50bc161ff5803233ae53a9bb; last-loaded-page-id=blue-market%3Acart
 
-{"params":[{"cartId":71502047,"items":[{"offerId":"oqPIa2Ha7G3d77SD4u2-XQ","count":1,"shopId":577858,"categoryId":6430983,"hid":6430983,"feeShow":"OTNDnItfwRO6zrnlRDZCBrUjLSt3Dqm6OMEWDPaeIUSt4B7IgFq3BNJ3eUbEMwGR0V9GLsJ_fHjNkxOWsD2FRGSd5KlWaMcfpX30jfZYAsB8QgPT1eZC2LBUxQ8wdeBeYaZId4CB8Yx7wZHokSpklX4E2fqOvghZWIVz3mxQFgQ,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrUjLSt3Dqm6OMEWDPaeIUSt4B7IgFq3BNJ3eUbEMwGR0V9GLsJ_fHjNkxOWsD2FRGSd5KlWaMcfpX30jfZYAsB8QgPT1eZC2LBUxQ8wdeBeYaZId4CB8Yx7wZHokSpklX4E2fqOvghZWIVz3mxQFgQ,","price":{"value":969,"currency":"RUR"},"vendorId":10953200,"feedId":630940,"feedOfferId":"2245646","cpaUrl":"/safeclick/data=338FT8NBgRvqwGz9uOZxgX6hCVepfzz8w4jPjtU27328KmTk1Q-9RiV-bbVZsWx0rQSQ3a5T4wj7IY3BbB91xbDrPDM5-tvkC4qLRk_T8boZKZw3IKHMfyea2jmtX_mbcJlGe355MNHz8xUES5Ez20alRxHjj3RnB53LmUYYkOMNzOWLpNNimG51LoM_PLvvulLABtf_30Brc9dFLLLexPCMXfGmVgSMIxFNJSHnMjxIew7fAL8udBDwQQhkB1Dwc8ckOGjmI6seLWiQT_9BACRAQT3kuUMEZnqTfipyEIpLdRsalcwCLRvwvV31zklpBjrlJV9s1SyEpQTeH50lwedNN3T1YgRU_SBSudeUSqNhHzh0R_iid09HCw-D-D7WJZWtUSY_1vMySlTc5DD4mXlnwhxhXYlKs7rMhyJRo2weNVvTmdYLyG7ZE21vqvWzrZ66GmTwOvQTG1Vu5p63eIcAyjJxuiwYwJflu8qN1tBUC0wFBYIwyLRFiJhASqFRPT1bVL_2OeM4j_g_byic0P-Z9jh0AsvRbNKgLAMzGtUiKBKqVUzINn3pfCjU2sD5cqt8carxlhMbiBm88arxQrl05nu7LmHtEU9B5GuIviEdNZQNkFt5dL2cP2Dhp4K9mv_BwvtCQSP4SgKPH0iFSikn-d7hONEZYSs4ZIyoK3IGYnRDY1ZR0-pb6R1z5gBStm8cVI6YXZxY-gDXU-vJMAHGRhOdPnm6YjjB57H_W0jdMjkwZ1i_-Xgy9bpYlYsS9XS7bglDUyodUmWQcw5WmCZ8efNOFIyJOpyiJRaSs9NO6T6VbPBfLKcP8gB6DfX5Zen7MIg6mT4Wcx-7E8UmOscJ37IY63z6N1hI1vypqwvCmum9xm550W-T5e6yD71Qjdm-wgicNak1gOVTkyo5IAroHjQP7SW2xRxrYCV9Kq37WzBU2cqUo_GmGdn_DOWKpmWhyB9UXt-NUPHjot9XOh_g9fzSgtuboK4eY_pfvBgTi2qRNDoMGjSGQiBrYnfdkj0LvDStl4ClR-vkuac3JqkInIs_obY9Rf31Lu0pUv-V37HRPpkSPTKS7eT5S7Qx3BdPX1JICHRaBBXGWm_8_oCSKmqnTVxU8uaTOg2GISbowj5xkQKzYA7qCwf7z4nt3Bmv-F1gYV-2Mz3M9NFvV0GTfeyCYRW0VWgEesLpFeh3V0EVlojqTCQu-F0CZ6Ic/b64e=1/sign=08d371e4746f607e580e0ab538bb7962/keyno=1/*","name":"Риолис Набор для вышивания крестом Поцелуй (по мотивам картины Г. Климта) 30 х 35 см (1170)","skuId":"382713213","slug":"riolis-nabor-dlia-vyshivaniia-krestom-potselui-po-motivam-kartiny-g-klimta-30-kh-35-sm-1170"}]}],"path":"/catalog/nabory-dlia-vyshivaniia/16593222/list?hid=6430983"}
+{"params":[{"cartId":71502047,"cartItemIds":[130001226]}],"path":"/my/cart"}

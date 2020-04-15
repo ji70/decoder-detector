@@ -1,0 +1,20 @@
+POST https://www.mvideo.ru/.rest/graphql
+:method POST
+:authority www.mvideo.ru
+:scheme https
+:path /.rest/graphql
+content-length 998
+accept */*
+sec-fetch-dest empty
+adrum isAjax:true
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+origin https://www.mvideo.ru
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://www.mvideo.ru/radioupravlyaemye-ustroistva-56/kvadrokoptery-2289
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie MVID_CITY_ID=CityCZ_975; MVID_GUEST_ID=14279169432; MVID_VIEWED_PRODUCTS=; wurfl_device_id=generic_web_browser; PaymentMethodsOnCart_2=1; MVID_REGION_ID=1; MVID_DELETE_WITH_POPUP=1; COMPARISON_INDICATOR=false; NewRasProc=1; flacktory=no; BIGipServeratg-ps-prod_tcp80=1812257802.20480.0000; SMSError=; authError=; uxs_uid=8dd1e140-7978-11ea-a396-ed4d2f006014; uxs_mig=1; _ga=GA1.2.188370881.1586336927; _gid=GA1.2.1736232399.1586336927; deviceType=tablet; flocktory-uuid=2f5aeb87-d97e-41b6-aa50-cac749b06a33-0; _gcl_au=1.1.874786487.1586336929; MVID_GEOLOCATION_NEEDED=false; BIGipServeratg-ps-prod_tcp80_clone=1812257802.20480.0000; tmr_lvid=d8c5caa3b322cb981ca1e662a9363559; tmr_lvidTS=1586336928851; _ym_uid=1586336929866824486; _ym_d=1586336929; _ym_isad=2; _ym_visorc_25907066=w; _fbp=fb.1.1586336929205.1531861007; __zzatgib-w-mvideo=MDA0dBA=Fz2+aQ==; abtest_IR=3; kfp_login=no; oxxfgh=L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30#0#1800000#5000; KFP_DID=e278d1e6-88e1-97eb-93f3-5b1198e5b806; ADRUM_BT1=R:61|i:7551|e:572; BIGipServeratg-ps-prod_tcp80=2969885706.20480.0000; BIGipServeratg-ps-prod_tcp80_clone=2969885706.20480.0000; tmr_detect=0%7C1586338248267; _gat_owox37=1; JSESSIONID=X28wpNZfLhlvWsTgYV9ng2YTGyygThbY8L28fp1wGkz0qKJlQpKz!-746565567; cfidsgib-w-mvideo=5/nJylz9pS9BqpZRfFAe5ixA22defLdxhQ6GPqC8QCm1RdKPXCWbsxopVyb1Em08/WavkKh1tpNhdi/JpohcitYn7pshjUI5S22j7I2znbGbhsL6usPdEg8pL8q39v2e6Gv6g+ygkqt6j9dkMBvPaQuW8K5Mxwtfr/G0jRA=; ADRUM=s=1586338279530&r=https%3A%2F%2Fwww.mvideo.ru%2Fvideokamery-i-ekshn-kamery-2287%2Faksessuary-dlya-ekshn-kamer-355%3F0; tmr_reqNum=550; _dc_gtm_UA-1873769-1=1; JSESSION_ID_IR=2ADD7D9DDC59D4BF441BA368DBE759AB; ADRUM_BTa=R:0|g:cba73052-8abf-43c1-a062-7f34b3b7f69f|n:customer1_b8e1f0e6-cc5b-4da4-a095-00a44385df2e; CACHE_INDICATOR=false; BIGipServericerock-prod=1862589450.20480.0000; bIPs=2032924511
+
+{"operationName":"searchListing","variables":{"condition":{"categoryId":"2289","filters":[],"shopId":null,"availableNow":false},"limit":12,"offset":0,"order":"DEFAULT"},"query":"query searchListing($condition: SearchListingCondition!, $order: SearchOrder, $limit: Int!, $offset: Int) {\n  searchListing(condition: $condition, order: $order, limit: $limit, offset: $offset) {\n    result {\n      groups {\n        total\n        items\n        filters {\n          name\n          values {\n            count\n            value\n            name\n            url\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    seo {\n      ...seoFields\n      __typename\n    }\n    newUrl\n    breadcrumbs {\n      name\n      link\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment seoFields on SeoSetting {\n  h1\n  title\n  metaDescription\n  keywords\n  seoText\n  templatedSeoText\n  canonicalUrl\n  __typename\n}\n"}

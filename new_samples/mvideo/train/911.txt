@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"prices","variables":{"productIds":["30045357","30045435","30048213","30048216","30044931","30048072","30043039","30040032","30044869","30047894","30045423","30044868"],"regionId":"1"},"query":"query prices($productIds: [String]!, $regionId: String!) {\n  prices(productIds: $productIds, regionId: $regionId) {\n    productId\n    actionPrice\n    basePrice\n    economy\n    bonusRubles\n    __typename\n  }\n}\n"}

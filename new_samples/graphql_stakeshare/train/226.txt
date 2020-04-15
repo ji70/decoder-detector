@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/domino
+Referer https://stackshare.io/datarobot
 Sec-Fetch-Dest empty
-X-CSRF-Token nc93sTq9+1uL7CMmDgMkm9axEcK5pSWWPjC9wSQkf2u4fhhpcP40xD5ISy1Z7xXqBKM+/AgmZ0wP1Z8H3OkU7Q==
+X-CSRF-Token azStXdVg0e60z10J6sbmC+RNyi2LbNsFp8ZJETPBgndOhcKFnyMecQFrNQK9Ktd6Nl/lEzrvmd+WI2vXywzp8Q==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"followers","variables":{"id":"101231773899890335","first":10},"query":"query followers($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    followers(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          id\n          displayName\n          username\n          imageUrl\n          title\n          popularity\n          path\n          stacksCount\n          favoritesCount\n          votesCount\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"toolDecisions","variables":{"id":"101231777386015229"},"query":"query toolDecisions($id: ID!, $after: String) {\n  tool(id: $id) {\n    stackDecisions(first: 6, after: $after) {\n      edges {\n        node {\n          user {\n            id\n            username\n            title\n            companyName\n            imageUrl\n            thumbUrl\n            displayName\n            __typename\n          }\n          company {\n            imageUrl\n            thumbUrl\n            name\n            path\n            features {\n              slug\n              __typename\n            }\n            __typename\n          }\n          link {\n            url\n            title\n            __typename\n          }\n          publicId\n          createdAt\n          id\n          htmlContent\n          viewCount\n          upvotesCount\n          services {\n            name\n            path\n            id\n            imageUrl\n            thumbUrl\n            __typename\n          }\n          topics {\n            name\n            id\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

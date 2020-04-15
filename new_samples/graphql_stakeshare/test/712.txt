@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/hadoop
+Referer https://stackshare.io/digitalocean/digitalocean
 Sec-Fetch-Dest empty
-X-CSRF-Token ZhhKUeCyICjZS4iT245ur/WTx1cml29Phs06QAzL+7QWHG4cGpu5TUDK3hkyd2MyPWZE5XYOcdoTukBKKEZDLA==
+X-CSRF-Token BpYCHPg26NgAywYRW0oTA/JP1BTSavYJWk3xmxBQ0YQjJ23EsnUnR7VvbhoMpiJyIF37KmPptNNrqNNd6J26Ag==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

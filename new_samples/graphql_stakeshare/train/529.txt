@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 161
 accept */*
-sec-fetch-dest empty
-x-csrf-token c0fFrw4kx67nC1On3tCxOZ3fnMgNZjJ7t/g02MuwuWhW9qp3RGcIMVKvO6yJPIBIT82z9rzlcKGGHRYeM33S7g==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/ruby
+Sec-Fetch-Dest empty
+X-CSRF-Token Nl2fyWaCe+D0ZhKKHH7FVGW/Z40mz7tdQTMlMzX6U2cT7PARLMG0f0HCeoFLkvQlt61Is5dM+Ydw1gf1zTc44Q==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/edgecast
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODcwMzg0MTUsImV2ZW50SWQiOjI3NiwiaWRlbnRpZnlJZCI6MTEzLCJzZXF1ZW5jZU51bWJlciI6Mzg5fQ==; _stackshare_production_session=D%2Fme15Im5H0qV9CBUWLnbInxcnhM1IXAbuZakSIM6KrVn%2BCcvsp9oqYfa4A8o%2FEbbA0U2zOUZB00j193tpW30GI2tY2Lc6fEWzyPhkaBDCysiMk6UU2lHCUxz7NaZOV9W6YG9A%2BYyhA4v8nwBLc2LoCIvNSFAgFb5kq%2BeTs2TqVfCKK5WwBKb3u7%2F7OJLogUWPcVmlSFKdfQTCRu5GUNBUjcHbSMkoheMETrc5%2FJc%2FfhOJS4WdoU9Ww%2BAztUsXJWSwi%2BeZfOHF9S%2Fx6weYI8V3U%2FPokb07jYzMQAKM8ajoOogs8mJ0vmSG8rA3avCOvbZDUOc2C0TH29U%2Fgn0AEUNy8NmqWVnTShWd2zhwjejlg6Ot5JDLSzB8SwokEKMQylg%2BV%2FVrDGbd5BmconwACcJ3j6MSZVBPVYPpX9cTlkxXlMn8bpxn9Dz4OErlEyVCxr%2FBrQMxJkm1LuYxB6xFdIuhnnVv0qhRN3Ol3i%2B2WAHWkw%2B20gtc7kTMG7qJ4j4nX5gIVXBeHpb3Pbs6VkGQEGu3W3blDZYAGNjlI2COc%3D--qwRPMH5cZbTnkBvx--Ek3ZEQC%2FrlA1KzS%2Bu6oDZw%3D%3D
 
-{"operationName":"trackViews","variables":{"decisionIds":[]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}
+{"operationName":"followers","variables":{"id":"101231773835511567","first":10},"query":"query followers($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    followers(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          id\n          displayName\n          username\n          imageUrl\n          title\n          popularity\n          path\n          stacksCount\n          favoritesCount\n          votesCount\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

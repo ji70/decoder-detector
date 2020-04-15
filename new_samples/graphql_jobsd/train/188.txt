@@ -3,17 +3,17 @@ POST https://xapi.supercharge-srp.co/job-search/employerRelatedJobs/graphql?coun
 :authority xapi.supercharge-srp.co
 :scheme https
 :path /job-search/employerRelatedJobs/graphql?country=hk
-content-length 295
+content-length 296
 sec-fetch-dest empty
-x-employer-id 564-null
+x-employer-id 5579-null
 user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 accept */*
 origin https://hk.jobsdb.com
 sec-fetch-site cross-site
 sec-fetch-mode cors
-referer https://hk.jobsdb.com/hk/en/job/board+secretary-100003007662587
+referer https://hk.jobsdb.com/hk/en/job/business+consultant+innovation+business-100003007701285
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 
-{"query":"{\n      jobs(country: \"hk\",accNums: 564){ \n        total\n        queryParameters {\n          key\n          searchFields\n        }\n        jobs {\n          id\n          jobTitle\n          jobUrl\n          postingDuration\n          jobTitleSlug\n        }\n      }\n    }"}
+{"query":"{\n      jobs(country: \"hk\",accNums: 5579){ \n        total\n        queryParameters {\n          key\n          searchFields\n        }\n        jobs {\n          id\n          jobTitle\n          jobUrl\n          postingDuration\n          jobTitleSlug\n        }\n      }\n    }"}

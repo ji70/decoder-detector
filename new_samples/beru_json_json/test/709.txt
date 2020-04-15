@@ -1,8 +1,8 @@
 POST https://beru.ru/api/resolve/?r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
-Referer https://beru.ru/catalog/sergi/17429354/list?hid=91275
+Referer https://beru.ru/catalog/smazki/76752/list?hid=90489
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"count":1,"by":"offerIds","cartOfferIds":["1MeIkrl_Y7YBajbqb0H_dQ"]}],"path":"/catalog/sergi/17429354/list?hid=91275"}
+{"params":[{"count":1,"by":"offerIds","cartOfferIds":["lkDr-eoxCtnFu88UlBd_uw"]}],"path":"/catalog/smazki/76752/list?hid=90489"}

@@ -1,19 +1,7 @@
 POST https://fls-na.amazon.com/1/batch/1/OE/
-:method POST
-:authority fls-na.amazon.com
-:scheme https
-:path /1/batch/1/OE/
-content-length 1910
-sec-fetch-dest empty
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-content-type text/plain;charset=UTF-8
-accept */*
-origin https://www.amazon.com
-sec-fetch-site same-site
-sec-fetch-mode no-cors
-referer https://www.amazon.com/ap/signin?openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0&openid.mode=checkid_setup&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=amzn_aws_training&openid.return_to=https%3a%2f%2fwww.aws.training%2fAuthPortal%2fResponse%3fReturnUrl%3d%252f%26clientContext%3dezbgjvvha5esycwmklejmak5&openid.pape.max_auth_age=1200&pageId=awstraining_global_ap&language=en_US&clientContext=ezbgjvvha5esycwmklejmak5
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie session-id=144-2554613-7018855; session-id-time=2214818171l; lc-main=en_US
+Referer https://www.amazon.com/ap/signin?openid.ns=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0&openid.mode=checkid_setup&openid.claimed_id=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.identity=http%3a%2f%2fspecs.openid.net%2fauth%2f2.0%2fidentifier_select&openid.assoc_handle=amzn_aws_training&openid.return_to=https%3a%2f%2fwww.aws.training%2fAuthPortal%2fResponse%3fReturnUrl%3d%252f%26clientContext%3d0k51hkm2ymdnkzec1l4smutz&openid.pape.max_auth_age=1200&pageId=awstraining_global_ap&language=en_US&clientContext=0k51hkm2ymdnkzec1l4smutz
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type text/plain;charset=UTF-8
 
-{"rid":"MPAXE2Z695KVZ1PXEY83","sid":"144-2554613-7018855","mid":"ATVPDKIKX0DER","sn":"www.amazon.com","reqs":[{"csmcount":{"counter":"baselineCounter2","value":1,"t":2}},{"csmcount":{"counter":"aui:hiResDesktop","value":0,"t":109}},{"csmcount":{"counter":"aui:pagejs:pkgExecTime","value":4.560000001220033,"t":110}},{"csmcount":{"counter":"aui:resource_count","value":1,"t":110}},{"csmcount":{"counter":"aui:resource_count","value":2,"t":112}},{"csmcount":{"counter":"aui:resource_count","value":3,"t":112}},{"csmcount":{"counter":"aui:resource_count","value":4,"t":112}},{"csmcount":{"counter":"aui:resource_count","value":5,"t":113}},{"csmcount":{"counter":"csm.cookieSize","value":74,"t":114}},{"csmcount":{"counter":"totalImages","value":1,"t":156}},{"csmcount":{"counter":"contactVerificationCVFCreate","value":1,"t":375}},{"csmcount":{"counter":"postbackImageSize","value":665,"t":451}},{"csm":{"k":"rtiming","value":"fq4_dq4_Dq4_cq4_Cq4_qrj_ss7_Ssu_tt4_eoi_E1vi_aq4_z2q_ilink*fq3_dq4_Dq6_cq6_Crj_qrj_ss7_Ssv_ti09_ehv4_E2zyk_aq3_z2r_ilink*fq3_dq3_Dq3_cq3_Cq3_qrj_ss6_Ssv_t70c_e6rx_E1091_aq3_z2s_ilink*ft9_dt9_Dt9_ct9_Ct9_quk_sv6_Sw0_th8d_egyl_E1n0y_at9_z2q_iscript*ftj_dtk_Dtm_ctm_Cuw_quw_svj_Sx5_tlt9_ell0_Ell0_atj_z3l_icss*ft9_dt9_Dt9_ct9_Cuj_quk_sw1_Sxw_t24ze_e24sh_E6vwp_at9_z4n_iscript*fta_dta_Dta_cta_Cta_quk_sw4_Syb_t2fn_e2bi_E6g9_ata_z50_iscript*fta_dta_Dta_cta_Cta_quk_swz_Syb_tcf_e9q_Eee_ata_z51_iscript*fta_dta_Dta_cta_Cta_quk_sw2_Syc_t18ei_e189k_E4ujp_ata_z52_iscript*fq4_S127_aq4_zc3_iimg~pm"}},{"csmcount":{"counter":"aui:aui-supported-rupee","value":1,"t":522}},{"csmcount":{"counter":"postbackImageSize","value":207,"t":543}},{"csmcount":{"counter":"postbackImageSize","value":248,"t":730}},{"csmcount":{"counter":"postbackImageSize","value":213,"t":737}},{"csm":{"k":"chk","f":1,"l":{"csmcount":16,"csm":2},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":1909}}]}
+{"rid":"WAH22S30VT2GKH90861Z","sid":"133-9005428-2761447","mid":"ATVPDKIKX0DER","sn":"www.amazon.com","reqs":[{"cel":{"k":"unr_mcm","t":34938,"dt":5.83,"x":389,"y":301,"p":"//*[@id='a-autoid-0']","n":"SPAN","i":"a-autoid-0","c":["a-button","a-button-span12","a-button-primary"]}},{"cel":{"k":"res_mcm","t":41550,"m":4}},{"csm":{"k":"chk","f":3,"l":{"csmcount":14,"csm":4,"cap-ciba":1,"cel":2},"s":"full"}},{"csmcount":{"counter":"foresterPayloadSize","t":0,"value":471}}]}

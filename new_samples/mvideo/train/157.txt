@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/hi-fi-tehnika-5/akustika-hi-fi-192
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"delivery","variables":{"productIds":["50051696","10020766","10007354","10021289","10010769","10022644","10011465","10020119","10005254","10020706","10020830","10002042"],"parameters":{"regionId":"1"}},"query":"query delivery($productIds: [String]!, $parameters: DeliveryQueryParameters) {\n  delivery(productIds: $productIds, parameters: $parameters) {\n    productId\n    methods {\n      price\n      dateDescription\n      type\n      __typename\n    }\n    __typename\n  }\n}\n"}

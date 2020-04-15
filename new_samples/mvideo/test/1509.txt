@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/collection_bottom=seriya-serif?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"banners","variables":{"id":"95253bbf-402f-4af4-a263-4019488170b0","categoryId":"65","brandIds":[],"facetCategoryIds":[]},"query":"query banners($id: String!, $regionId: String, $categoryId: String, $brandIds: [String], $facetCategoryIds: [String]) {\n  banners(id: $id, regionId: $regionId, categoryId: $categoryId, brandIds: $brandIds, facetCategoryIds: $facetCategoryIds) {\n    main {\n      url\n      titleSelect\n      altText\n      priority\n      __typename\n    }\n    image {\n      borderPLPBanner\n      mobileBanner\n      __typename\n    }\n    __typename\n  }\n}\n"}

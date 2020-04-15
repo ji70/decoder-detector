@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/holodilniki-i-morozilniki-2687/holodilniki-i-morozilnye-kamery-159
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"20036154","price":55990},{"id":"20039760","price":25990},{"id":"20039865","price":39990},{"id":"20040037","price":39390},{"id":"20051783","price":28890},{"id":"20055962","price":42990},{"id":"20056484","price":54990},{"id":"20060204","price":54990},{"id":"20060208","price":45490},{"id":"20062601","price":43990},{"id":"20062868","price":99990},{"id":"20066238","price":36990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

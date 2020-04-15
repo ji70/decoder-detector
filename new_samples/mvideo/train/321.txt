@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1677
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/gadzhety-64/smart-gadzhety-5607?reff=menu_main
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[7,7],"time":[1586338186665,-180],"url":"https://www.mvideo.ru/gadzhety-64/smart-gadzhety-**07?reff=menu_main","ref":"https://www.mvideo.ru/portativnoe-audio-25/portativnaya-akustika-*02","navctx":{"historyLength":50,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":223,"y":422,"tgen":1586338186144,"tin":1586338186143,"id":1},{"type":"up","x":223,"y":422,"tgen":1586338186253,"tin":1586338186253,"id":1},{"type":"click","x":223,"y":422,"tgen":1586338186304,"tin":1586338186310,"id":1}]},"move":{"data":[{"x":20,"y":145,"t":1586338185461,"d":"PPX]cglENUX_fhG212211"},{"x":161,"y":250,"t":1586338185615,"d":"iyXWRfuYTQ53112"},{"x":242,"y":380,"t":1586338185872,"d":"JIKMM[_YSP/0222"},{"x":223,"y":421,"t":1586338186501,"d":"NNNMNNMKLHIFEBHCDE231122212"}]},"movegen":{"data":[{"x":20,"y":145,"t":1586338185467,"d":"PPPWWTXYZ[[``_`^Z_^[STSSPQOOOOOOOONNNMMLKMLNMMENOUVQUXZZY^]]^ZZ[][SUSPOQSRSTTTTTSURTUUVWUSSPE5-%))))))*$))))))%%-)))))r)))))))))))))%-)))1"},{"x":223,"y":421,"t":1586338186507,"d":"ONNONOOMNONONNMMNMLKMKKJIKHILKJHIJKI))))%-))))))))))))"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586338185461,"d":"!#!!&&&&%&'%&&%&&&%&&&%&'%%&'%%&%%&%%&%%%&%)&%'%&%%&%&&%&&%&&&%("},{"t":1586338185902,"d":"%%%'%%&%%&&%&&%&&&%&&%&%&&%&%&&%&%&&&%&%&%&&%&&%&%&/&%&%&&%&&%&%&%&&%&&%&g&%%&%&%&%&%%&%&%&%&%&%&&%&&%&&%&%&&%&&&%&%&%&%&*&%&&%&%&&&&&%&%&+&%&%&'"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

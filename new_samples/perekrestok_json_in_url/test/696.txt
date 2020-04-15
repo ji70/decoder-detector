@@ -1,7 +1,17 @@
-POST https://api.mindbox.ru/v1.1/customer/track-visit?version=0.45.68&transport=beacon
-Referer https://opt.perekrestok.ru/catalog
+POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
+Host api.mindbox.ru
+Connection keep-alive
+Content-Length 261
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8
+Accept */*
+Origin https://www.perekrestok.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode no-cors
+Referer https://www.perekrestok.ru/catalog/krasota-gigiena-bytovaya-himiya
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie deviceUUID=f1f16901-6755-4437-952d-469764d63869
 
-requestUrl=https%3A%2F%2Fopt.perekrestok.ru%2Fcatalog&referrerUrl=https%3A%2F%2Fopt.perekrestok.ru%2Fcatalog%2Fzamorojennye-produkty%2Fovoschi-i-smesi&ianaTimeZone=Europe%2FMoscow&session.deviceGuid=f1f16901-6755-4437-952d-469764d63869&originDomain=opt.perekrestok.ru&screenResolution=1920x1080
+originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.CategoryView.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22viewProductCategory%22%3A%7B%22productCategory%22%3A%7B%22ids%22%3A%7B%22website%22%3A%221306%22%7D%7D%7D%7D

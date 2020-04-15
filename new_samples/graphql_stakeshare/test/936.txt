@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 659
 accept */*
-sec-fetch-dest empty
-x-csrf-token ct7PCSbq/6eY6RX06mr2qbOCAqjzdPb1YO6c8xGf4EpXb6DRbKkwOC1Nff+9hsfYYZAtlkL3tC9RC7416VKLzA==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/go
+Sec-Fetch-Dest empty
+X-CSRF-Token zuBTizGxyTMA1RH/f3tfFIzUWzpkYr1T+1M0vTCIfE/rUTxTe/IGrLVxefQol25lXsZ0BNXh/4nKthZ7yEUXyQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/twilio-sendgrid/sendgrid
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODY3MTIwNzksImV2ZW50SWQiOjQ4LCJpZGVudGlmeUlkIjoyNSwic2VxdWVuY2VOdW1iZXIiOjczfQ==; _stackshare_production_session=tBw3FAwLKFEeRqTUxVPwIS9f%2Bs8y%2Fx38o%2FjlA2%2FHqqyu1GZEvhwLtm%2F7HAAJeW0KbvE8Q350oC5%2FLenzY0sPYvVU6k%2F5Wpa%2BUtoz1A1A0%2BaOxiHFnd%2Fz%2FJVxtW0UnUbAJKedeus67vmpPV8EIhZxEb%2BOEfdYBpVRwubKwumZV54krWzIzomxbC4pNjYG9N94fkLXbxxVCtdY9Pnc8kZyFcSlUMuZvmXD05nkT9V2bo5tvNaumRnPiMTcaUq%2BFR%2FPqM6IvzEqdb95H5y7LQRfZCYQ%2BDN3ZUH76fUoyqzLovY7VH815bXJ1ADN2PDxEZ1yPXsqZE9RQErjSt4pRDIkh4%2FCidnVMbeHi27XTpMXdTdf6Bdw6OhPS6HouvahDd7IfRd5LDKkWWA4a3zbWxGw%2Bb%2Fh57OmwCQ0c5krytDa0JaF7se0VOYBwQIZmTVk48bFV1WM4XLTtDTln0nCPftOAdSa3I%2BTn%2BLb%2B5B0P%2BTYlJA9dyHiWg1h3aUhJhSMMxIWeDaUN1B3rC7wruHJpRrAT3wAYyNtuDZWCBxs%2FaA%3D--7JEiRfO8Pd91eo9v--YMFzB7UyPsb%2FwOQCY0ToFQ%3D%3D
 
-{"operationName":"otherStacks","variables":{"id":"twilio-sendgrid/sendgrid","limit":3},"query":"query otherStacks($id: String!, $limit: Int!) {\n  stackProfile(identifier: $id) {\n    id\n    otherStacks(first: $limit) {\n      count\n      edges {\n        node {\n          id\n          slug\n          name\n          services {\n            id\n            name\n            slug\n            title\n            imageUrl\n            layer {\n              slug\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"toolDecisions","variables":{"id":"101231773842107538"},"query":"query toolDecisions($id: ID!, $after: String) {\n  tool(id: $id) {\n    stackDecisions(first: 6, after: $after) {\n      edges {\n        node {\n          user {\n            id\n            username\n            title\n            companyName\n            imageUrl\n            thumbUrl\n            displayName\n            __typename\n          }\n          company {\n            imageUrl\n            thumbUrl\n            name\n            path\n            features {\n              slug\n              __typename\n            }\n            __typename\n          }\n          link {\n            url\n            title\n            __typename\n          }\n          publicId\n          createdAt\n          id\n          htmlContent\n          viewCount\n          upvotesCount\n          services {\n            name\n            path\n            id\n            imageUrl\n            thumbUrl\n            __typename\n          }\n          topics {\n            name\n            id\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

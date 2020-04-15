@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/optimizely
+Referer https://stackshare.io/edgecast
 Sec-Fetch-Dest empty
-X-CSRF-Token KJ3ndYWMPcWFccIBBFi61DtaA1Z+3mbxvLNEyO6Nji5YmcM4f6WkoBzwlIvtobdJ86+A5C5HeGQpxD7CygA2tg==
+X-CSRF-Token c0fFrw4kx67nC1On3tCxOZ3fnMgNZjJ7t/g02MuwuWhW9qp3RGcIMVKvO6yJPIBIT82z9rzlcKGGHRYeM33S7g==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"userStacks","variables":{},"query":"query userStacks {\n  me {\n    id\n    stacks(first: 25) {\n      edges {\n        node {\n          id\n          slug\n          name\n          services {\n            id\n            slug\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    companies {\n      id\n      name\n      stacks {\n        id\n        slug\n        name\n        services {\n          id\n          slug\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"companyStacksUsing","variables":{"id":"101231773402264254","first":9},"query":"query companyStacksUsing($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    companyStacksUsing(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          name\n          imageUrl\n          thumbUrl\n          thumbRetinaUrl\n          identifier\n          id\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

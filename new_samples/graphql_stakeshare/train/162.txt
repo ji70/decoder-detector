@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 244
 accept */*
-Referer https://stackshare.io/feed
-Sec-Fetch-Dest empty
-X-CSRF-Token fdP3OxiPPKNtB3EiKy3K61JXNEI18GTDl0UXxQrW5/9YYpjjUszzPNijGSl8wfuagEUbfIRzJhmmoDUD8huMeQ==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token tNqkpjI1MCLYQ6WyoL1m/9Hi7K8BZOlyRO2XbBEWDHGRa8t+eHb/vW3nzbn3UVeOA/DDkbDnq6h1CLWq6dtn9w==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/gunicorn
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODY4MzI2MjAsImV2ZW50SWQiOjEzNiwiaWRlbnRpZnlJZCI6NTcsInNlcXVlbmNlTnVtYmVyIjoxOTN9; _stackshare_production_session=ECkY1vBEeQx8AWT%2F4iL%2FcfrL3Oj3gPHasDQZJbSL8NQxl9TmMJGCJaJ%2BashgV3qOQNu%2F%2Frkb7QkTtuXk6g4eawokVi2p%2B0LKJgwfg%2BX0iVUPv554mbXSuWJ5b3Aw5WoX4VML3sox0ao%2Br8TfG4fRM0LfYrR9o5TwQQDQTGKwuYxCRAkagvhu9K9J36YHy82jr19cDHUAVxi2TtxtXfdkjYlTedKT33LipdHiLhQ6xjiN6ukC%2FrBZt3P7o%2FINNz5bB0i%2FzWmw0uLACFwVD6CPU%2FeEEqZd4TZtarbR2TC1t14k3gQJ5lvwNGDog6vAMNysC5otfig38O6af9voACoH5CqqotqAgrf8FmeZItZOsWs%2BJnK58SArIEC6HUzjE2E9HO2YBTTUy7XLXvtuyTfFgggBYrjQA1So9PaEmHBQfmD9VYZpfwIPcMtX%2Fq79K38RJ88rqApa1fjbp%2FFkeFYN%2FLFYvrlQ16%2B%2Bat5KqvWnrNXoeZ%2BPJ6PUhWwK0i6EWEzGqGfmT6JTBwrBpFHwF3WO1gSQ45svOchcfODnDPU%3D--b%2FBf1nYRW2kcgOPV--zZoYcU75GFflbLI7jgvasA%3D%3D
 
-{"operationName":"trendingTools","variables":{},"query":"query trendingTools {\n  trendingTools(first: 25) {\n    edges {\n      node {\n        id\n        name\n        imageUrl\n        canonicalUrl\n        following\n        followContext\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["101975526518880675","102331169755944521","101743757125489623","101743681998673980"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

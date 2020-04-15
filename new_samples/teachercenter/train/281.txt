@@ -1,10 +1,10 @@
-POST https://teachercenter.withgoogle.com/fundamentals/rest/events
+POST https://teachercenter.withgoogle.com/fundamentals/rest/lesson-complete
 :method POST
 :authority teachercenter.withgoogle.com
 :scheme https
-:path /fundamentals/rest/events
-content-length 340
-accept */*
+:path /fundamentals/rest/lesson-complete
+content-length 146
+accept text/plain, */*; q=0.01
 sec-fetch-dest empty
 x-requested-with XMLHttpRequest
 user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
@@ -12,9 +12,9 @@ content-type application/x-www-form-urlencoded; charset=UTF-8
 origin https://teachercenter.withgoogle.com
 sec-fetch-site same-origin
 sec-fetch-mode cors
-referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=71&lesson=74
+referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=56&lesson=60
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie _ga=GA1.3.770855944.1584205568; _gid=GA1.3.233185570.1584205568; SACSID=~AJKiYcFqffrzNMgqiiRw0WHuTwi860Vs7VuhE82l0ILyZ-zuNcdbp6xxT-vQuI03BOGWzamaK8QoDXVJro-sEqhl0UuT425KkhdRI-jr5Uc_lGzCyf2VDdi7JBN9lTGZPIFzFlFQwUrOjmw9Kk2dWwkGj1aUyXgM7kO-9ZxKp8tLYgJzFLz0OztF45ZVYe-BcI5R0O8aYCdg9NSBGKf9f3fTkmcsjtzrBj7W7-rWrpDsGAbyed2048AvmOG8DB46kr8cCQ0t7eXn4uSZuMWE55GAYVpeyTN9-DUecw2qQbLYZ10d7o5_wQWuA9gKATnOvrjZLz0KOvXi; _gat_UA-64000824-2=1
+cookie _ga=GA1.3.449827449.1584110046; _gid=GA1.3.2060883829.1584110046; SACSID=~AJKiYcG7Pt64ECUvl-E6Skoc1q2K04873wEqcx6ybSyR-N2M4XH79X8Mu8H8MmULWyUaCR7hKOkUP1BlIf1AAJq4ItZlCCNx-cYvPNP5HQXbgA8ZU8iKsttWwdCVeaCuavHBTbr-3mhJ668Sxyh9jrFbxhek4ms45G6IBmAy47pX_CHYkCwuIJpuBQ3BpKonLe7KHTUNEEwjJaiz1SXIy6DeWwvavQupgVVdK9LqCXkdYQDagQ3dgueotui_bLWvOeGhcdKC65kUR3A0_4-1CEx0zPKbKduzvY5QF-27KZwx061GRDjCWIMrPAymFlC-PrX9s3rbpCCx; _gat_UA-64000824-2=1
 
-request=%7B%22source%22%3A%22enter-page%22%2C%22payload%22%3A%22%7B%5C%22location%5C%22%3A%5C%22https%3A%2F%2Fteachercenter.withgoogle.com%2Ffundamentals%2Funit%3Funit%3D71%26lesson%3D74%5C%22%2C%5C%22loc%5C%22%3A%7B%5C%22page_locale%5C%22%3A%5C%22en_US%5C%22%7D%7D%22%2C%22xsrf_token%22%3A%221584206747%2FpEMdUttriTRO7Ctjm0Aj8g%3D%3D%22%7D
+request=%7B%22xsrf_token%22%3A%221584110339%2F3iNvPt2A3LvgQY96WPyZfQ%3D%3D%22%2C%22payload%22%3A%7B%22unit_id%22%3A56%2C%22lesson_id%22%3A60%7D%7D

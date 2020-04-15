@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/nginx
+Referer https://stackshare.io/paw
 Sec-Fetch-Dest empty
-X-CSRF-Token qv35Z5DomnR/hWRzFvAbCLxS8qVoHMJsLn/MNHYLYWVgtloZteG+9Fcl0lXq6PDEE1bxR7u1rjBZP5B63mKDhQ==
+X-CSRF-Token 7up+6eMe2LUZv0Mpccnk74fxwxhDN5qIReQsZJOFDvzLWxExqV0XKqwbKyImJdWeVePsJvK02FJ0AQ6ia0hleg==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"nginx"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"toolDecisions","variables":{"id":"101231774259542945"},"query":"query toolDecisions($id: ID!, $after: String) {\n  tool(id: $id) {\n    stackDecisions(first: 6, after: $after) {\n      edges {\n        node {\n          user {\n            id\n            username\n            title\n            companyName\n            imageUrl\n            thumbUrl\n            displayName\n            __typename\n          }\n          company {\n            imageUrl\n            thumbUrl\n            name\n            path\n            features {\n              slug\n              __typename\n            }\n            __typename\n          }\n          link {\n            url\n            title\n            __typename\n          }\n          publicId\n          createdAt\n          id\n          htmlContent\n          viewCount\n          upvotesCount\n          services {\n            name\n            path\n            id\n            imageUrl\n            thumbUrl\n            __typename\n          }\n          topics {\n            name\n            id\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

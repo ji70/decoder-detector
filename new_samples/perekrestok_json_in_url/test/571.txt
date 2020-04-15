@@ -1,7 +1,7 @@
 POST https://api.mindbox.ru/v3/js/operations/async?version=0.45.68&transport=beacon
-Referer https://zoo.perekrestok.ru/catalog/tovary-dlya-jivotnyh/hills
+Referer https://www.perekrestok.ru/cart
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8
 
-originDomain=zoo.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.CategoryView.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22viewProductCategory%22%3A%7B%22productCategory%22%3A%7B%22ids%22%3A%7B%22website%22%3A%222785%22%7D%7D%7D%7D
+originDomain=www.perekrestok.ru&deviceUUID=f1f16901-6755-4437-952d-469764d63869&operation=Online.SetCartItemList.JS&ianaTimeZone=Europe%2FMoscow&data=%7B%22productList%22%3A%5B%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A428197%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2243.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A309566%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%228.19%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A515976%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2239.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A545229%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2283.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A307173%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2248.90%22%7D%2C%7B%22product%22%3A%7B%22ids%22%3A%7B%22website%22%3A313874%7D%7D%2C%22count%22%3A1%2C%22price%22%3A%2232.90%22%7D%5D%7D

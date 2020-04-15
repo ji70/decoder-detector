@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118/f/category=noutbuki-transformery-1224
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"productStatus","variables":{"productIds":["30046817","30046745","30047937","30047030","30047887","30041856","30046818","30046746","30029977","30046744","30038921","30048022"],"parameters":{"regionId":"1"}},"query":"query productStatus($productIds: [String]!, $parameters: BaseQueryParameters) {\n  productStatus(productIds: $productIds, parameters: $parameters) {\n    productId\n    status\n    subStatus\n    showCase\n    digitalCode\n    finalPrice\n    firstKnow\n    showPrice\n    promo {\n      text\n      price\n      color\n      __typename\n    }\n    date\n    url\n    __typename\n  }\n}\n"}

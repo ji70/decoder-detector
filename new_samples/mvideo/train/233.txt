@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/noutbuki-planshety-komputery-8/planshety-195/f/brand=samsung?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"30040121","price":24990},{"id":"30043306","price":39990},{"id":"30043307","price":39990},{"id":"30043309","price":17990},{"id":"30043380","price":17990},{"id":"30043381","price":17990},{"id":"30045284","price":59990},{"id":"30045296","price":11990},{"id":"30045297","price":11990},{"id":"30045298","price":9990},{"id":"30045299","price":9990},{"id":"30045845","price":52990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

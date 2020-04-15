@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/nats
+Referer https://stackshare.io/apache-httpd
 Sec-Fetch-Dest empty
-X-CSRF-Token ZdLOzlq/yqM5KLlnoXzmPC9W+64FMbDFnlT899W7k1dAY6EWEPwFPIyM0Wz2kNdN/UTUkLSy8h+vsd4xLXb40Q==
+X-CSRF-Token ipb8i/2oYJ2YFJU+vX94nbW0jEEDy9e1/ZN3FUjxwpz6ktjGB4H5+AGVw7RUhnUAfUEP81NSySBo5A0fbHx6BA==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"contactBySlug","variables":{"id":"nats"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["101031322436242738","102366438955333811","101184267495135034","102254468380156007","101751674608710853","101999341998382826"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

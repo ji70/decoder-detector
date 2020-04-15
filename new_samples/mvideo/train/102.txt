@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/smartfony-205/f/seriya-samsung=note-seriya?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"delivery","variables":{"productIds":["30047954","30047952","30045392","30045393","30047953","30039469","30045390","30045379","30045394","30047219","30045391","30039468"],"parameters":{"regionId":"1"}},"query":"query delivery($productIds: [String]!, $parameters: DeliveryQueryParameters) {\n  delivery(productIds: $productIds, parameters: $parameters) {\n    productId\n    methods {\n      price\n      dateDescription\n      type\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -8,4 +8,4 @@ Referer https://www.nytimes.com/2020/03/12/health/coronavirus-midlife-conditions
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"RelatedCoverageQuery","variables":{"id":"https://www.nytimes.com/2020/03/12/health/coronavirus-midlife-conditions.html"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"95fbe40c7bc981e3e412613c2125e51d7ba628f3a7fc1f02d5491cbb959d340b"}}}
+{"operationName":"EditorsPicksQueryPersonalized","variables":{"listUri":"nyt://per/personalized-list/home-featured","referrer":"https://www.nytimes.com/2020/03/12/health/coronavirus-midlife-conditions.html","originalReferrer":"https://www.nytimes.com/section/us","deviceType":"MOBILE"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"70e2f0e932ffacc18031fcdac46f6b051752b36147def927bb9bb5532593c3be"}}}

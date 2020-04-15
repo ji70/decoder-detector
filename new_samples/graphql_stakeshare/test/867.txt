@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/feed
+Referer https://stackshare.io/graphql
 Sec-Fetch-Dest empty
-X-CSRF-Token hfBhzvVlcPECNfYgWsI6gE365m5NUIGfEjpQnMKkF1H19EWDD0zplJu0oKqzOzcdhQ9l3B3JnwqHTSqW5imvyQ==
+X-CSRF-Token tVO0PrJWMZlSCpvdKy0Sk1awY3ruG4BsHCb3eWntgijFV5BzSH+o/MuLzVfC1B8OnkXgyL6CnvmJUY1zTWA6sA==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":null,"variables":{},"query":"{\n  onboardingChecklist {\n    completed\n    dismissed\n    items {\n      slug\n      completed\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"graphql"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/kody-dlya-filmov-muzyki-i-knig-3787/cifrovye-kody-dlya-filmov-muzyki-i-knig-3792/f/category=onlain-kinoteatry-smart-tv-3809?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"6004490","price":350},{"id":"6004491","price":950},{"id":"6004769","price":1799},{"id":"6004820","price":2999},{"id":"6004843","price":500},{"id":"6005245","price":337},{"id":"6010541","price":3990},{"id":"6010631","price":3990},{"id":"6010647","price":7990},{"id":"6010648","price":5990},{"id":"6010821","price":1990},{"id":"6011053","price":990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

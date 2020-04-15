@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/bitupper/bitupper
+Referer https://stackshare.io/tools/trending
 Sec-Fetch-Dest empty
-X-CSRF-Token imJokygvMsiQwrrMChziL3cIrINpXLvGMwTqXpcPOtz6Zkze0garrQlD7Ebj5e+yv/0vMTnFpVOmc5BUs4KCRA==
+X-CSRF-Token TtlawdSotVxg+w7fCwmx9FUYYXYZBUIBtaznt/WPI3BraDUZnut6w9VfZtRc5YCFhwpOSKiGANuEScVxDUJI9g==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"bitupper"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

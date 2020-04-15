@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/interactive/2020/us/elections/democratic-primary-map-results.html?action=click&pgtype=Article&state=default&module=styln-elections-2020&variant=show&region=TOP_BANNER&context=Menu
+Referer https://www.nytimes.com/2020/03/12/us/politics/congress-coronavirus.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"UserProfileQuery","variables":{},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"58e19cbd5621e143f709c7cd52179f97f5b1b0f31514b6eb188e2fae72f7ceb3"}}}
+{"operationName":"RelatedCoverageQuery","variables":{"id":"https://www.nytimes.com/2020/03/12/us/politics/congress-coronavirus.html"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"95fbe40c7bc981e3e412613c2125e51d7ba628f3a7fc1f02d5491cbb959d340b"}}}

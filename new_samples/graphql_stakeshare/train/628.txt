@@ -1,8 +1,8 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/vine-labs/vine
+Referer https://stackshare.io/openlabel/openlabel
 Sec-Fetch-Dest empty
-X-CSRF-Token fdMNsPAOJ0QxiX5EE8nmU7L2ThT3p0/t9A8G5Kds2VxYYmJouk3o24QtFk9EJdciYORhKkYkDTfF6iQiX6Gy2g==
+X-CSRF-Token 3jyq54K+FTaaH2TDh8K/Nio9ygvNk5QrQsI0Y/6RVnv7jcU/yP3aqS+7DMjQLo5H+C/lNXwQ1vFzJxalBlw9/Q==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 

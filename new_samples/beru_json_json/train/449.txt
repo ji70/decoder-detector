@@ -1,8 +1,8 @@
 POST https://beru.ru/api/resolve/?r=djRecommender:logUserProfile
-Referer https://beru.ru/my/cart
+Referer https://beru.ru/catalog/motornye-masla/76755/list?hid=90478
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[null],"path":"/my/cart"}
+{"params":[null],"path":"/catalog/motornye-masla/76755/list?hid=90478"}

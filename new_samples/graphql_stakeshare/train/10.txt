@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 485
 accept */*
-sec-fetch-dest empty
-x-csrf-token kUZj9P81ys/C8SKNO9vlWseIb4rWEDXyT6YALV0DSPi09wwstXYFUHdVSoZsN9QrFZpAtGeTdyh+QyLrpc4jfg==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/django
+Sec-Fetch-Dest empty
+X-CSRF-Token Zm1xoG2GdhPqtq0stAsW6AxrYMokOBAaT3DtrT+9QYtD3B54J8W5jF8SxSfj5yeZ3nlP9JW7UsB+lc9rx3AqDQ==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/stackups/phoenix-framework-vs-spring-boot
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; _stackshare_production_session=X1I5UjCnkUBG8Lc34nkrr2JyHFpE2%2F1Zi4KU72G7q5zaEDeVp8Bv9wXbAdZOC%2FJlA2N%2Fjb8aTfn33SHW2AcVnszr2kVs%2BHcQ%2F%2FrlHnnIzOcxAdign3HfOdnp0e6zCi0srX1KGUjZuY%2B5sMbMj0rdrYWiToRsAxk52z5zLGGldBZ8h%2FDJqK6MwBy6g%2ByoHPBS9Cas%2FDiNNZgIs6OIP%2BNqAWdNwQ8zRvdR2x%2B70iwWuu2xOfJNxUSM2jD2Ku7vnIT2h3q4u4QIidMnxExv1%2FW2lpv3b12ZU%2FDZN3z2pq%2BGLB4o9J9MF2Oa6WuWIAv4hsHAtvYM%2Frn3adqoFWNey2djS9pnyWnS1%2FChkschrqyRyxA%2B9KTO56bBQpS%2F2JvmazglK9KACc4IF48%2BB7b2swsh0rF3z2yiL7BGQruhHktOHbVRlVMS4pacopU7G1BBB4RVX%2B0kpiCGCE%2BnZP3av7VMC0Dnp51yRCvM6uDhMrXVKIXtyUE2BWVW4EJ1xFNjAfcwmu2%2F61fEyozrz0snyYe1f5uAOZ%2BLTopPMzpxwW0%3D--yer1Rhxo8kyZEM4R--JbNqAGQzUSobt0EK1yJnoA%3D%3D; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODY5NTEzNDksImV2ZW50SWQiOjIwNSwiaWRlbnRpZnlJZCI6ODUsInNlcXVlbmNlTnVtYmVyIjoyOTB9
 
-{"operationName":"advert","variables":{"placement":"stackup-sticky","objectType":"Stackup","objectId":"phoenix-framework-vs-spring-boot"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"contactBySlug","variables":{"id":"django"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}

@@ -1,0 +1,29 @@
+POST https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+:method POST
+:authority www.youtube.com
+:scheme https
+:path /youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+content-length 2297
+x-youtube-device cbr=Chrome&cbrver=80.0.3987.0&ceng=WebKit&cengver=537.36&cos=X11
+x-youtube-page-label youtube.ytfe.desktop_20200403_4_RC1
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+x-youtube-variants-checksum 0af5de4b0965d6a165d5479195808fbb
+content-type application/json
+x-youtube-page-cl 304735510
+x-youtube-utc-offset 180
+x-youtube-client-name 1
+x-youtube-client-version 2.20200404.04.01
+sec-fetch-dest empty
+x-youtube-time-zone Europe/Moscow
+x-goog-visitor-id Cgt2TS04TTVBbnkwWSjfgbL0BQ%3D%3D
+x-youtube-ad-signals dt=1586254505024&flash=0&frm&u_tz=180&u_his=50&u_java&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=4&bc=31&bih=600&biw=785&brdim=10%2C10%2C10%2C10%2C1920%2C0%2C945%2C1037%2C800%2C600&vis=2&wgl=true&ca_type=image&bid=ANyPxKodGYg5J-zKlKFLZYuMgubTOMjwkx6KrhXW8vFxF1zSbgrmCxSVEfCcBuwlY64r9I6L6_ZhlDP7UdvO8aiDuzaNGJxb8w
+accept */*
+origin https://www.youtube.com
+sec-fetch-site same-origin
+sec-fetch-mode cors
+referer https://www.youtube.com/watch?v=EAN-PwRfJcA&list=TLPQMDcwNDIwMjD3jbEp8sFFOQ&index=55
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie YSC=1fh7DCvtNmk; VISITOR_INFO1_LIVE=vM-8M5Any0Y; GPS=1
+
+{"context":{"client":{"hl":"ru","gl":"RU","clientName":1,"clientVersion":"2.20200404.04.01"}},"events":[{"eventTimeMs":1586266550275,"visualElementAttached":{"csn":"34CMXsakGoGu7QTMmrKgDA","parentVe":{"veType":3832},"childVes":[{"trackingParams":"CAAQt7EBIhMItsfpsbfW6AIV0HKyCh0RUgUn"}]},"context":{"lastActivityMs":"2057815"}},{"eventTimeMs":1586266550276,"adsClientStateChange":{"adsClientEvent":{"eventType":"ADS_CLIENT_EVENT_TYPE_ADPLACEMENTRENDERER_RECEIVED"}},"context":{"lastActivityMs":"2057816"}},{"eventTimeMs":1586266550277,"adsClientStateChange":{"adsClientEvent":{"eventType":"ADS_CLIENT_EVENT_TYPE_ADPLACEMENT_SCHEDULED"}},"context":{"lastActivityMs":"2057817"}},{"eventTimeMs":1586266554896,"latencyActionBaselined":{"clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062436"}},{"eventTimeMs":1586266554896,"latencyActionInfo":{"actionType":"LATENCY_ACTION_VIDEO_TO_AD","previousAction":"LATENCY_ACTION_WATCH","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062436"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"playerType":"LATENCY_PLAYER_HTML5","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062439"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"playerInfo":{"preloadType":"2"},"clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"adBreakType":"2","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"clientPlaybackNonce":"m3CznD0NpfR4r44T","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"videoId":"EAN-PwRfJcA","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}},{"eventTimeMs":1586266554900,"latencyActionInfo":{"adClientPlaybackNonce":"1mMO7qDT5p-LviGw","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}},{"eventTimeMs":1586266554901,"latencyActionInfo":{"videoStreamType":"VIDEO_STREAM_TYPE_VOD","clientActionNonce":"EEkg0bX-f_VjRacj"},"context":{"lastActivityMs":"2062440"}}],"requestTimeMs":1586266564897,"serializedClientEventId":{"serializedEventId":"qFKMXquMLNKhyQW6_4qIAw","clientCounter":25552}}

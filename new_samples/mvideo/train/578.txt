@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/diagonal=56---59,60---65
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"delivery","variables":{"productIds":["10021582","10020938","10021622","10021352","10021584","10021083","10021691","10023517","10022701","10022055","10021588","10021511"],"parameters":{"regionId":"1"}},"query":"query delivery($productIds: [String]!, $parameters: DeliveryQueryParameters) {\n  delivery(productIds: $productIds, parameters: $parameters) {\n    productId\n    methods {\n      price\n      dateDescription\n      type\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/kody-dlya-filmov-muzyki-i-knig-3787/cifrovye-kody-dlya-filmov-muzyki-i-knig-3792/f/category=onlain-kinoteatry-smart-tv-3809?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"delivery","variables":{"productIds":["6004843","6004820","6011053","6010647","6010541","6010821","6010631","6004490","6010648","6004491","6004769","6005245"],"parameters":{"regionId":"1"}},"query":"query delivery($productIds: [String]!, $parameters: DeliveryQueryParameters) {\n  delivery(productIds: $productIds, parameters: $parameters) {\n    productId\n    methods {\n      price\n      dateDescription\n      type\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 459
 accept */*
-sec-fetch-dest empty
-x-csrf-token Nl2fyWaCe+D0ZhKKHH7FVGW/Z40mz7tdQTMlMzX6U2cT7PARLMG0f0HCeoFLkvQlt61Is5dM+Ydw1gf1zTc44Q==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/hepsiburada/hepsiburada
+Sec-Fetch-Dest empty
+X-CSRF-Token 5TdIwr79T3mdaglSAwtKwrhUtkgKpqf+P+gF86OmiTOVM2yPRNTWHATrX9jq8kdfcKE1+lo/uWuqn3/5hysxqw==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/ruby
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _stackshare_production_session=nd09dSEG0vUv70Jt7RxrkqyQ%2BG%2FGMRgO0nnOx%2Fs5vnF28a7DFTnaTu6bkLUkb8Y17Yr%2BrJbZXcPGgXHUJJM6m866zr8T6qUgEQEhe3UQDXXO%2BTTAZk1sfJIID56VyrnALZG3aOS6SG3E73PkR9XAL4cECZlmFDvSkSxlh40Y%2Be1AWPSvm2l5Ov1pExniycjy1asj7PB52xN%2B70OMqe4YnUEDZ%2FwygfuYWUzzRMIImEMMJFFg6pMiunnylwGeCnZ0nXen4DZC3mFepBAyDTUNQRCwgj4YmJie5O4F3Imo6vt7tUrV%2F%2FsH7suj7K1AQ1Ojn2Z%2BFJWvoHRS1Ht6cmSIZ5CN5HaRxNQ84WyV7OXGgbk4%2FT%2BDhL04G4n8lUoAq3KGAZirM%2FG%2B8M3Sx0ABdEPpsG1KaypBGWFUPJucbIrbEPqtUzjhD7hA5kNZHLpB1RP2QtIJ06kCouiJdMa3cMwjQoYatgLS17lZQ5GrMUJgUP2wTTzCIqq%2BYuTK62tAlE7zYMTM7P8e1U0zZz4fYyl5I8XgyMhnlvryub0TAIA%3D--%2B7MOssWME8F25vqw--kwm9zQUe1Aa7Tw6JatXskg%3D%3D; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODcwMTA4OTUsImV2ZW50SWQiOjI1NSwiaWRlbnRpZnlJZCI6MTA1LCJzZXF1ZW5jZU51bWJlciI6MzYwfQ==
 
-{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"ruby"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"stackDecisionsForTool","variables":{"id":"hepsiburada/hepsiburada","first":5,"filterNotByToolId":"101231773854388643"},"query":"query stackDecisionsForTool($id: String!, $first: Int!, $filterByToolId: ID, $filterNotByToolId: ID) {\n  stackProfile(identifier: $id) {\n    id\n    stackDecisions(first: $first, filterByToolId: $filterByToolId, filterNotByToolId: $filterNotByToolId) {\n      edges {\n        node {\n          ...stackDecisionFields\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment stackDecisionFields on StackDecision {\n  id\n  publicId\n  htmlContent\n  rawContent\n  publishedAt\n  commentsCount\n  upvotesCount\n  upvoted\n  flagged\n  bookmarked\n  viewCount\n  draft\n  createdAt\n  decisionType\n  subjectTools {\n    ...serviceFields\n    __typename\n  }\n  fromTools {\n    ...serviceFields\n    __typename\n  }\n  toTools {\n    ...serviceFields\n    __typename\n  }\n  link {\n    url\n    title\n    imageUrl\n    __typename\n  }\n  company {\n    id\n    path\n    imageUrl\n    name\n    slug\n    __typename\n  }\n  topics {\n    name\n    __typename\n  }\n  services {\n    ...serviceFields\n    __typename\n  }\n  user {\n    id\n    username\n    path\n    imageUrl\n    displayName\n    title\n    companyName\n    __typename\n  }\n  rootComments {\n    ...commentFields\n    replies {\n      ...commentFields\n      parentId\n      __typename\n    }\n    __typename\n  }\n  __typename\n}\n\nfragment commentFields on Comment {\n  id\n  content\n  postedAt\n  upvoted\n  flagged\n  upvotesCount\n  parentId\n  user {\n    id\n    path\n    imageUrl\n    displayName\n    __typename\n  }\n  __typename\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}

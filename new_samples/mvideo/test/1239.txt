@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/fotoapparaty-12/fotoapparaty-sistemnye-196
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10007511","price":99990},{"id":"10011627","price":59990},{"id":"10011628","price":59990},{"id":"10014055","price":157490},{"id":"10014056","price":165290},{"id":"10016586","price":45990},{"id":"10018648","price":39990},{"id":"10019278","price":204990},{"id":"10021431","price":82690},{"id":"10022690","price":64990},{"id":"10022945","price":133990},{"id":"10023563","price":57990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

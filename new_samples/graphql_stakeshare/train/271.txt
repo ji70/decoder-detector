@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 475
 accept */*
-sec-fetch-dest empty
-x-csrf-token hfBhzvVlcPECNfYgWsI6gE365m5NUIGfEjpQnMKkF1H19EWDD0zplJu0oKqzOzcdhQ9l3B3JnwqHTSqW5imvyQ==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/dart
+Sec-Fetch-Dest empty
+X-CSRF-Token DDCO5C/HujhB1R1CX+R46RKXmJLIp9rHSjI5d8uHenYpgeE8ZYR1p/RxdUkICEmYwIW3rHkkmB171xuxM0oR8A==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/feed
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _gat=1; _gali=nav_menu; _stackshare_production_session=GE0j%2Fw9vFd%2BiLMBHmkX%2FXmYG8RS6S%2FLJs0oRJF027uX%2BiDl6c8jcpWLdeswBYB%2Bwfa2CI8P0GggHQP7KZfi8VwzjChV5nKx8DqYAKZ8MiLsluMN7GSqto0%2BQR9e0f0S2mLTlfqwRFjT%2BRwIw%2FO4WZhGDIdJQOKhzHDxfYpwBjZ%2BHW2zlWLsFe7ubGbFaCgqpUtwuMTx2AD9XCQ%2BoLUHnz4jvTeAF9KblbdqJTsFr0ku5EXJUXSJh3KOGHnfxcph2AbnPbkTIhrJG9B2okSb8N%2BwIZvanl%2ByjeZYYeYqNgLNdLR1rz3TlmvRGLCXqlBxDN0w4ZAnZiqN%2FBQETEMxVXZWT7JeAhk4uOrUPaRRxe9rrXquQq%2Fh9IRQy7to%2FzquH4sw1c282Tx0UdfpPbzVqA7Jl0X5Nw7TC721X5C1EI6CkkZWAvzV1dDC8YTiNL0FHPtOvFKkwpX7lGErXkpYa8eB0xd8ReH5wS6jX2Spj6DGVDAhiKfsrHQ5utdQt5d140wWPdqiuBd5RygXSsWj5Cx4R7HHX%2BQeTPmo9JDd0wZX9fi0KTb1%2B0q6zmfEBNIF6FmzbfuX7CKU2jKdvoSCK4BOl%2BXmYGqvZ34A6hbxxbON7RzN6LedjVrA%3D--bB8L2lOfVM2f%2FUiF--TRBA5DKGAwdXAwjsRGN5tw%3D%3D; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU2NTQ0MzgsImV2ZW50SWQiOjI1NCwiaWRlbnRpZnlJZCI6OTgsInNlcXVlbmNlTnVtYmVyIjozNTJ9
 
-{"operationName":"trackViews","variables":{"decisionIds":["103794146206740006","103694351026717835","101743711506144513","101180297585840506","101184647687262097","101743982507360129","101197299597543761","101434289466010784","101696159675437868","101735661174276825","101751500480904214","101751710605642690","101755172366080751","101776832133205427","101790516797003981"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}
+{"operationName":"relatedStackups","variables":{"id":"101231774111549176"},"query":"query relatedStackups($id: ID!, $after: String) {\n  tool(id: $id) {\n    relatedStackups(first: 6, after: $after) {\n      edges {\n        node {\n          id\n          path\n          services {\n            id\n            name\n            imageUrl\n            thumbUrl\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

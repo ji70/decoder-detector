@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/go
+Referer https://stackshare.io/apollo
 Sec-Fetch-Dest empty
-X-CSRF-Token zuBTizGxyTMA1RH/f3tfFIzUWzpkYr1T+1M0vTCIfE/rUTxTe/IGrLVxefQol25lXsZ0BNXh/4nKthZ7yEUXyQ==
+X-CSRF-Token 5DlnYlIuesWepJ77VDnCZneHRkh4UmBk0KslXjHlTqeUPUMvqAfjoAclyHG9wM/7v3LF+ijLfvFF3F9UFWj2Pw==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"contactBySlug","variables":{"id":"go"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["101180297585840506","101031322436242738","101221613263986211","101179192780777665","102493621731402213","101031322416246058"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

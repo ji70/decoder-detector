@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videokamery-i-ekshn-kamery-2287/aksessuary-dlya-ekshn-kamer-355
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10005742","price":1190},{"id":"10007166","price":3990},{"id":"10007167","price":6690},{"id":"10008486","price":207},{"id":"10008721","price":3190},{"id":"10012214","price":2590},{"id":"10012240","price":2990},{"id":"10019097","price":2290},{"id":"10022383","price":3290},{"id":"10022385","price":3990},{"id":"10022413","price":3990},{"id":"10022419","price":1490}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

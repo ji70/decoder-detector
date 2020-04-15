@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/noutbuki-planshety-komputery-8/noutbuki-118/f/category=noutbuki-transformery-1224
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"30029977","price":27990},{"id":"30038921","price":66990},{"id":"30041856","price":19990},{"id":"30046744","price":64990},{"id":"30046745","price":34990},{"id":"30046746","price":38990},{"id":"30046817","price":28990},{"id":"30046818","price":52990},{"id":"30047030","price":34990},{"id":"30047887","price":42990},{"id":"30047937","price":66990},{"id":"30048022","price":105990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

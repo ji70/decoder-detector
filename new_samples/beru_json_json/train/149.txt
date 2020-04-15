@@ -1,8 +1,8 @@
-POST https://beru.ru/api/resolve/?r=djRecommender:logUserProfile
-Referer https://beru.ru/product/uvlazhnitel-vozdukha-xiaomi-vh-man-sinii/100540595739?show-uid=15842971124767049519906006&offerid=LAHxpem3_weKgTsxMWifnw
+POST https://beru.ru/api/resolve/?r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
+Referer https://beru.ru/catalog/smazki/76752/list?hid=90489
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[null],"path":"/product/uvlazhnitel-vozdukha-xiaomi-vh-man-sinii/100540595739?show-uid=15842971124767049519906006&offerid=LAHxpem3_weKgTsxMWifnw"}
+{"params":[{"count":1,"by":"offerIds","cartOfferIds":["2BnOfD93ZcdEsR9Dx1gySA"]}],"path":"/catalog/smazki/76752/list?hid=90489"}

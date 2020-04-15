@@ -1,7 +1,7 @@
 POST https://kraken.rambler.ru/cnt/
-Referer https://horoscopes.rambler.ru/pisces/
+Referer https://news.rambler.ru/?utm_content=news_media&utm_medium=topline&utm_source=kassa
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-Content-Type application/x-www-form-urlencoded;charset=UTF-8
+Content-Type text/plain;charset=UTF-8
 
-et=cl&pid=213403&rid=1584108980.579-586252018&tid=t1.2553558.487024757.1584108088625&v=1.8.0&bl=%5B%22horo%3A%3Azodiac%3A%3Aothers%3A%3Amid_menu%3A%3A%5Cu0417%5Cu0430%5Cu0432%5Cu0442%5Cu0440%5Cu0430%22%5D&sp=%5B%22new%22%5D
+et=act&pid=127846&rid=1584108486.828-1208623535&tid=t1.2553558.487024757.1584108088625&v=1.8.0&meta=%7B%22time%22%3A7%2C%22screens%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%2C0%5D%7D&sp=%5B%22desktop%22%5D

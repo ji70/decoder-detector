@@ -1,7 +1,17 @@
 POST https://kraken.rambler.ru/cnt/
-Referer https://kassa.rambler.ru/msk/movie/100193
+Host kraken.rambler.ru
+Connection keep-alive
+Content-Length 573
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
-Content-Type text/plain;charset=UTF-8
+Content-Type application/x-www-form-urlencoded;charset=UTF-8
+Accept */*
+Origin https://kassa.rambler.ru
+Sec-Fetch-Site same-site
+Sec-Fetch-Mode cors
+Referer https://kassa.rambler.ru/msk/movie/98943
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie ruid=AAAAANmGa17FQP8FAdwuKAB=; _gcl_au=1.1.1631554177.1584105178; dvr=gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA:1584105178; top100_id=t1.2553558.1031719556.1584105178749; proto_uid=1CIAANqGa16vBolxAeoZAAB=; _gk=GA1.2.790518373.1584105179; _gk_gid=GA1.2.2139053020.1584105179; _ym_uid=1584105179151795839; _ym_d=1584105179; user-id_1.0.5_lr_lruid=pQ8AANuGa17SdyKkAXOYYgA%3D; _ym_wasSynced=%7B%22time%22%3A1584105179003%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; user-id_1.0.5_FingerPrint=pA8AAGsis1e42Qy5AXDwIwA%3D; _ym_isad=2; sspjs_2.28.0_af_lpdid=%7B%22DATE%22%3A1584105179037%2C%22ID%22%3A%2222%3A1619342507%22%7D; uuts=4vrJyC8gYSnhrtLuR5Xwk1cd6U0HYuDS; rambler_3rdparty_v2=; _ym_visorc_27744069=w; sts=0.1584105180.1.1584105180.2.1584105180.3.1584105180.4.1584105180; _dc_gtm_UA-8038853-16=1; lvr=1584105341
 
-et=act&pid=2553558&rid=1584105654.199-89120555&tid=t1.2553558.1031719556.1584105178749&v=1.8.0&meta=%7B%22time%22%3A2%2C%22screens%22%3A%5B2%2C2%2C2%2C2%2C2%2C2%2C0%2C0%2C0%2C0%2C0%2C0%2C0%5D%7D
+et=bv&pid=2553558&rid=1584105341.58-237329813&tid=t1.2553558.1031719556.1584105178749&v=1.8.0&bl=%5B%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F98943%3A%3Avkontakte%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F98943%3A%3Afacebook%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F98943%3A%3Alivejournal%22%2C%22rambler-share%3A%3Akassa.rambler.ru%3A%3Ahttps%3A%2F%2Fkassa.rambler.ru%2Fmsk%2Fmovie%2F98943%3A%3Aodnoklassniki%22%5D

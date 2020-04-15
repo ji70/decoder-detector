@@ -1,20 +1,9 @@
 POST https://graphql.stackshare.io/graphql
-:method POST
-:authority graphql.stackshare.io
-:scheme https
-:path /graphql
-content-length 462
 accept */*
-sec-fetch-dest empty
-x-csrf-token e7Rew8Q/WMiJRKjSxP/bSGPDO/LaZjZltWB1mdtHG48LsHqOPhbBrRDF/lgtBtbVqza4QIr/KPAgFw+T/8qjFw==
-user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Referer https://stackshare.io/gwt
+Sec-Fetch-Dest empty
+X-CSRF-Token CgD2A6jWnSBrEuUczYTKNM69zwe26BM/8ZsBlcGkqnt6BNJOUv8ERfKTs5YkfcepBkhMteZxDapk7Huf5SkS4w==
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
-origin https://stackshare.io
-sec-fetch-site same-site
-sec-fetch-mode cors
-referer https://stackshare.io/discord
-accept-encoding gzip, deflate, br
-accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie __stripe_mid=5d5710f3-9357-48f3-8ef0-e72b4334b450; __stripe_sid=7069f14d-2ee5-4321-9015-94754fa10f70; ajs_group_id=null; ajs_anonymous_id=%224ab335ac-4fb6-4ffb-97c6-1d5fc5b1e1df%22; _ga=GA1.2.1840853153.1584085103; _gid=GA1.2.812646582.1584085103; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=1f45d6c4-8415-d47d-0b17-dbfe6c85c914; ajs_user_id=%22439032%22; _cioid=439032; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6IjhhMGY5NjE2LWZiYmMtNDNjNS05NzRmLWMxNTJjOGEyN2VkMlIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODUxMDMwOTEsImxhc3RFdmVudFRpbWUiOjE1ODQwODU1MDA1NjQsImV2ZW50SWQiOjE4NywiaWRlbnRpZnlJZCI6NjgsInNlcXVlbmNlTnVtYmVyIjoyNTV9; _stackshare_production_session=xmwrLD5gIyAGH1evwKCpR30Q5prbgHsTatR%2BVmH57mRASvLsTllYwf84MrRjh4wBTzwfoeXKWTLa2xYQzYJiZcBGEpex0x8GDe%2BTA%2BGXbDy8SycGZMdKFqhZsEVajAonausNqHeT1RE%2BjPRigsrUXzgveqcnairw0n%2F3qE3HpjLeTKlLGDpLGWQ7V5fUshJH680EebJe15LWQbqHgA4pgyfofI4jp%2FMCG5WvKg6FwJqSzD6iENh00b6d2ExTqdUlAiAbezgCn0UgKvvM%2BknRU1yb63HzeU%2F6LNaWVHbuzhqnIJvPGpBsrWctBOdeM1Ukm3x1Ln%2FlWQ4TcQ7o3Ln7n6HGc6rxRUqPE3ye1VDI%2FssMLZuSGlR41R7TcOPIPjyiAoQokwSJRwQoS%2BTRqi%2B1JIWzJxAuq%2FNmeIt4WSMlXAPwa8esroZERxmghxKuUYDk8NW6Whh%2BKGAL7GPHWMV%2BAtRlyJhJDKbygKhuxKtRoFlRGGrYioVoyzFnP7HMKwrc5paaz2uwvCt%2Fv67W8yaolGXnKyJDuchGl9L3FpBEyN3XmToy1s0EfGApgYvOoUwz3E7QeOuMm2iAb3xEuxmy4Lp2M2nOnJipur%2F3yW3%2Fkya3--MjV2w6jtHFkRqGGN--B%2BEv3HeIMAMMnuN58cpcYQ%3D%3D
 
-{"operationName":"advert","variables":{"placement":"tool-profile-sticky","objectType":"Tool","objectId":"discord"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"followers","variables":{"id":"101231774837598766","first":10},"query":"query followers($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    followers(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          id\n          displayName\n          username\n          imageUrl\n          title\n          popularity\n          path\n          stacksCount\n          favoritesCount\n          votesCount\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

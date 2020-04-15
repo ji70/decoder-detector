@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/gwt
+Referer https://stackshare.io/digitalocean/digitalocean
 Sec-Fetch-Dest empty
-X-CSRF-Token CgD2A6jWnSBrEuUczYTKNM69zwe26BM/8ZsBlcGkqnt6BNJOUv8ERfKTs5YkfcepBkhMteZxDapk7Huf5SkS4w==
+X-CSRF-Token BpYCHPg26NgAywYRW0oTA/JP1BTSavYJWk3xmxBQ0YQjJ23EsnUnR7VvbhoMpiJyIF37KmPptNNrqNNd6J26Ag==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"contactBySlug","variables":{"id":"gwt"},"query":"query contactBySlug($id: ID!) {\n  tool(id: $id) {\n    id\n    contactEnabled\n    contactButtonText\n    contactFlow\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"digitalocean"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

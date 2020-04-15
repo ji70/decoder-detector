@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/naushniki-54/naushniki-3967/f/category=naushniki-dlya-detei-7607?reff=menu_main
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"products","variables":{"productIds":["50129617","50129618","50132687","50129621","50130706","50130703","50130707","50129619","50130704","50130702","50130705","50129620"]},"query":"query products($productIds: [String]!) {\n  products(productIds: $productIds) {\n    productId\n    name {\n      cyrillic\n      latin\n      __typename\n    }\n    rating {\n      star\n      count\n      __typename\n    }\n    media {\n      images {\n        key\n        urls\n        __typename\n      }\n      __typename\n    }\n    features {\n      main {\n        name\n        value\n        __typename\n      }\n      energyEfficiency {\n        name\n        value\n        __typename\n      }\n      __typename\n    }\n    brand {\n      name\n      __typename\n    }\n    categories {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n}\n"}

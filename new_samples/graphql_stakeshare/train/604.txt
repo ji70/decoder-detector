@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 223
 accept */*
-Referer https://stackshare.io/njb-said/mc-api
-Sec-Fetch-Dest empty
-X-CSRF-Token dOavBfAsq5+QwsqtvPA6GroIAjYE6oVQw/unJ/9A/q0E4otICgUy+glDnCdVCTeHcv2BhFRzm8VWjN0t281GNQ==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token d83lcrGkBLsi/HjuyK4WsA2pW+pyED67rx4+BtMzUE9SfIqq++fLJJdYEOWfQifB37t01MOTfGGe+xzAK/47yQ==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/jupyter
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; _stackshare_production_session=vEiA9vKyOVVqo8wMWUILdDbZYr48QiU5rtLhFYMwMjmhFuqLMgYujVUrixlHLdj1V2ZwxDoKAWhOx1wjyWlokoaKjEJ1Vj0kA1XY%2FwYbhTIJvDgrHvQS5B%2BLCu%2FsJcJ4yegXhTiR6CdMIU5TkWuwhUq70at%2BD3xwKr87cRpBzt%2FrDUhoPaKilHsFfllgZXTJotiNUwjzCRr2ji4Fd1S5dQy0fXxsAPlvaWeVd%2F5EUBTsz8LOHfgudIxfrBACCMIl9infXQQ%2Bvb%2BYlvtk4gcIlfkMSq4CnGBeBqACUN4oLs410WKIhAQtRsyxWDGE%2FL84C4no2RJ04RZBY9UKFHfEwrgXPM7oOfyB8duX6pK1WBRDRotkn4un6pHVuYvdGJV2ePXUkzfZ2j0sSRaQWSS5iONJiDzWM9%2BytaKHiP470ZXNHkPW7DtPPsq8yz%2Bhg7qJ%2B3TSGM5hFBm8aH5JDZ25J1dHfGktSUQrd4Kup7ZoGEtB7IFJxnANS2bUqNEmHwcn6PFgPhvbLN3klPevSdTxW6lFhZJnL9%2FHSXgdJew%3D--9nm%2F3ig1egMNmkVh--gHmCpZi8Dhs4aPzJo0UlhA%3D%3D; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODY4MjI0NTcsImV2ZW50SWQiOjEyNiwiaWRlbnRpZnlJZCI6NTMsInNlcXVlbmNlTnVtYmVyIjoxNzl9
 
-{"operationName":"stackProfile","variables":{"id":"njb-said/mc-api"},"query":"query stackProfile($id: String!) {\n  stackProfile(identifier: $id) {\n    id\n    slug\n    name\n    path\n    imageUrl\n    viewCount\n    amIOwner\n    toolsAvatars\n    embedUrl\n    stackMatchPercentage\n    ad {\n      imageUrl\n      targetUrl\n      text\n      title\n      sponsorFeatured\n      sponsorToolId\n      ctaText\n      __typename\n    }\n    strengthMeter {\n      dismissed\n      percentComplete\n      items {\n        completed\n        slug\n        __typename\n      }\n      __typename\n    }\n    permissions {\n      edit\n      delete\n      __typename\n    }\n    services {\n      id\n      name\n      slug\n      title\n      imageUrl\n      following\n      votes\n      fans\n      stacks\n      canonicalUrl\n      layer {\n        slug\n        __typename\n      }\n      __typename\n    }\n    owner {\n      ... on Company {\n        id\n        imageUrl\n        name\n        slug\n        path\n        verified\n        amIOwner\n        following\n        owners {\n          id\n          __typename\n        }\n        team(first: 100) {\n          count\n          edges {\n            node {\n              id\n              displayName\n              username\n              imageUrl\n              title\n              popularity\n              path\n              stacksCount\n              favoritesCount\n              votesCount\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        jobs(first: 4) {\n          count\n          edges {\n            node {\n              id\n              url\n              title\n              location\n              services {\n                id\n                name\n                slug\n                title\n                verified\n                imageUrl\n                path\n                votes\n                fans\n                stacks\n                __typename\n              }\n              __typename\n            }\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      ... on User {\n        id\n        imageUrl\n        displayName\n        title\n        username\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["102761693515030395","101743895602196335","102219702147187634"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

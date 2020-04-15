@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/stackups/phoenix-framework-vs-spring-boot
+Referer https://stackshare.io/paypal
 Sec-Fetch-Dest empty
-X-CSRF-Token kUZj9P81ys/C8SKNO9vlWseIb4rWEDXyT6YALV0DSPi09wwstXYFUHdVSoZsN9QrFZpAtGeTdyh+QyLrpc4jfg==
+X-CSRF-Token yoR/bZBxfMRFKu2bJEVsq8eWI1ksSkokHaRJqJkUIuXvNRC12jKzW/COhZBzqV3aFYQMZ53JCP4sQWtuYdlJYw==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"stackupBySlug","variables":{"slug":"phoenix-framework-vs-spring-boot"},"query":"query stackupBySlug($slug: String!) {\n  stackupBySlug(slug: $slug) {\n    jobs(first: 8) {\n      edges {\n        node {\n          name\n          id\n          angellistJobUrl\n          title\n          location\n          services {\n            ...serviceFields\n            __typename\n          }\n          company {\n            imageUrl\n            name\n            id\n            path\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}
+{"operationName":"userStacks","variables":{},"query":"query userStacks {\n  me {\n    id\n    stacks(first: 25) {\n      edges {\n        node {\n          id\n          slug\n          name\n          services {\n            id\n            slug\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    companies {\n      id\n      name\n      stacks {\n        id\n        slug\n        name\n        services {\n          id\n          slug\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

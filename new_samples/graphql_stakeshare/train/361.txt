@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/digitalocean/digitalocean
+Referer https://stackshare.io/airbnb/airbnb
 Sec-Fetch-Dest empty
-X-CSRF-Token BpYCHPg26NgAywYRW0oTA/JP1BTSavYJWk3xmxBQ0YQjJ23EsnUnR7VvbhoMpiJyIF37KmPptNNrqNNd6J26Ag==
+X-CSRF-Token O3WWDPNTzbczbMMshB/s75u/vD6Ars2PfHV8lHqUaDXxPjVy1lrpNxvMdQp4BwcjNLu/3FMHodMLNSDa0v2K1Q==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"digitalocean"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"airbnb"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/gadzhety-64/fitnes-braslety-403
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"30040243","price":1990},{"id":"30043699","price":6990},{"id":"30044987","price":2390},{"id":"30045408","price":2490},{"id":"30045409","price":2490},{"id":"30045600","price":2490},{"id":"30045874","price":2490},{"id":"30045875","price":2490},{"id":"30045876","price":2490},{"id":"30046240","price":990},{"id":"30048386","price":3990},{"id":"30048388","price":3990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

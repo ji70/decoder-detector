@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/komputernaya-tehnika-4107/monobloki-181/f/category=apple-imac-571
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"30028591","price":84990},{"id":"30028594","price":124990},{"id":"30028595","price":139990},{"id":"30028596","price":159990},{"id":"30028896","price":113990},{"id":"30031771","price":381990},{"id":"30043129","price":106990},{"id":"30043420","price":124990},{"id":"30043421","price":149990},{"id":"30043422","price":164990},{"id":"30043423","price":195990},{"id":"30044165","price":248990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

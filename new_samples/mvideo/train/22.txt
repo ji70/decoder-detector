@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/audiotehnika-i-dj-oborudovanie-9/aksessuary-dlya-audio-2475
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"products","variables":{"productIds":["10006810","10001559","10008351","10006795","10022643","11005198","11005447","11005196","10004564","10001713","10008352","10006769"]},"query":"query products($productIds: [String]!) {\n  products(productIds: $productIds) {\n    productId\n    name {\n      cyrillic\n      latin\n      __typename\n    }\n    rating {\n      star\n      count\n      __typename\n    }\n    media {\n      images {\n        key\n        urls\n        __typename\n      }\n      __typename\n    }\n    features {\n      main {\n        name\n        value\n        __typename\n      }\n      energyEfficiency {\n        name\n        value\n        __typename\n      }\n      __typename\n    }\n    brand {\n      name\n      __typename\n    }\n    categories {\n      id\n      name\n      __typename\n    }\n    __typename\n  }\n}\n"}

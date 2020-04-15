@@ -4,8 +4,8 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 nyt-app-type project-vi
 content-type application/json
 accept */*
-Referer https://www.nytimes.com/2020/02/23/world/asia/china-coronavirus-hotline.html
+Referer https://www.nytimes.com/video/us/elections/100000007031034/coronavirus-cdc-wasserman-schultz.html
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/02/23/world/asia/china-coronavirus-hotline.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}
+{"operationName":"AdditionalPlaylistsQuery","variables":{"playlistIds":["video/Most-Viewed","video/us-iran-relations","video/2020-Elections","video/investigations","video/on-the-ground","video/diaryofasong","video/op-docs","video/opinion","video/featured-videos","video/latest-video"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"29f170fc0de8ba4d825de749df02b326ab8b2d2fe5fc2db7e727ceaa5e611676"}}}

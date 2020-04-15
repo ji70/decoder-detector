@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videotehnika-20/saundbary-2547
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"bonusRubles","variables":{"products":[{"id":"10011664","price":14990},{"id":"10016773","price":12595},{"id":"10021530","price":15990},{"id":"10021532","price":24990},{"id":"10021651","price":29990},{"id":"10021652","price":14990},{"id":"10021653","price":18990},{"id":"10021654","price":23990},{"id":"10022007","price":20990},{"id":"10022250","price":10990},{"id":"10022251","price":18990},{"id":"10022252","price":37990}]},"query":"query bonusRubles($products: [BonusesProductRequestParameter]!) {\n  bonusRubles(products: $products) {\n    productId\n    hasPromotionBonuses\n    total {\n      amount\n      text\n      __typename\n    }\n    breakdown {\n      amount\n      text\n      __typename\n    }\n    __typename\n  }\n}\n"}

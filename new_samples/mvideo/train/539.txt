@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 2010
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/gadzhety-64/apple-watch-2947
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[2,2],"time":[1586337763878,-180],"url":"https://www.mvideo.ru/gadzhety-64/apple-watch-**47","navctx":{"historyLength":33,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[]},"move":{"data":[{"x":40,"y":153,"t":1586337758847,"d":"LNNNON13<"},{"x":35,"y":152,"t":1586337759102},{"x":38,"y":152,"t":1586337759520,"d":"QRPPPOPOOP+27<8"},{"x":98,"y":174,"t":1586337761803},{"x":225,"y":205,"t":1586337761818},{"x":387,"y":247,"t":1586337761830},{"x":537,"y":283,"t":1586337761846},{"x":669,"y":313,"t":1586337761863},{"x":749,"y":337,"t":1586337761880}]},"movegen":{"data":[{"x":40,"y":153,"t":1586337758858,"d":"NMNNNOON1%,E"},{"x":35,"y":152,"t":1586337759117},{"x":36,"y":152,"t":1586337759501,"d":"PPPPPPPPPPOOOOOOPOOP5,)%%))09A"},{"x":98,"y":174,"t":1586337761815},{"x":225,"y":205,"t":1586337761831},{"x":319,"y":231,"t":1586337761835},{"x":387,"y":247,"t":1586337761839},{"x":441,"y":261,"t":1586337761844},{"x":489,"y":273,"t":1586337761847},{"x":537,"y":283,"t":1586337761855,"d":"~|zzvYYY[[)%%))"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[{"type":"leave","x":817,"y":359,"tgen":1586337761893,"tin":1586337761897}]},"performance":{"data":[{"t":1586337758839,"d":"'&%%(%&%&&%&%%&%&%&&%&&%&%%&%&%&%%&%&%&%%&%.&)&,&&%%&%&+%&%/*.*'&''&&'&'&)+45/"},{"t":1586337759556,"d":".+2*%%%&%%%/A)&'&%%%&%%%&%%&%&%%&%%&%&%&%%&%&%%&&%&&%&%&%&%&&&%&&&&%&&&%&&%&&%&&&%&&%&&&&%&&&%&&&%&%&%&%&%%&%%%&%%%%%&%%%%&%%%%%%%%%&%%%%%&%&%%&%&("},{"t":1586337760415,"d":"&%%&%%%&%%&%%&%&%&%%&%&%%&&&%&%&%&&&%&&&%&&%&"},{"t":1586337761805,"d":"#!#%&%*&%'&%&%&%(&&%&&%%&%&%&%%&%%&%&%&%&%&%&&%&&%&&&&%&&%&&%&&&&%&&%&%&&%&%&%&%&&&%&&&%&&&%&&&&&%&%&%'*v2%%&%%%%%&%%&%%%&%%&%%%&%%%&%%&%&&%&%&%&&&%&&&%&&&&&%&%&%&%&&&%&&%&&&&&%&&&&%&&&&%&&&&&%&&&&%&&%&&&&&&&%&%&"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

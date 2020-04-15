@@ -1,9 +1,9 @@
 POST https://graphql.stackshare.io/graphql
 accept */*
-Referer https://stackshare.io/graphql
+Referer https://stackshare.io/emberjs
 Sec-Fetch-Dest empty
-X-CSRF-Token EN+SnIh0Dqu/4RIiaXMai44b1Qe+axEtAFCbYS9mMz1g27bRcl2XziZgRKiAihcWRu5Wte7yD7iVJ+FrC+uLpQ==
+X-CSRF-Token nECtqT3ffkHC8OcuvtCrAzLbRHPHUnkUoVwpaF840jO58cJxd5yx3ndUjyXpPJpy4MlrTXbRO86QuQuup/W5tQ==
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
 
-{"operationName":"jobs","variables":{"id":"101231775212866992","first":6},"query":"query jobs($id: ID!, $first: Int) {\n  tool(id: $id) {\n    jobsList(first: $first) {\n      count\n      edges {\n        node {\n          id\n          angellistJobUrl\n          title\n          location\n          services {\n            ...serviceFields\n            __typename\n          }\n          company {\n            name\n            imageUrl\n            path\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      pageInfo {\n        endCursor\n        hasNextPage\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}
+{"operationName":"companyStacksUsing","variables":{"id":"101231773847891619","first":9},"query":"query companyStacksUsing($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    companyStacksUsing(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          name\n          imageUrl\n          thumbUrl\n          thumbRetinaUrl\n          identifier\n          id\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/smartfony-i-svyaz-10/mobilnye-telefony-95
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"banners","variables":{"id":"50085d8c-ef12-498e-8ae9-46d81c22ef89","categoryId":"95","brandIds":[],"facetCategoryIds":[]},"query":"query banners($id: String!, $regionId: String, $categoryId: String, $brandIds: [String], $facetCategoryIds: [String]) {\n  banners(id: $id, regionId: $regionId, categoryId: $categoryId, brandIds: $brandIds, facetCategoryIds: $facetCategoryIds) {\n    main {\n      url\n      titleSelect\n      altText\n      priority\n      __typename\n    }\n    image {\n      borderPLPBanner\n      mobileBanner\n      __typename\n    }\n    __typename\n  }\n}\n"}

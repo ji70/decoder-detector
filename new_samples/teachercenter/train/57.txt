@@ -1,10 +1,10 @@
-POST https://teachercenter.withgoogle.com/advanced_training/rest/events
+POST https://teachercenter.withgoogle.com/fundamentals/rest/analytics
 :method POST
 :authority teachercenter.withgoogle.com
 :scheme https
-:path /advanced_training/rest/events
-content-length 345
-accept */*
+:path /fundamentals/rest/analytics
+content-length 216
+accept text/plain, */*; q=0.01
 sec-fetch-dest empty
 x-requested-with XMLHttpRequest
 user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
@@ -12,9 +12,9 @@ content-type application/x-www-form-urlencoded; charset=UTF-8
 origin https://teachercenter.withgoogle.com
 sec-fetch-site same-origin
 sec-fetch-mode cors
-referer https://teachercenter.withgoogle.com/advanced_training/unit?unit=23&lesson=25
+referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=71
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie _ga=GA1.3.449827449.1584110046; _gid=GA1.3.2060883829.1584110046; SACSID=~AJKiYcHnc6tY_zelN7ka-1Ccq0CQBVZCm-ZJGNwo7CebNmuYdzQ1mxABZicLIifdW1JCVqdHrBcFR_zsKPnHg5zkcW-k-0vx3lMT5NJFYmkruCYOYi9d57mBLY2SpbB4SQkGynP8RUtEYOhnFntRSRjYGMFVPxHM42lBv2fOayV03UhGNDGB3zp61HbR20st7Y7-41vucCcliNx8rc5H6i-lGLF6J5vo4YUT5leS7oePPVQ9IbA_4_QrvQgT4cRBcDa2P5BNbzMhmOIntutvGDHotlzkMfapxfd7gpfeezxHHRFYpXN-b35CfSdUB-GNeUlObO9tbETf; _gat_UA-64000824-2=1
+cookie _ga=GA1.3.449827449.1584110046; _gid=GA1.3.2060883829.1584110046; SACSID=~AJKiYcG7Pt64ECUvl-E6Skoc1q2K04873wEqcx6ybSyR-N2M4XH79X8Mu8H8MmULWyUaCR7hKOkUP1BlIf1AAJq4ItZlCCNx-cYvPNP5HQXbgA8ZU8iKsttWwdCVeaCuavHBTbr-3mhJ668Sxyh9jrFbxhek4ms45G6IBmAy47pX_CHYkCwuIJpuBQ3BpKonLe7KHTUNEEwjJaiz1SXIy6DeWwvavQupgVVdK9LqCXkdYQDagQ3dgueotui_bLWvOeGhcdKC65kUR3A0_4-1CEx0zPKbKduzvY5QF-27KZwx061GRDjCWIMrPAymFlC-PrX9s3rbpCCx; _gat_UA-64000824-2=1
 
-request=%7B%22source%22%3A%22enter-page%22%2C%22payload%22%3A%22%7B%5C%22location%5C%22%3A%5C%22https%3A%2F%2Fteachercenter.withgoogle.com%2Fadvanced_training%2Funit%3Funit%3D23%26lesson%3D25%5C%22%2C%5C%22loc%5C%22%3A%7B%5C%22page_locale%5C%22%3A%5C%22en_US%5C%22%7D%7D%22%2C%22xsrf_token%22%3A%221584110635%2F4QQMuXYve9Z9wKvmnyFvkQ%3D%3D%22%7D
+request=%7B%22xsrf_token%22%3A%221584110368%2FaK65G7ZhHQendnfAnegI5A%3D%3D%22%2C%22payload%22%3A%7B%22event%22%3A%22Fundamentals+Training-Promote+Digital+Citizenship+and+Positive+Online+Behavior-Introduction%22%7D%7D

@@ -1,7 +1,7 @@
 POST https://kraken.rambler.ru/cnt/
-Referer https://kassa.rambler.ru/msk/event/107691
+Referer https://kassa.rambler.ru/msk/movie
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/plain;charset=UTF-8
 
-et=act&pid=2553558&rid=1584108246.003-879111972&tid=t1.2553558.487024757.1584108088625&v=1.8.0&meta=%7B%22time%22%3A8%2C%22screens%22%3A%5B8%2C8%2C8%2C8%2C8%2C8%2C8%2C0%2C0%2C0%2C0%2C0%2C0%5D%7D
+et=act&pid=2553558&rid=1584105280.948-245225919&tid=t1.2553558.1031719556.1584105178749&v=1.8.0&meta=%7B%22time%22%3A4%2C%22screens%22%3A%5B1%2C1%2C1%2C0%2C3%2C3%2C3%2C0%2C0%2C0%2C0%5D%7D

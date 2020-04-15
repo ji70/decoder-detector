@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 286
 accept */*
-Referer https://stackshare.io/phoenix-framework
-Sec-Fetch-Dest empty
-X-CSRF-Token hDu/sszG1qLZ6jWrkeKKIO349hyUYktctm8DkuikGGShitBqhoUZPWxOXaDGDrtRP+rZIiXhCYaHiiFUEGlz4g==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token nECtqT3ffkHC8OcuvtCrAzLbRHPHUnkUoVwpaF840jO58cJxd5yx3ndUjyXpPJpy4MlrTXbRO86QuQuup/W5tQ==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/emberjs
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODcwMjUzODIsImV2ZW50SWQiOjI2NywiaWRlbnRpZnlJZCI6MTA5LCJzZXF1ZW5jZU51bWJlciI6Mzc2fQ==; _stackshare_production_session=wS7MUOYjgxG8N%2FLvUkWElL0%2F%2FZftfMOjThee%2FzNYu9eM%2Bd%2BzYBxKP6fgzG5IM2lfHFSYxcFzBFj9VCCS%2FBTh8xi8hr69UkTtpFxvVsm2OyZO7KIV%2FOI6345Amyo7GERT7MrtUbOiAhFLwruk0yP00gw2VmbSvbHkKL2L0LE2kEr33XcdTOQvvlld9haK%2FabZpWFyLQQYLmsiLYbOCH1eRo9bq3VTr8jqBZr0gfKIy8tL%2FRTUXJ5Efhl3be2wbHAZmismYm8Fjkyin0owO6bBJ%2FqXB2ycFLVaMcWOx0BIgRSjagTRaDvDyQoECt86m3mYXBhpAwIcc%2Fk0cxt3u3B3n7YqklDgIlfb79ZjU9v7r51s5sThajCjEnAZfSJ3A1Whot53cDkm6mK%2BhKvrk%2B6GI2xT3NAvMQgv4f%2FZF%2FBGu9o6rnVGhXFI59rwlePS2%2FJ09i87M0EVjUDzkjwatZ36xKpnqeQURVvGG1Uyxq8rRfal3CbRnvOL1HQ%2FoPOWiekEV4cDFymZAU5sqMEWuDcJlAkX55aXJ97jxy2fsQ4%3D--EovvAqCrxlHQbpVg--II49QA1cUz3AL6OOqYK%2Bjw%3D%3D
 
-{"operationName":"userStacksUsing","variables":{"id":"101231774851720867","first":9},"query":"query userStacksUsing($id: ID!, $after: String, $first: Int) {\n  tool(id: $id) {\n    userStacksUsing(first: $first, after: $after) {\n      count\n      pageInfo {\n        hasNextPage\n        endCursor\n        __typename\n      }\n      edges {\n        node {\n          name\n          imageUrl\n          thumbUrl\n          thumbRetinaUrl\n          identifier\n          id\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"}
+{"operationName":"trackViews","variables":{"decisionIds":["101031322411501020","101031322413227088","101167248636766883","101031322431982299","102203929112065793","101195438919659375"]},"query":"mutation trackViews($decisionIds: [ID!]!) {\n  trackViews(decisionIds: $decisionIds)\n}\n"}

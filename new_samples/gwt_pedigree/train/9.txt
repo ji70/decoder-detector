@@ -1,9 +1,19 @@
 POST https://pedigree.progenygenetics.com/progenyrpcservice.html
+Host pedigree.progenygenetics.com
+Connection keep-alive
+Content-Length 291
 X-GWT-Module-Base https://pedigree.progenygenetics.com/progeny/
 X-GWT-Permutation C22D7639A28BE3483964317318797AAA
 Sec-Fetch-Dest empty
-Referer https://pedigree.progenygenetics.com/
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 Content-Type text/x-gwt-rpc; charset=UTF-8
+Accept */*
+Origin https://pedigree.progenygenetics.com
+Sec-Fetch-Site same-origin
+Sec-Fetch-Mode cors
+Referer https://pedigree.progenygenetics.com/
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie _ga=GA1.2.1443148800.1584095025; _gid=GA1.2.1054363738.1584095025; _hjid=3437c7cf-8378-42c8-8e41-50802042d4a5; _hjIncludedInSample=1; __hstc=32759457.edfe753304eb821ee5c2d4f0153b6001.1584095049278.1584095049278.1584095049278.1; hubspotutk=edfe753304eb821ee5c2d4f0153b6001; __hssrc=1; __hssc=32759457.1.1584095049279; PROGENY_WEB_JSESSID=A309A78808E771990ED0570F085F5802; PROGENY-XRF-COOKIE-KEY=1667563205; DBLCLICKING_REMOVED_MSG_DISPLAYED_PedIndIcon=3
 
-7|2|7|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|proGetIndividual|I|1|2|3|4|5|6|3|7|7|7|1174851|3|1667563205|
+7|2|9|https://pedigree.progenygenetics.com/progeny/|D04F5484E9B24BE91D289CF14FDACEFC|com.google.gwt.user.client.rpc.XsrfToken/4254043109||com.objex.gwt.client.rpc.ProgenyRPCService|proSavePedigree|I|java.lang.String/2004016611|1584095544717-Hist|1|2|3|4|5|6|4|7|8|7|7|1174851|9|1|1667563205|

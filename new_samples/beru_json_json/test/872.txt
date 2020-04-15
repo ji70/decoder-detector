@@ -1,8 +1,8 @@
-POST https://beru.ru/api/resolve/?r=djRecommender:logUserProfile&r=priceDrop/priceDropProductsBy:resolvePriceDropProductsBy
-Referer https://beru.ru/catalog/sergi/17429354/list?hid=91275
+POST https://beru.ru/api/resolve/?r=checkout/resolveActualizedCartGroup:resolveActualizedCartGroup
+Referer https://beru.ru/my/cart
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[null,{"count":1,"by":"offerIds","cartOfferIds":["2T1MdrihuX_5bQJQqa6OTQ"]}],"path":"/catalog/sergi/17429354/list?hid=91275"}
+{"params":[{"carts":[{"id":"577858_220_false","shopId":577858,"items":[{"feedId":630940,"feedOfferId":"2245646","offerId":"oqPIa2Ha7G3d77SD4u2-XQ","feeShow":"OTNDnItfwRO6zrnlRDZCBrUjLSt3Dqm6OMEWDPaeIUSt4B7IgFq3BNJ3eUbEMwGR0V9GLsJ_fHjNkxOWsD2FRGSd5KlWaMcfpX30jfZYAsB8QgPT1eZC2LBUxQ8wdeBeYaZId4CB8Yx7wZHokSpklX4E2fqOvghZWIVz3mxQFgQ,","price":{"value":969,"currency":"RUR"},"userLastSeenPrice":{"value":969,"currency":"RUR"},"count":1,"label":"tb6wuvjmfs","cartItemGroupId":"tb6wuvjmfs"},{"feedId":630940,"feedOfferId":"529625","offerId":"lOpK1WLckbztYELGAglm2Q","feeShow":"51cho0pvM9zF3AeN8tC18iH40dexFtIagwKTUAixInSswPOjlXkzIzv7qFIQQUTSRRKG5Dfapgf6FpeqJCE0FkF5i5CNIEksfmBFia0T5nUYCjs-P8FhDTKwXNra_GDEKY-YB_BXg3PXz-VqnTB5JLofgGeBBJJgKnqYLYqutkhFX7DmJeDdNw,,","price":{"value":113,"currency":"RUR"},"userLastSeenPrice":{"value":113,"currency":"RUR"},"count":1,"label":"4ut8zmhkq0l","cartItemGroupId":"4ut8zmhkq0l"},{"feedId":630940,"feedOfferId":"3352434","offerId":"uorOr7Wi3XjJkxEO7_6Z7w","feeShow":"OTNDnItfwRO6zrnlRDZCBrUjLSt3Dqm6OMEWDPaeIUS__Pdu2FrARuW-LgGDg7DfuVt5LMAD2-Nk4KfcFdU-Z25Hk72fV_AeL4yVVDE2jdka-4ehx7zejDZy_9uD5lV6pKFT14EFrnudsEWqZ07egKttHoJeal_6RpcjveXNCW4,","price":{"value":178,"currency":"RUR"},"userLastSeenPrice":{"value":178,"currency":"RUR"},"count":1,"label":"7e8pmsnkq0g","cartItemGroupId":"7e8pmsnkq0g"}],"delivery":{"regionId":213},"recipient":{},"brokenData":{"regionId":false}}]}],"path":"/my/cart"}

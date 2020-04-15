@@ -1,0 +1,18 @@
+POST https://public-api.uxfeedback.ru/v1/widgets/5b8d1cc6d09a6b111b4feb2b?uid=8dd1e140-7978-11ea-a396-ed4d2f006014&uidType=old
+:method POST
+:authority public-api.uxfeedback.ru
+:scheme https
+:path /v1/widgets/5b8d1cc6d09a6b111b4feb2b?uid=8dd1e140-7978-11ea-a396-ed4d2f006014&uidType=old
+content-length 1414
+accept application/json
+sec-fetch-dest empty
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json; charset=UTF-8
+origin https://www.mvideo.ru
+sec-fetch-site cross-site
+sec-fetch-mode cors
+referer https://www.mvideo.ru/televizory-i-video
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"url":"https://www.mvideo.ru/televizory-i-video","cookies":"wurfl_device_id=generic_web_browser; PaymentMethodsOnCart_2=1; MVID_REGION_ID=1; MVID_DELETE_WITH_POPUP=1; COMPARISON_INDICATOR=false; NewRasProc=1; flacktory=no; SMSError=; authError=; uxs_uid=8dd1e140-7978-11ea-a396-ed4d2f006014; uxs_mig=1; _ga=GA1.2.188370881.1586336927; _gid=GA1.2.1736232399.1586336927; deviceType=tablet; _dc_gtm_UA-1873769-1=1; _gat_owox37=1; flocktory-uuid=2f5aeb87-d97e-41b6-aa50-cac749b06a33-0; _gcl_au=1.1.874786487.1586336929; BIGipServeratg-ps-prod_tcp80_clone=1812257802.20480.0000; _dc_gtm_UA-1873769-37=1; tmr_lvid=d8c5caa3b322cb981ca1e662a9363559; tmr_lvidTS=1586336928851; _ym_uid=1586336929866824486; _ym_d=1586336929; _ym_isad=2; _ym_visorc_25907066=w; _fbp=fb.1.1586336929205.1531861007; __zzatgib-w-mvideo=MDA0dBA=Fz2+aQ==; abtest_IR=3; BIGipServeratg-ps-prod_tcp80_clone=1812257802.20480.0000; CACHE_INDICATOR=false; ADRUM_BTa=R:40|g:4c8f481d-c41e-4ba5-b1de-6417805f1231|n:customer1_b8e1f0e6-cc5b-4da4-a095-00a44385df2e; cfidsgib-w-mvideo=SdejHkJlaGvpVUyd1GDHJtLHZnt3b9WJBXAtTrIngPV0rUkJxswsIC2Yx5EuRACHuKd0AQonXv60NJpPJdklJHz+El6mMAvE0R9QhMAqMsCdOkkmvj8DJ+1rcW3FRB2axI4vMMvkMXyoMNKI2FI4MxfMn0vu0A0TIA+Y; tmr_detect=0%7C1586336947720; tmr_reqNum=10; ADRUM=s=1586336954417&r=https%3A%2F%2Fwww.mvideo.ru%2Ftelevizory-i-cifrovoe-tv-1%2Ftelevizory-65%2Ff%2Fdiagonal%3D10---24%2C25---31%2C32---39%3F0; bIPs=434929338"}

@@ -1,0 +1,9 @@
+POST https://www.mvideo.ru/.rest/graphql
+accept */*
+Referer https://www.mvideo.ru/videokamery-i-ekshn-kamery-2287/aksessuary-dlya-ekshn-kamer-355
+Sec-Fetch-Dest empty
+ADRUM isAjax:true
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+content-type application/json
+
+{"operationName":"productStatus","variables":{"productIds":["10022419","10022413","10005742","10007166","10022383","10008486","10012240","10022385","10019097","10008721","10007167","10012214"],"parameters":{"regionId":"1"}},"query":"query productStatus($productIds: [String]!, $parameters: BaseQueryParameters) {\n  productStatus(productIds: $productIds, parameters: $parameters) {\n    productId\n    status\n    subStatus\n    showCase\n    digitalCode\n    finalPrice\n    firstKnow\n    showPrice\n    promo {\n      text\n      price\n      color\n      __typename\n    }\n    date\n    url\n    __typename\n  }\n}\n"}

@@ -8,4 +8,4 @@ Referer https://www.nytimes.com/2020/03/12/theater/stephen-sondheim-playwright.h
 nyt-app-version 0.0.5
 Sec-Fetch-Dest empty
 
-{"operationName":"ReadingListStatusQuery","variables":{"url":["https://www.nytimes.com/2020/03/12/theater/stephen-sondheim-playwright.html"]},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"f1c3f9ab299044818c234f7539cd3c472bd7aa3cd560b114fa72c05bfed65166"}}}
+{"operationName":"newsletterQuery","variables":{},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"2ea1806b9716cb5639ad3e4a740eab1aa5fec9b90c0981feb766eb7cada074a0"}}}

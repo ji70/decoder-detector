@@ -1,9 +1,20 @@
 POST https://graphql.stackshare.io/graphql
+:method POST
+:authority graphql.stackshare.io
+:scheme https
+:path /graphql
+content-length 456
 accept */*
-Referer https://stackshare.io/stackups/alfresco-vs-wordpress
-Sec-Fetch-Dest empty
-X-CSRF-Token dl4GAyQJEdDnP77KfciF5xYD52ZKrLPhcIxaxQU/TzdT72nbbkreT1Kb1sEqJLSWxBHIWPsv8TtBaXgD/fIksQ==
-User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+sec-fetch-dest empty
+x-csrf-token aIv6QRaFgaIz7Yezm7uwcBErAV+51K0VTXMg0ETVZD9NOpWZXMZOPYZJ77jMV4EBwzkuYQhX7898lgIWvBgPuQ==
+user-agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 content-type application/json
+origin https://stackshare.io
+sec-fetch-site same-site
+sec-fetch-mode cors
+referer https://stackshare.io/twitch/twitch
+accept-encoding gzip, deflate, br
+accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+cookie __stripe_mid=b1620b27-1c52-4cca-b985-9a3168ed6319; __stripe_sid=967e5af7-92d2-4dff-8aa0-ea408b5a06b0; ajs_group_id=null; ajs_anonymous_id=%22f050f940-48a9-4756-9d00-2ee494cb350e%22; _ga=GA1.2.326818385.1584086551; _gid=GA1.2.478331890.1584086551; amplitude_idundefinedstackshare.io=eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==; _cio=2650e25f-f079-12cd-6197-9cb253db80df; ajs_user_id=%22439032%22; _cioid=439032; crisp-client%2Fsession%2Fc5542658-d5ca-4a36-b0a9-598c05a5eee7=session_8d70476a-e9ba-4b02-8737-8dfddd9211b3; _gat=1; _stackshare_production_session=xgzR%2BOK6BoXIa1MocZF3jrrVQzLTULfrXL9kemYS9s%2FT4GS3PZmg7zg5wzFSWvD%2FI9XeTmy5SCoJGuJfFYsGGudSxoi7sNqkNrTnuia9kBCOnQnwfAdh5O7RgoJ%2B4RtZKX6zOuZBXc6k8f7UmvbfxzlGPQ3FtOTIY4ygc0%2FSn9GUtO0H8etN5Sni%2FK7%2Ff7hreePxAuAn%2Bn7kZYCj1jgfj0NvRrIEVc8L0RZfBFtgUKcFMejXQSq5zM2asPx9StUdkCKuM%2BPUpekNLQksCKNsGpipM2Z6cJ6F5l41wo9ZR9j3VBZHlq2l3kvu4poG2a75HSJ2Hru7kp1c3m%2BU7lp53MH6OEsPMV%2F%2FT2Yvj6Xpxt1C8iNKV4KqDf2YYVAb5hxDKl7w6VyFlunIjIDhoc6LZi6Bxzke%2FYLbI9RfKFeGy148TVSfTL44%2FcpV9OwrNtJRouT7TIBskvlRNzJ6vP6htvkuJEt6RVRebwY8D7g88%2BOmRiZvVOe7XJa7D5y6rPtMyiW5mYuSZv7h3lk1DemRfADumFEGueSIBCt2dZg%3D--2eW9CqdatNodvsfG--MvHDcSMITq13CjK9EX1ICQ%3D%3D; amplitude_id_63407ddf709a227ea844317f20f7b56estackshare.io=eyJkZXZpY2VJZCI6ImEzZWE5YjdkLTU3MzctNDM1MC1hNDM1LTI1OTk5ZGRhYjYzZVIiLCJ1c2VySWQiOiI0MzkwMzIiLCJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOjE1ODQwODY1NTExMTcsImxhc3RFdmVudFRpbWUiOjE1ODQwODcwMTc2NjcsImV2ZW50SWQiOjI2MCwiaWRlbnRpZnlJZCI6MTA3LCJzZXF1ZW5jZU51bWJlciI6MzY3fQ==
 
-{"operationName":"stackupBySlug","variables":{"slug":"alfresco-vs-wordpress"},"query":"query stackupBySlug($slug: String!) {\n  stackupBySlug(slug: $slug) {\n    jobs(first: 8) {\n      edges {\n        node {\n          name\n          id\n          angellistJobUrl\n          title\n          location\n          services {\n            ...serviceFields\n            __typename\n          }\n          company {\n            imageUrl\n            name\n            id\n            path\n            __typename\n          }\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n\nfragment serviceFields on Tool {\n  id\n  name\n  slug\n  title\n  verified\n  imageUrl\n  canonicalUrl\n  path\n  votes\n  fans\n  stacks\n  following\n  followContext\n  __typename\n}\n"}
+{"operationName":"advert","variables":{"placement":"stack-profile","objectType":"Stack","objectId":"twitch"},"query":"query advert($placement: String, $objectType: String, $objectId: String) {\n  advert(placement: $placement, objectType: $objectType, objectId: $objectId) {\n    ctaText\n    imageUrl\n    sponsorFeatured\n    sponsorToolId\n    targetUrl\n    text\n    title\n    bannerAdUrl\n    mobileAdUrl\n    sidebarAdUrl\n    __typename\n  }\n}\n"}

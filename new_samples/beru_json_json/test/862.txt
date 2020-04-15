@@ -1,18 +1,8 @@
-POST https://beru.ru/api/resolve/?r=cart/removeItemsFromCart:removeItemsFromCart
-Host beru.ru
-Connection keep-alive
-Content-Length 76
+POST https://beru.ru/api/resolve/?r=cartService/addItemsToCart:addItemsToCart
+Referer https://beru.ru/product/zlakovyi-batonchik-nestle-fitness-spelye-iagody-klubnika-i-kliukva-16-sht/449155509?offerid=hYF3WmBohZtTLK4Ruoeaig
 Sec-Fetch-Dest empty
 User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
-Accept */*
-Origin https://beru.ru
-Sec-Fetch-Site same-origin
-Sec-Fetch-Mode cors
-Referer https://beru.ru/my/cart
-Accept-Encoding gzip, deflate, br
-Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-Cookie mda=1; Cookie_check=checked; yandexuid=6772922691584296776; yuidss=6772922691584296776; skid=4147212311584296776; acclinks=; visits=1584296776-1584296776-1584296776; reviews-merge=true; uid=AABuDV5uc0igoQBHGEfQAg==; i=FwHEq/A1oBCqoTK4f/cjAGDCj933DTu2w4+9ENp0PkEWqfn9sOLZzxaht5EgHQE5gMtP12L3pkX2W4+WUXzdI1I+dH0=; js=1; available-delivery=213%3D1; muid=1152921504857871632%3AUR0hJwfCScvHlSpA8WrAVPoa5JsbiYdR; _ym_wasSynced=%7B%22time%22%3A1584296776958%2C%22params%22%3A%7B%22eu%22%3A0%7D%2C%22bkParams%22%3A%7B%7D%7D; gdpr=0; _ym_uid=1584296777968412735; _ym_d=1584296777; fonts-loaded=1; _ym_isad=2; Session_id=noauth:1584296778; ys=c_chck.372379848; mda2_beacon=1584296778584; sso_status=sso.passport.yandex.ru:synchronized; _ym_visorc_47628343=b; region_dropdown_showed=true; parent_reqid_seq=57cecc7510184679383f1a8a2fd35a8e%2Cd32e0df9755f872a9e8c1acf613ea72c%2C43d4d462ac4bc9ee0a6c2ffdad73cf3a%2C28da5eec1518cdceb4ffadefc173ee43%2Cf4a439ef50bc161ff5803233ae53a9bb; last-loaded-page-id=blue-market%3Acart
 
-{"params":[{"cartId":71502047,"cartItemIds":[130001398]}],"path":"/my/cart"}
+{"params":[{"cartId":71502047,"items":[{"offerId":"QSh_lTLz5KvUmff_RgvIwA","count":1,"shopId":431782,"categoryId":91382,"hid":91382,"feeShow":"OTNDnItfwRO6zrnlRDZCBrAUj3MNK2-Va88JyEjy5D_5eJ0blAvlh6dXpskqKi3Dmfw2z--zbR68edRaQ2bvSjIm4YjDM8x4wD6zzD0C5sPpkw8D-kgwlnogXCojsgqtYDiaGmS1qV5jaE2-rovq8fmX67LV3JSeQLjTr42iDEg,","showPlaceId":"OTNDnItfwRO6zrnlRDZCBrAUj3MNK2-Va88JyEjy5D_5eJ0blAvlh6dXpskqKi3Dmfw2z--zbR68edRaQ2bvSjIm4YjDM8x4wD6zzD0C5sPpkw8D-kgwlnogXCojsgqtYDiaGmS1qV5jaE2-rovq8fmX67LV3JSeQLjTr42iDEg,","price":{"value":221,"currency":"RUR"},"vendorId":16005787,"feedId":475690,"feedOfferId":"637707.000439.4620767922085","promocode":"promo_14percent_in_hid91382_for_1p_if_hid90401_in_cart_split_additional_categories_precise_references_no_acc_no_kids_200129","name":"Фисташка Your nut обжаренная соленая с перцем пластиковая банка 100 г","skuId":"652040153","slug":"fistashka-your-nut-obzharennaia-solenaia-s-pertsem-plastikovaia-banka-100-g"}]}],"path":"/product/zlakovyi-batonchik-nestle-fitness-spelye-iagody-klubnika-i-kliukva-16-sht/449155509?offerid=hYF3WmBohZtTLK4Ruoeaig"}

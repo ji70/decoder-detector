@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1415
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/category=oled-televizory-1987
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[2,2],"time":[1586337075373,-180],"url":"https://www.mvideo.ru/televizory-i-cifrovoe-tv-1/televizory-65/f/category=oled-televizory-**87","navctx":{"historyLength":3,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[]},"move":{"data":[{"x":376,"y":398,"t":1586337072045,"d":"3P1"},{"x":256,"y":399,"t":1586337072078,"d":"-;FMMNNNOOOOMMOMNMKJMLMN1221T122121C"},{"x":186,"y":370,"t":1586337072478,"d":"OTWXhmooMJOOORTW12212212"},{"x":343,"y":386,"t":1586337072738}]},"movegen":{"data":[{"x":386,"y":397,"t":1586337072037,"d":"KIHDE579;=?AIILMMNNONOOOOOOOOPOPOOOOOOOMMOOOMNMMMNMMNNMNMN)%%&()&$%)()))))Y1)))))))))0A"},{"x":186,"y":370,"t":1586337072483,"d":"OQRQUSTVaa[^aa^]QPRPMKNOOOOOOQPQRSSSOOQP1))))))*$-)))))+***k"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337070330,"d":",'&%%&%%&%%&%&*)+1+,.3,/''16/5'*"},{"t":1586337070821,"d":"&6%&%%&%%%&%%&%%&%Et)"},{"t":1586337072047,"d":"!!#%)%&)%&(&%)%&)%%)&%&%%&%&%&&&%%&%&(%%&%&%(%%&%&%(&%%&%&(%%&%&%&%%&%&%&%&%%&%&%&%&%%&%&%&(&%%&%&(%&(&%)&%)%&)%%)&%,"},{"t":1586337072764,"d":"(%%%&%%%&%%&%%&%&(&%)%&)%&)%%)&%%&%&&&%'&%&%&%&%%&(&%)%&(&%)&%*%&'%%&%%&&&%%&%"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

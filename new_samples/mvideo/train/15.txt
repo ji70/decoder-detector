@@ -1,0 +1,16 @@
+POST https://ru.fp.kaspersky-labs.com/cld_track?cid=12333
+Host ru.fp.kaspersky-labs.com
+Connection keep-alive
+Content-Length 1732
+Sec-Fetch-Dest empty
+User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.0 Safari/537.36
+Content-Type application/json; charset=UTF-8
+Accept */*
+Origin https://www.mvideo.ru
+Sec-Fetch-Site cross-site
+Sec-Fetch-Mode cors
+Referer https://www.mvideo.ru/portativnoe-audio-25/portativnaya-akustika-202/f/category=besprovodnye-audio-sistemy-3268?reff=menu_main
+Accept-Encoding gzip, deflate, br
+Accept-Language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+{"caps":34124737406,"i":[2,2],"time":[1586337309542,-180],"url":"https://www.mvideo.ru/portativnoe-audio-25/portativnaya-akustika-*02/f/category=besprovodnye-audio-sistemy-**68?reff=menu_main","ref":"https://www.mvideo.ru/naushniki-54/naushniki-**67","navctx":{"historyLength":11,"domain":"www.mvideo.ru"},"geugae":"L!bc85eee6-5895-67ee-5b3e-dc47d3ff4f30","did":{"cookie":"e278d1e6-88e1-97eb-93f3-5b1198e5b806"},"mds":{"did":""},"mouse":{"click":{"data":[{"type":"down","x":42,"y":154,"tgen":1586337308570,"tin":1586337308570,"id":1},{"type":"up","x":42,"y":154,"tgen":1586337308685,"tin":1586337308685,"id":1},{"type":"click","x":42,"y":154,"tgen":1586337308736,"tin":1586337308736,"id":1}]},"move":{"data":[{"x":35,"y":155,"t":1586337306798,"d":"QPPOON21`"},{"x":40,"y":154,"t":1586337306989,"d":"PPOO9)"},{"x":65,"y":181,"t":1586337309239,"d":"_bYZRRRPPPPQRSTUUVcfZ^TQVPPPRRWX[^`e*10123122212123022"}]},"movegen":{"data":[{"x":35,"y":155,"t":1586337306798,"d":"QPPOON1/d"},{"x":40,"y":154,"t":1586337306990,"d":"PPOO9)"},{"x":44,"y":154,"t":1586337309189,"d":"QRTWRWVWYRVTURRROPPPPPPPQQQQRRRRRTQOSVYUWZZZRWWUTQUPPPPRPQSSURUUVVVXZY+2*)))()))(%%51-))950))))))))))))))"}]},"touch":{"data":[]},"touchgen":{"data":[]},"enterleave":{"data":[]},"performance":{"data":[{"t":1586337306798,"d":"!#!$%)&%'%&%&%&%&%&&%&&%&%%&%&&%&&&&%&&&%&(%&&&%&&&&%&%&&%&&&%&&')"},{"t":1586337307243,"d":"%%&%&%%&%&%%&%%&%&%&%&%&&%&&&%&&&%&&&+%&&&%&&&&&&&&%&&%&&&&&&&&%&%&%&&&%&&&%&&&&&%&&&&&%&&&&&&&%&&&&&%&&&&%&&&&&%&&&%&&%&&%&&&&%&&&&&%&&&&&&%&&&&&&&%&&&&&&%&&&&&&"},{"t":1586337309270,"d":"%!!&%%%%&%%&%&%&%&'%%&%&%&%&&&%&&&%%'%&&&&%'%&&&%&&%&%&%&'"}]}},"routing":{"headers":[],"subHeaders":[],"dialogHeaders":[],"breadcrumbs":[]},"cha":"mvideo/s-101"}

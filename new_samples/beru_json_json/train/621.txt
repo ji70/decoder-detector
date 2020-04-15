@@ -5,4 +5,4 @@ User-Agent Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko
 sk s0840fa0a3ba4a764c62ec6e047934b69
 Content-Type application/json
 
-{"params":[{"cartId":71502047,"cartItemIds":[130001174]}],"path":"/my/cart"}
+{"params":[{"cartId":71502047,"cartItemIds":[129997062]}],"path":"/my/cart"}

@@ -1,9 +1,9 @@
-POST https://teachercenter.withgoogle.com/fundamentals/rest/analytics
+POST https://teachercenter.withgoogle.com/digital_citizenship/rest/analytics
 :method POST
 :authority teachercenter.withgoogle.com
 :scheme https
-:path /fundamentals/rest/analytics
-content-length 216
+:path /digital_citizenship/rest/analytics
+content-length 237
 accept text/plain, */*; q=0.01
 sec-fetch-dest empty
 x-requested-with XMLHttpRequest
@@ -12,9 +12,9 @@ content-type application/x-www-form-urlencoded; charset=UTF-8
 origin https://teachercenter.withgoogle.com
 sec-fetch-site same-origin
 sec-fetch-mode cors
-referer https://teachercenter.withgoogle.com/fundamentals/unit?unit=59&lesson=64
+referer https://teachercenter.withgoogle.com/digital_citizenship/unit?unit=20&assessment=19&confirmation
 accept-encoding gzip, deflate, br
 accept-language ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
-cookie _ga=GA1.3.770855944.1584205568; _gid=GA1.3.233185570.1584205568; SACSID=~AJKiYcE6uBAhVnGyu5HeI7hI1ckFJJZgnjkcWjfgZ9LWaX84Y78qyEadlWTnsO9EhqMzhUrSm2dOKNsoUgpEwBK4XC-LSuU4si4EFIF6z6cu2ZfdEr-tMU72tESw7Yp9cA4wr1_6fav62Iqk1jhLe2y8tuNGDQ9m8XtX9FPzNK9XE5S_NLl_UBBE3qFL8Ho7JL6CGlCVptmPQA5URHpijtqW8LSEOerOTBrDsUGdT0uuayweqUwLSsl5YpVvArsaTxqUBLvcAv64CDVW273zFSWGuxtm8Nz4C9H3hEWiEoIt2mbyMEigj22bmnZGBcjGOFMpZFIZE-pw; _gat_UA-64000824-2=1
+cookie _ga=GA1.3.770855944.1584205568; _gid=GA1.3.233185570.1584205568; SACSID=~AJKiYcF-5P6Mk5XAy2AT27qynQX0xGyyoMi4RVmTrK7b_fTR9-1w9u4vegeUUT9QA11VdhXzmFHXuPOZYJvYAlIw1sspS2U9Mw_AdnFYq6ebHfajT8StLhRyiDiGaMfBDx_0UDCWuEDKtNjdjNn2iRPpx8raOeS3Fjz772gd2eRnQnfXSyOhWBs4JVa9qtuIBQ7XGekZ-Xg9eJsi0Lxk8l6Y5yZUoMyhYoPqXxtDnAtmZiooB39yeLqc-l4RVNoFOWbVaNlVtgsLa8oxtMPjV_BsSq3llIcBBmv5YryAE6cnmnvtV7C8gzLz-DQW6_DrLmVBvEUZqrLV; _gat_UA-64000824-2=1
 
-request=%7B%22xsrf_token%22%3A%221584206265%2F4cFHLaIMmlDFo2xraxrHEw%3D%3D%22%2C%22payload%22%3A%7B%22event%22%3A%22Fundamentals+Training-Captivate+Your+Class+with+Video-Create+the+Optimal+Viewing+Experience%22%7D%7D
+request=%7B%22xsrf_token%22%3A%221584205671%2FBAxkGRgEAUKxC4hbl9zErQ%3D%3D%22%2C%22payload%22%3A%7B%22event%22%3A%22Digital+Citizenship+and+Safety+Course-Stay+Safe+from+Phishing+and+Scams-Quiz+-+Stay+Safe+from+Phishing+and+Scams%22%7D%7D
