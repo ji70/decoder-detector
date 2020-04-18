@@ -37,6 +37,7 @@ from common.db.http_transaction import TxManager
 
 
 from parse_headers import parse
+from decoding import count_decoder
 
 
 try:
@@ -55,60 +56,63 @@ FNAME = ABSPATH + '/decoder-detector/new_samples/foodband/train/parsed/100.json'
 TREE_FNAME = ABSPATH + '/decoder-detector/labels/foodband.txt'
 
 
-
-with open(TREE_FNAME) as tree_file:
-    tree_string = tree_file.read()
-    #print("TREE", tree_string)
-    tree_string = tree_string.replace('\'', '"')
-    tree_string = tree_string.replace('u"', '"')
-    #print(tree_string)
-    tree_dict = json.loads(tree_string)
-    decision_tree = ParsingDecisionTree.init_from_dict(tree_dict) # открываем реальное дерево
-
-#decision_tree = ParsingDecisionTree.init_from_dict(json.load(open(TREE_FNAME))) # открываем реальное дерево
-
-#print("REAL_TREE", decision_tree.dump_to_dict())
-
-
-pdtree_manager = RequestParsingDecisionTreeManager()
-default_webapp_dtree = pdtree_manager.get_webapp_tree(None) # открываем исходное дерево, потому что хотим пробовать все декодеры
-
-#print("DEFAULT_TREE", default_webapp_dtree.dump_to_dict())
-
-
-with open(FNAME) as request_file:
-    request_string = request_file.read()
-    #print("REQUEST", request_string)
-    request = eval(request_string) # в виде ParsedHTTPRequest 
-
-parsed_req = ParsedHttpRequest(
-                webapp_id=request['webapp_id'],
-                time=datetime.now(tz=psycopg2.tz.FixedOffsetTimezone(offset=180, name=None)),
-                uri=request['uri'],
-                src_ip=request['src_ip'],
-                dst_ip=request['dst_ip'], # wafplayground8
-                src_port=request['src_port'],
-                dst_port=request['dst_port'], # waf port
-                obj_id=request['obj_id'],
-                headers=request['headers'],
-                protocol=request['protocol'],
-                method=request['method'],
-                body=request['body'],
-                raw_uri=request['raw_uri'],
-                type="request")
-
-parse_tree = RequestParseTree.parse_request(parsed_req, default_webapp_dtree)[0]
-
-tree = parse_tree.tree
-print(type(tree))
-
 def new_walk(tree, path=[]):
     # функция для обхода дерева
     # для каждого листа нужно проверить все декодеры
     for key, subtree in tree.children:
         if subtree.is_leaf():
             print(path + [key], subtree.value)
+            decoder_stats = count_decoder(subtree.value)
+            for key in decoder_stats.keys():
+                print(key, decoder_stats[key])
         else:
             new_walk(subtree, path + [key])
 
-new_walk(tree)         
+
+if __name__ == "__main__":
+    with open(TREE_FNAME) as tree_file:
+        tree_string = tree_file.read()
+        #print("TREE", tree_string)
+        tree_string = tree_string.replace('\'', '"')
+        tree_string = tree_string.replace('u"', '"')
+        #print(tree_string)
+        tree_dict = json.loads(tree_string)
+        decision_tree = ParsingDecisionTree.init_from_dict(tree_dict) # открываем реальное дерево
+
+    #decision_tree = ParsingDecisionTree.init_from_dict(json.load(open(TREE_FNAME))) # открываем реальное дерево
+
+    #print("REAL_TREE", decision_tree.dump_to_dict())
+
+
+    pdtree_manager = RequestParsingDecisionTreeManager()
+    default_webapp_dtree = pdtree_manager.get_webapp_tree(None) # открываем исходное дерево, потому что хотим пробовать все декодеры
+
+    #print("DEFAULT_TREE", default_webapp_dtree.dump_to_dict())
+
+
+    with open(FNAME) as request_file:
+        request_string = request_file.read()
+        #print("REQUEST", request_string)
+        request = eval(request_string) # в виде ParsedHTTPRequest 
+
+    parsed_req = ParsedHttpRequest(
+                    webapp_id=request['webapp_id'],
+                    time=datetime.now(tz=psycopg2.tz.FixedOffsetTimezone(offset=180, name=None)),
+                    uri=request['uri'],
+                    src_ip=request['src_ip'],
+                    dst_ip=request['dst_ip'], # wafplayground8
+                    src_port=request['src_port'],
+                    dst_port=request['dst_port'], # waf port
+                    obj_id=request['obj_id'],
+                    headers=request['headers'],
+                    protocol=request['protocol'],
+                    method=request['method'],
+                    body=request['body'],
+                    raw_uri=request['raw_uri'],
+                    type="request")
+
+    parse_tree = RequestParseTree.parse_request(parsed_req, default_webapp_dtree)[0]
+
+    tree = parse_tree.tree
+    print(type(tree))    
+    new_walk(tree) 
