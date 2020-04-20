@@ -55,6 +55,31 @@ ALL_DECODERS_CLASSES = [#AutoBoundaryMultipartParser, # input: node, output: nod
                         #XMLRPCDetectorParser,
                         YAMLDetectorParser]
 
+
+ALL_DECODERS_CLASSES_NAMES = [#AutoBoundaryMultipartParser, # input: node, output: node & 
+                        'Base64DetectorDecoder',
+                        'Base32DetectorDecoder',
+                        'Base16DetectorDecoder',
+                        ##CookieHeaderParser, this breaks everything => visiraet error
+                        'CSVDetectorParser',# TODO: check that it delete digits and get space and create ticket
+                        'DeflateUnpacker',
+                        'DSVDetectorParser',
+                        'FormUrlencodeParser',
+                        'GraphQLDetectorParser',
+                        'GzipUnpacker',
+                        #HTMLDetectorParser,TODO: See #2074
+                        'JSONPDetectorParser',
+                        'JSONDetectorParser',
+                        'JsonRPCDetectorParser',
+                        #####MultipartFormDataParser,#TODO: add this parser
+                        #SetCookieHeaderParser,#TODO: check that it delete digits and get space and create ticket
+                        #SOAPDetectorParser,
+                        #####StaticPrefixParser, doesn't work, don't need it
+                        'UrlParser',
+                        'XMLDetectorParser',
+                        #XMLRPCDetectorParser,
+                        'YAMLDetectorParser']
+
 DECODERS_SPEC_SET = set([JSONPDetectorParser, Base64DetectorDecoder])
 
 
@@ -84,32 +109,33 @@ def count_decoder(token):
 
     decoder_applic = {}
     for i, name in enumerate(ALL_DECODERS_CLASSES):
-        decoder_applic[name] = [0, None] # исходно, декдоер не применим, возвращается None
+        current_name_str = ALL_DECODERS_CLASSES_NAMES[i]
+        decoder_applic[current_name_str] = [0, None] # исходно, декдоер не применим, возвращается None
         decoder = name()
         try:
             decoded_node = decoder.decode(token) # если получается расшифровать, то круто
             #print("Decoded with", name, " result:", decoded_node, "prob", decoder.check(token))
             if decoded_node is None:
-                decoder_applic[name] = [0, None] # тут срабоатл check_decoder и выдал False
+                decoder_applic[current_name_str] = [0, None] # тут срабоатл check_decoder и выдал False
             elif isinstance(decoded_node, ParseTreeNode):
                 children = list(decoded_node.children)
                 if len(children) != 0:
-                    decoder_applic[name] = [1, decoded_node]
+                    decoder_applic[current_name_str] = [1, decoded_node]
                 else:
                     decoded_node = decoded_node.strvalue
                     new_tree = ParseTreeNode(ParseTreeNodeTypes.OBJECT, '')
                     new_tree._append_child('decoded', decoded_node)
 
-                    decoder_applic[name] = [1, new_tree]
+                    decoder_applic[current_name_str] = [1, new_tree]
                     #print("STATISTIC", decoder_applic)
             else: # для encodings, которые выдают ответ в string
                 new_tree = ParseTreeNode(ParseTreeNodeTypes.OBJECT, '')
                 new_tree._append_child('decoded', decoded_node)
 
-                decoder_applic[name] = [1, new_tree]
+                decoder_applic[current_name_str] = [1, new_tree]
         except:
             #print("Non-applicable decoder", name)
-            decoder_applic[name] = [0, None]
+            decoder_applic[current_name_str] = [0, None]
 
     return decoder_applic
 
@@ -123,6 +149,8 @@ if __name__ == "__main__":
     decoder_dict = count_decoder(test)
     #print(decoder_dict)
 
+    """
     for key in decoder_dict.keys():
         print(key, decoder_dict[key])
 
+    """
