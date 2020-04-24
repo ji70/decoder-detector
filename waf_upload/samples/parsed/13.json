@@ -1,0 +1,62 @@
+{
+    "method": "POST",
+    "url": "/xml.php",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+        "name": "Host",
+        "value": "172.17.0.2"
+    }, {
+        "name": "Proxy-Connection",
+        "value": "keep-alive"
+    }, {
+        "name": "Content-Length",
+        "value": "115"
+    }, {
+        "name": "Origin",
+        "value": "http://172.17.0.2"
+    }, {
+        "name": "User-Agent",
+        "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+    }, {
+        "name": "Content-Type",
+        "value": "text/xml"
+    }, {
+        "name": "Accept",
+        "value": "*/*"
+    }, {
+        "name": "Referer",
+        "value": "http://172.17.0.2/"
+    }, {
+        "name": "Accept-Encoding",
+        "value": "gzip, deflate"
+    }, {
+        "name": "Accept-Language",
+        "value": "en-US,en;q=0.9"
+    }],
+    "queryString": [],
+    "cookies": [],
+    "bodySize": 115,
+    "body": {
+        "text": "\u003c?xml version=\"1.0\" encoding=\"UTF-8\"?\u003e\n\u003cmessage\u003e\n\u003ctype\u003emessage\u003c/type\u003e\n\u003cmessageText\u003emessage\u003c/messageText\u003e\n\u003c/message\u003e",
+        "mimeType": "text/xml",
+        "value": {
+            "type": "xml_tag",
+            "name": "message",
+            "attributes": {},
+            "children": ["\n", {
+                "type": "xml_tag",
+                "name": "type",
+                "tail": "\n",
+                "attributes": {},
+                "children": ["message"]
+            }, {
+                "type": "xml_tag",
+                "name": "messageText",
+                "tail": "\n",
+                "attributes": {},
+                "children": ["message"]
+            }]
+        },
+        "type": "xml"
+    }
+}

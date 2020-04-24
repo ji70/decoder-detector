@@ -1,0 +1,17 @@
+POST /.services/json-rpc HTTP/1.1
+Host: www.carolinamountaindog.com
+Connection: keep-alive
+Content-Length: 192
+Origin: https://www.carolinamountaindog.com
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+Content-Type: text/javascript+json
+Accept: */*
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Referer: https://www.carolinamountaindog.com/2009/08/welcome.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: __cfduid=dbf8cd0b6aa43083ae1dfaf6222197ebd1574870831; _ga=GA1.2.643755352.1574870838; _gid=GA1.2.1138240307.1574870842
+
+{"method":"Comments.Preview","params":[{"author":"Testname","email":"testemail@yandex.ru","url":"http://example.com/","text":"dogs are nice","entry_xid":"6a0120a565428a970c0120a56bd77d970c"}]}

@@ -1,0 +1,152 @@
+{
+    "method": "POST",
+    "url": "/ru/fairgrounds/",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+            "name": "Host",
+            "value": "expocentr.ru"
+        },
+        {
+            "name": "Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Content-Length",
+            "value": "165"
+        },
+        {
+            "name": "Cache-Control",
+            "value": "max-age=0"
+        },
+        {
+            "name": "Origin",
+            "value": "https://expocentr.ru"
+        },
+        {
+            "name": "Upgrade-Insecure-Requests",
+            "value": "1"
+        },
+        {
+            "name": "Content-Type",
+            "value": "multipart/form-data; boundary=----WebKitFormBoundary1ZnTBRRugBRjyujg"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+        },
+        {
+            "name": "Sec-Fetch-User",
+            "value": "?1"
+        },
+        {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        },
+        {
+            "name": "Sec-Fetch-Site",
+            "value": "same-origin"
+        },
+        {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+        },
+        {
+            "name": "Referer",
+            "value": "https://expocentr.ru/ru/fairgrounds/"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+        },
+        {
+            "name": "Cookie",
+            "value": "PHPSESSID=f2q8il1c2qtdm0u2b70vtvl8r9; BX_USER_ID=ab57f33a5134893e2610217672b58e89; _ga=GA1.2.197986154.1574873236; _gid=GA1.2.921128743.1574873236; _ym_uid=1574873236406459694; _ym_d=1574873236; _ym_visorc_10385014=w; _ym_isad=2; _fbp=fb.1.1574873237861.763141051; _gat_UA-2354887-4=1"
+        }
+    ],
+    "queryString": [],
+    "cookies": [{
+            "name": "PHPSESSID",
+            "value": "f2q8il1c2qtdm0u2b70vtvl8r9",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "BX_USER_ID",
+            "value": "ab57f33a5134893e2610217672b58e89",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ga",
+            "value": "GA1.2.197986154.1574873236",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_gid",
+            "value": "GA1.2.921128743.1574873236",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_uid",
+            "value": "1574873236406459694",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_d",
+            "value": "1574873236",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_visorc_10385014",
+            "value": "w",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_isad",
+            "value": "2",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_fbp",
+            "value": "fb.1.1574873237861.763141051",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_gat_UA-2354887-4",
+            "value": "1",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        }
+    ],
+    "bodySize": 165,
+    "body": {
+        "type": "form_multipart",
+        "mimeType": "multipart/form-data; boundary=----WebKitFormBoundary1ZnTBRRugBRjyujg",
+        "text": "------WebKitFormBoundary1ZnTBRRugBRjyujg\r\nContent-Disposition: form-data; name=\"SEARCH_KONGRESS_FILTER\"\r\n\r\nbiggest hall\r\n------WebKitFormBoundary1ZnTBRRugBRjyujg--\r\n",
+        "value": [{
+            "name": "SEARCH_KONGRESS_FILTER",
+            "value": "biggest hall"
+        }]
+    }
+}

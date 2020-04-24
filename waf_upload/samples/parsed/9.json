@@ -1,0 +1,103 @@
+{
+    "method": "POST",
+    "url": "/searchbyimage/upload",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+            "name": "Host",
+            "value": "images.google.com"
+        },
+        {
+            "name": "Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Content-Length",
+            "value": "598"
+        },
+        {
+            "name": "Cache-Control",
+            "value": "max-age=0"
+        },
+        {
+            "name": "Origin",
+            "value": "https://images.google.com"
+        },
+        {
+            "name": "Upgrade-Insecure-Requests",
+            "value": "1"
+        },
+        {
+            "name": "Content-Type",
+            "value": "multipart/form-data; boundary=----WebKitFormBoundaryxVHoik6ZetSxlnY0"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+        },
+        {
+            "name": "Sec-Fetch-User",
+            "value": "?1"
+        },
+        {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        },
+        {
+            "name": "Sec-Fetch-Site",
+            "value": "same-origin"
+        },
+        {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+        },
+        {
+            "name": "Referer",
+            "value": "https://images.google.com/"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+        },
+        {
+            "name": "Cookie",
+            "value": "1P_JAR=2019-11-27-17"
+        }
+    ],
+    "queryString": [],
+    "cookies": [{
+            "name": "1P_JAR",
+            "value": "2019-11-27-17",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        }
+    ],
+    "bodySize": 598,
+    "body": {
+        "mimeType": "multipart/form-data; boundary=----WebKitFormBoundaryxVHoik6ZetSxlnY0",
+        "text": "------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_url\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"encoded_image\"; filename=\"test\"\r\nContent-Type: application/octet-stream\r\n\r\nAAAAAAAAAA\u0000BBB\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"image_content\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"filename\"\r\n\r\n\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0\r\nContent-Disposition: form-data; name=\"hl\"\r\n\r\nru\r\n------WebKitFormBoundaryxVHoik6ZetSxlnY0--\r\n",
+        "type": "form_multipart",
+        "value": [{
+            "name": "image_url",
+            "value": ""
+        }, {
+            "name": "encoded_image",
+            "filename": "test",
+            "content_type": "application/octet-stream",
+            "value": "AAAAAAAAAA\u0000BBB\n"
+        }, {
+            "name": "image_content",
+            "value": ""
+        }, {
+            "name": "filename",
+            "value": ""
+        }, {
+            "name": "hl",
+            "value": "ru"
+        }]
+    }
+}

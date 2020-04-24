@@ -1,0 +1,122 @@
+{
+    "method": "GET",
+    "url": "/search/?lr=213&msid=1574870141.81191.122102.2881&text=testing&suggest_reqid=635169518157487004501432541178476",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+            "name": "Host",
+            "value": "yandex.ru"
+        },
+        {
+            "name": "Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Upgrade-Insecure-Requests",
+            "value": "1"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+        },
+        {
+            "name": "Sec-Fetch-User",
+            "value": "?1"
+        },
+        {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        },
+        {
+            "name": "Sec-Fetch-Site",
+            "value": "same-origin"
+        },
+        {
+            "name": "Sec-Fetch-Mode",
+            "value": "navigate"
+        },
+        {
+            "name": "Referer",
+            "value": "https://yandex.ru/"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate, br"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+        },
+        {
+            "name": "Cookie",
+            "value": "yandexuid=6351695181574870045; mda=0; yandex_gid=213;_ym_uid=1574870052157038188; _ym_isad=2; _ym_d=1574870143; _ym_visorc_50377519=b"
+        }
+    ],
+    "queryString": [{
+            "name": "lr",
+            "value": "213"
+        },
+        {
+            "name": "msid",
+            "value": "1574870141.81191.122102.2881"
+        },
+        {
+            "name": "text",
+            "value": "testing"
+        },
+        {
+            "name": "suggest_reqid",
+            "value": "635169518157487004501432541178476"
+        }
+    ],
+    "cookies": [{
+            "name": "yandexuid",
+            "value": "6351695181574870045",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "mda",
+            "value": "0",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "yandex_gid",
+            "value": "213",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_uid",
+            "value": "1574870052157038188",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_isad",
+            "value": "2",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_d",
+            "value": "1574870143",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        },
+        {
+            "name": "_ym_visorc_50377519",
+            "value": "b",
+            "expires": null,
+            "httpOnly": false,
+            "secure": false
+        }
+    ],
+    "bodySize": 0
+}

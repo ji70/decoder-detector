@@ -1,0 +1,62 @@
+{
+    "method": "POST",
+    "url": "/xmlrpc.php",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+        "name": "Host",
+        "value": "www.rollingstone.com"
+    }, {
+        "name": "Accept-Encoding",
+        "value": "identity"
+    }, {
+        "name": "User-Agent",
+        "value": "xmlrpclib.py/1.0.1 (by www.pythonware.com)"
+    }, {
+        "name": "Content-Type",
+        "value": "text/xml"
+    }, {
+        "name": "Content-Length",
+        "value": "189"
+    }],
+    "queryString": [],
+    "cookies": [],
+    "bodySize": 189,
+    "body": {
+        "text": "\u003c?xml version='1.0'?\u003e\r\n\u003cmethodCall\u003e\r\n\u003cmethodName\u003epingback.ping\u003c/methodName\u003e\r\n\u003cparams\u003e\r\n\u003cparam\u003e\r\n\u003cvalue\u003e\u003cstring\u003ehttp://10.14.15.176/PING\u003c/string\u003e\u003c/value\u003e\r\n\u003c/param\u003e\r\n\u003c/params\u003e\r\n\u003c/methodCall\u003e\n",
+        "mimeType": "text/xml",
+        "value": {
+            "type": "xml_tag",
+            "name": "methodCall",
+            "attributes": {},
+            "children": ["\n", {
+                "type": "xml_tag",
+                "name": "methodName",
+                "tail": "\n",
+                "attributes": {},
+                "children": ["pingback.ping"]
+            }, {
+                "type": "xml_tag",
+                "name": "params",
+                "attributes": {},
+                "children": ["\n", {
+                    "type": "xml_tag",
+                    "name": "param",
+                    "attributes": {},
+                    "children": ["\n", {
+                        "type": "xml_tag",
+                        "name": "value",
+                        "attributes": {},
+                        "children": [{
+                            "type": "xml_tag",
+                            "name": "string",
+                            "tail": "\n",
+                            "attributes": {},
+                            "children": ["http://10.14.15.176/PING"]
+                        }]
+                    }]
+                }]
+            }]
+        },
+        "type": "xml"
+    }
+}

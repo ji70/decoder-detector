@@ -1,0 +1,54 @@
+{
+    "method": "GET",
+    "url": "/courses.php?id=15",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+            "name": "Host",
+            "value": "ndsipu.cmc.msu.ru"
+        },
+        {
+            "name": "Proxy-Connection",
+            "value": "keep-alive"
+        },
+        {
+            "name": "Upgrade-Insecure-Requests",
+            "value": "1"
+        },
+        {
+            "name": "User-Agent",
+            "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36"
+        },
+        {
+            "name": "Accept",
+            "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3"
+        },
+        {
+            "name": "Referer",
+            "value": "http://ndsipu.cmc.msu.ru/courses.php?type=1"
+        },
+        {
+            "name": "Accept-Encoding",
+            "value": "gzip, deflate"
+        },
+        {
+            "name": "Accept-Language",
+            "value": "en-US,en;q=0.9"
+        },
+        {
+            "name": "Cookie",
+            "value": "PHPSESSID=4o01m2tu9h04nq52vk9s0vso90"
+        }
+    ],
+    "queryString": [{
+        "name": "id",
+        "value": "15"
+    }],
+    "cookies": [{
+        "name": "PHPSESSID",
+        "value": "4o01m2tu9h04nq52vk9s0vso90",
+        "expires": null,
+        "httpOnly": false,
+        "secure": false
+    }],
+    "bodySize": 0
+}

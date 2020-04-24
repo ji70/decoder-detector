@@ -1,0 +1,16 @@
+POST /xmlrpc.php HTTP/1.1
+Host: www.rollingstone.com
+Accept-Encoding: identity
+User-Agent: xmlrpclib.py/1.0.1 (by www.pythonware.com)
+Content-Type: text/xml
+Content-Length: 189
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>pingback.ping</methodName>
+<params>
+<param>
+<value><string>http://10.14.15.176/PING</string></value>
+</param>
+</params>
+</methodCall>

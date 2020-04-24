@@ -1,0 +1,17 @@
+POST /xml.php HTTP/1.1
+Host: 172.17.0.2
+Proxy-Connection: keep-alive
+Content-Length: 115
+Origin: http://172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+Content-Type: text/xml
+Accept: */*
+Referer: http://172.17.0.2/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+<?xml version="1.0" encoding="UTF-8"?>
+<message>
+<type>message</type>
+<messageText>message</messageText>
+</message>
