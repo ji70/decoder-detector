@@ -1,0 +1,1 @@
+{"['body', 'request']": 'JSONDetectorParser', "['body', 'answers']": 'JSONDetectorParser', "['body', 'bgRequest']": 'JSONDetectorParser', "['body', 'deviceinfo']": 'JSONDetectorParser', "['body', 'cookiesDisabled']": 'JSONDetectorParser', "['body', 'f.req']": 'JSONDetectorParser', "['body', 'diagnostics']": 'JSONDetectorParser', "['url', 'query', 'gtm']": 'FormUrlencodeParser'}

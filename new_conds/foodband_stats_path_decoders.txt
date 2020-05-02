@@ -1,0 +1,1 @@
+{"['body', 'json']": 'JSONDetectorParser', "['body', 'category']": 'FormUrlencodeParser', "['body', 'commentname']": 'FormUrlencodeParser'}

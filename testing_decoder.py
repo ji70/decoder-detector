@@ -91,6 +91,8 @@ TREE_FNAME = ABSPATH + '/decoder-detector/labels/graphql_stakeshare.txt'
 STATS = []
 OVERALL_STATS = {}
 
+PATH_DECODERS = {}
+
 CORRECT_DECODERS = 0
 INCORRECT_DECODERS = 0
 
@@ -103,6 +105,7 @@ def initial_stats():
         # 2 - string type X, detected Y
         # 3 - string was Y, detected X
     #print(len(current_stats))
+    current_stats['None'] = [0, 0, 0, 0]
     return current_stats
 
 def decision_tree_walk(decision_dict):
@@ -130,14 +133,14 @@ def new_walk(tree, decision_tree_dict, path=[]):
 
     for key, subtree in tree.children:
         if subtree.is_leaf():
-            print(path + [key], subtree.value)
+            #print(path + [key], subtree.value)
             decoder_stats = count_decoder(subtree.value)
             """
             for key in decoder_stats.keys():
                 print(key, decoder_stats[key])
                 """
         else:
-            new_walk(subtree, decision_tree, path + [key])
+            new_walk(subtree, decision_tree_dict, path + [key])
 
 def check_path(path, decision_tree_dict):
     #print(path)
@@ -157,7 +160,7 @@ def check_path(path, decision_tree_dict):
 
                 return True, name
 
-    return check, None
+    return check, 'None'
 
 def path_in_stats(path):
     check = False
@@ -174,7 +177,7 @@ def path_in_stats(path):
 
     return check, len(STATS)
 
-def count_walk(tree, decision_tree_dict, path=[]):
+def count_walk(tree, decision_tree_dict, file_path_decoder_dict, path=[]):
     #print(type(decision_tree_dict))
     for key, subtree in tree.children:
         if subtree.is_leaf():
@@ -192,10 +195,12 @@ def count_walk(tree, decision_tree_dict, path=[]):
             # if current path in ParsingDecisionTree, 
             # check stats 
             check, real_decoder = check_path(path + [key], decision_tree_dict)
+            #print(str(path+[key]), decoder_stats, real_decoder)
+            file_path_decoder_dict[str(path+[key])] = (decoder_stats, real_decoder)
             # real_decoder - name of decoder from ParsingDecisionTree, type X
             if check: 
                 #print(path + [key], "exists")
-
+                STATS[path_place][1]['None'][3] += 1
                 #print("REAL DECODER", real_decoder)
                 for k in decoder_stats.keys():
                     # if decoder X was used (X: [1, tree_obj]), count stats
@@ -211,16 +216,21 @@ def count_walk(tree, decision_tree_dict, path=[]):
                     #print(k, decoder_stats[k])
             else:
                 #print(path + [key])
+                STATS[path_place][1]['None'][0] += 1
                 for k in decoder_stats.keys():
                     if decoder_stats[k][0]:
                         STATS[path_place][1][k][3] += 1
 
+
                     #print(k, decoder_stats[k])
+            
                 
         else:
-            count_walk(subtree, decision_tree_dict, path + [key])    # работает
+            count_walk(subtree, decision_tree_dict, file_path_decoder_dict, path + [key])    # работает
+    
 
 def predict_decoder(decoder_stats):
+    """
     highest_prob = 0
     most_probable_decoder = None
     for key in decoder_stats.keys():
@@ -229,6 +239,34 @@ def predict_decoder(decoder_stats):
                 highest_prob = PROB_STATS[key][0] 
                 most_probable_decoder = key
     return most_probable_decoder
+    """
+
+    highest_prob = 0
+    most_probable_decoder = None
+    for key in decoder_stats.keys():
+        if decoder_stats[key][0] == 1:
+            if PROB_STATS[key][0] > highest_prob:
+                highest_prob = PROB_STATS[key][0] 
+                most_probable_decoder = key
+    return most_probable_decoder
+
+def apply_decoder(decoder, value, path=[]):
+    D = decoder()
+    tree = D.decode(value)
+    changes = True
+    num = 0 
+    for key, subtree in tree.children:
+        num += 1
+        if subtree.is_leaf():
+            #print(path + [key], subtree.value)
+            if type(subtree.value) == str and len(subtree.value) == 0:
+                changes = False
+        else:
+            new_walk(subtree, decision_tree_dict, path + [key])
+    #print(changes)
+    if num == 0:
+        changes = False
+    return changes
 
 def decode_walk(tree, decision_tree_dict, path=[]):
     correctness = [0, 0]
@@ -249,9 +287,16 @@ def decode_walk(tree, decision_tree_dict, path=[]):
                 
             else:
                 #INCORRECT_DECODERS += 1
-                print(path + [key], most_probable_decoder, real_decoder)
-                print("incorrect guess")
-                correctness[1] += 1
+                if most_probable_decoder is not None:
+                    #print("Compare", subtree.value, apply_decoder(ALL_DECODERS_CLASSES[ALL_DECODERS_CLASSES_NAMES.index(most_probable_decoder)], subtree.value))
+                    if apply_decoder(ALL_DECODERS_CLASSES[ALL_DECODERS_CLASSES_NAMES.index(most_probable_decoder)], subtree.value) == False:
+                        most_probable_decoder = 'None'
+                    if most_probable_decoder == real_decoder:
+                        correctness[0] += 1
+                    else:
+                        #print(path + [key], most_probable_decoder, real_decoder)
+                        #print("incorrect guess")
+                        correctness[1] += 1
                 
         else:
             current_correctness = decode_walk(subtree, decision_tree_dict, path + [key])
@@ -260,6 +305,7 @@ def decode_walk(tree, decision_tree_dict, path=[]):
     return correctness
 
 def file_processing(file_name, webapp_dtree, decision_tree_dict):
+    PATH_DECODERS[file_name] = {}
     with open(file_name) as request_file:
         request_string = request_file.read()
         #print("REQUEST", request_string)
@@ -286,8 +332,14 @@ def file_processing(file_name, webapp_dtree, decision_tree_dict):
 
     tree = parse_tree.tree
     real_tree = real_parse_tree.tree
+    current_file_path_dict = {}
+    count_walk(tree, decision_tree_dict, current_file_path_dict)
+    #print(current_file_path_dict)
+    PATH_DECODERS[file_name] = current_file_path_dict
 
-    count_walk(tree, decision_tree_dict)
+    #for path in PATH_DECODERS:
+    #    print(path, PATH_DECODERS[path])
+    #print(PATH_DECODERS)
 
 def file_processing_check(file_name, webapp_dtree, decision_tree_dict):
     with open(file_name) as request_file:
@@ -320,19 +372,15 @@ def file_processing_check(file_name, webapp_dtree, decision_tree_dict):
     correctness = decode_walk(tree, decision_tree_dict)
     return correctness
 
-
 def application_processing(current_path, default_webapp_dtree, decision_tree_dict):
-    correctness = [0, 0]
     for path, folder, files in os.walk(current_path):
         if ('parsed' in path):
             for (i, fname) in tqdm(enumerate(files)):
                 #print(path+'/'+fname)
                 new_name = path+'/'+fname
                 current_correctness = file_processing(new_name, default_webapp_dtree, decision_tree_dict)
+     
 
-
-    #for k in STATS:
-        #print(k)    
 def application_processing_check(current_path, default_webapp_dtree, decision_tree_dict):
     correctness = [0, 0]
     for path, folder, files in os.walk(current_path):
@@ -349,10 +397,14 @@ LABEL_ABSPATH = ABSPATH + '/decoder-detector/new_labels/'
 
 def all_applictions_processing(default_webapp_dtree, label_path):
     for path, folder, files in os.walk(ABSPATH +'/decoder-detector/new_samples/'):
-        if ('parsed' not in path and 'train' not in path and 'test' not in path and 'perekrestok_base64' not in path and 'gwt' not in path):
+        #if ('parsed' not in path and 'train' not in path and 'test' not in path and 'perekrestok_base64' not in path and 'gwt' not in path):
+        if ('youtube' in path and 'parsed' not in path and 'train' not in path and 'test' not in path and 'gwt' not in path):
             print(path)
             if len(path[path.rfind('/'):]) > 1:
                 current_tree_path = label_path + path[path.rfind('/')+1:] + '.txt'
+                app = path[path.rfind('/')+1:]
+                
+                PATH_DECODERS = {}
                 print(current_tree_path)
                 with open(current_tree_path) as tree_file:
                     tree_string = tree_file.read()
@@ -370,12 +422,10 @@ def all_applictions_processing(default_webapp_dtree, label_path):
                 application_processing(path, default_webapp_dtree, decision_tree_dict)
 
 
-    #for k in STATS:
-        #print(k)
-
 def all_applictions_processing_check(default_webapp_dtree, label_path):
+    GLOBAL_CORRECTNESS = {}
     correctness = [0, 0]
-    for path, folder, files in os.walk(ABSPATH +'/decoder-detector/new_samples/graphql_stakeshare'):
+    for path, folder, files in os.walk(ABSPATH +'/decoder-detector/new_samples/'):
         if ('parsed' not in path and 'train' not in path and 'test' not in path and 'perekrestok_base64' not in path and 'gwt' not in path):
             print("CHECK path", path)
             if len(path[path.rfind('/'):]) > 1:
@@ -395,9 +445,9 @@ def all_applictions_processing_check(default_webapp_dtree, label_path):
                 print(decision_tree_dict)
 
                 current_correctness = application_processing_check(path, default_webapp_dtree, decision_tree_dict)
-                correctness[0] += current_correctness[0]
-                correctness[1] += current_correctness[1]
-    return correctness
+                GLOBAL_CORRECTNESS[path[path.rfind('/')+1:]] = current_correctness
+
+    return GLOBAL_CORRECTNESS
 
 def stats_to_csv():
     st_df = pd.DataFrame()
@@ -432,6 +482,22 @@ PROB_STATS = {'Base64DetectorDecoder': [0.00014438886249522586, 0, 0, 0.99985561
  'DSVDetectorParser': [0, 0, 0, 0.765453164899906],
  'Base16DetectorDecoder': [0, 0, 0, 0.03973815264289254]}
 
+PROB_STATS_WITH_NONE = {'Base64DetectorDecoder': [0.00014438886249522586, 0, 0, 0.9998556111375048],
+ 'JsonRPCDetectorParser': [0, 0, 0, 0],
+ 'CSVDetectorParser': [0, 0, 0, 0.7447404162987978],
+ 'XMLDetectorParser': [0, 0, 0, 0],
+ 'JSONPDetectorParser': [0, 0, 0, 1.1882708164252297e-06],
+ 'Base32DetectorDecoder': [0, 0, 0, 0.18485691436964016],
+ 'YAMLDetectorParser': [0, 0, 0, 0.7408488293750052],
+ 'GraphQLDetectorParser': [0.9969571832210389, 0, 0, 0.0030428167789610956],
+ 'JSONDetectorParser': [0.06675758096383472, 0, 0, 0.9332424190361652],
+ 'DeflateUnpacker': [0, 0, 0, 0],
+ 'FormUrlencodeParser': [0.010992371626299726, 0, 0, 0.9890076283737003],
+ 'GzipUnpacker': [0, 0, 0, 0.009342185158735156],
+ 'UrlParser': [0, 0, 0, 0.7747953500586412],
+ 'DSVDetectorParser': [0, 0, 0, 0.765453164899906],
+ 'Base16DetectorDecoder': [0, 0, 0, 0.03973815264289254],
+ 'None': [0.9784756624312734, 0, 0, 0.021524337568726612]}
 
 if __name__ == "__main__":
     CORRECT_DECODERS = 0
@@ -466,29 +532,27 @@ if __name__ == "__main__":
     print("LESS GENERAL TREE")
     decision_tree_walk(lg_decision_tree.dump_to_dict())
 
-    """
+
+    #file_processing(FNAME, lg_decision_tree, decision_tree_dict)
+    #for elem in STATS:
+    #    print(elem)
+    #file_processing(FNAME2, lg_decision_tree, decision_tree_dict)
+    #for elem in STATS:
+    #   print(elem)
     
-    file_processing(FNAME, lg_decision_tree, decision_tree_dict)
-    for elem in STATS:
-        print(elem)
-    print("SECOND FILE")
-    file_processing(FNAME2, lg_decision_tree, decision_tree_dict)
-    for elem in STATS:
-       print(elem)
-       """
     
 
     
     #all_applictions_processing(lg_decision_tree, ABSPATH + '/decoder-detector/new_labels/')
-    correctness = all_applictions_processing_check(default_webapp_dtree, ABSPATH + '/decoder-detector/labels/')
-    CORRECT_DECODERS, INCORRECT_DECODERS = correctness[0], correctness[1]
+    all_applictions_processing(default_webapp_dtree, ABSPATH + '/decoder-detector/new_labels/')
+
+    #correctness = all_applictions_processing_check(default_webapp_dtree, ABSPATH + '/decoder-detector/labels/')
+    #for name in correctness.keys():
+    #    print("Name:", name, "; Correct detection: ", correctness[name][0], "; Incorrect detection: ", correctness[name][1])
 
     #application_processing(ABSPATH + '/decoder-detector/new_samples/graphql_stakeshare/', default_webapp_dtree, decision_tree_dict)
     
-    #with open(ABSPATH+'/decoder-detector/stats_full.txt', 'w') as stats_file:
-    #    for path in STATS:
-    #        stats_file.write(str(path) + '\n')   
+    with open(ABSPATH+'/decoder-detector/stats/youtube_stats_path_decoders.txt', 'w') as stats_file:
+        for file in PATH_DECODERS:
+            stats_file.write(str(file)+':'+str(PATH_DECODERS[file]) + '\n')
 
-    print("Result:")
-    print("Correct guesses ", CORRECT_DECODERS)
-    print("Incorrect guesses ", INCORRECT_DECODERS)

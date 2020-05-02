@@ -1,0 +1,1 @@
+{"['body', 'query']": 'GraphQLDetectorParser', "['url', 'query', 'isSmartSearch']": 'JSONDetectorParser'}

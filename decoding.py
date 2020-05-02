@@ -55,7 +55,6 @@ ALL_DECODERS_CLASSES = [#AutoBoundaryMultipartParser, # input: node, output: nod
                         #XMLRPCDetectorParser,
                         YAMLDetectorParser]
 
-
 ALL_DECODERS_CLASSES_NAMES = [#AutoBoundaryMultipartParser, # input: node, output: node & 
                         'Base64DetectorDecoder',
                         'Base32DetectorDecoder',
@@ -81,7 +80,6 @@ ALL_DECODERS_CLASSES_NAMES = [#AutoBoundaryMultipartParser, # input: node, outpu
                         'YAMLDetectorParser']
 
 DECODERS_SPEC_SET = set([JSONPDetectorParser, Base64DetectorDecoder])
-
 
 def check_info():
     for i, name in enumerate(ALL_DECODERS_CLASSES):
